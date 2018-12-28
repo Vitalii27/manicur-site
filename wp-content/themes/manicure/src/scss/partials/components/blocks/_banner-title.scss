@@ -1,0 +1,61 @@
+.banner-title {
+  //background-position: center;
+  //background-repeat: no-repeat;
+  //background-size: cover;
+  background-image: linear-gradient(to right, #e7c0bc, #f5e2b9, #e7c0bc);
+  position: relative;
+  height: 25rem;
+  margin-top: 9rem;
+  .title-center {
+
+    top: 27%;
+  }
+  .img-banner {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &_bg {
+
+    font-size: 17.2rem;
+
+    color: rgba(255, 255, 255, 0.09);
+    font-weight: 600;
+    text-transform: uppercase;
+
+    text-align: center;
+
+  }
+  &_text {
+    font-weight: 600;
+    text-transform: none;
+    font-size: 4rem;
+    color: $black;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .banner-title {
+
+    height: 25rem;
+    margin-top: 9rem;
+
+    &_bg {
+
+      font-size: 6rem;
+
+    }
+    &_text {
+      font-size: 2.6rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .banner-title {
+
+    margin-top: 7rem;
+  }
+}

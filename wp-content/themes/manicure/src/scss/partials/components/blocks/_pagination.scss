@@ -1,0 +1,42 @@
+.page-numbers {
+  margin-top: 3rem;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #c0c0c0;
+  padding: 1.5rem 1rem;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: color .25s;
+  &:hover{
+    color: #f03866;
+  }
+}
+
+.page-numbers.current {
+  color: $white;
+  background-color: $orange;
+  padding-left: 2.15rem;
+  padding-right: 2.15rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .page-numbers {
+
+    font-size: 2rem;
+
+    padding: 1.2rem .7rem;
+
+    &:hover{
+      color: #f03866;
+    }
+  }
+  .page-numbers.current {
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+  }
+}

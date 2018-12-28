@@ -1,0 +1,62 @@
+.btn {
+  color: $white;
+  background-color: $orange;
+  display: inline-block;
+  font-size: 1.5rem;
+  border-radius: 5rem;
+  padding: .6rem 3.2rem;
+  transition: all .25s;
+  line-height: 1.2;
+  border: 1px solid $orange;
+  font-weight: 600;
+  text-align: center;
+  &:hover {
+    color: $orange;
+    background-color: transparent;
+    //border-color: $white;
+  }
+
+}
+
+.button {
+  @extend .btn;
+  padding: 1.8rem 3.2rem;
+  min-width: 25rem;
+  text-transform: uppercase;
+  &:hover {
+    background-color: $red-second;
+    color: $white;
+    border: 1px solid $red-second;
+  }
+}
+
+.button--pink {
+  @extend .button;
+  background-color: $red-second;
+  border: 1px solid $red-second;
+  &:hover {
+    color: $white;
+    background-color: $orange;
+    border: 1px solid $orange;
+  }
+}
+
+.btn-form {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .btn {
+    padding: .5rem 2rem;
+    font-size: 1.4rem;
+  }
+  .button {
+    padding: 1.2rem 3rem;
+    min-width: 20rem;
+  }
+}
+

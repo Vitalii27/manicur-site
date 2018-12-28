@@ -1,0 +1,35 @@
+.video-home{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  .about-school_video{
+    width: 100%;
+    padding-top: 40rem;
+    flex-basis: 100%;
+  }
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba($black, .7);
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .video-home {
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    .about-school_video {
+
+      padding-top: 0;
+
+    }
+  }
+}

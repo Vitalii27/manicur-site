@@ -1,0 +1,317 @@
+.about-school {
+  background-color: #f0eeee;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  position: relative;
+  .img-pos1{
+    left: 0;
+    top: 2%;
+    max-height: 40rem;
+  }
+  .img-pos3{
+    right: 0;
+    top: 35%;
+  }
+  .text-img {
+    max-height: 27rem;
+    float: left;
+    padding-right: 4rem;
+
+  }
+  .img-pos1 {
+    left: 0;
+    top: 20%;
+  }
+  .img-pos2 {
+    right: 0;
+    top: 60%;
+    z-index: 1;
+
+  }
+  &_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+  &_content {
+    position: relative;
+    z-index: 3;
+  }
+  &_video-block {
+    margin-top: 6rem;
+    display: flex;
+  }
+  &_video {
+    margin-right: 3.2rem;
+    flex-basis: 48%;
+    width: 48%;
+    box-shadow: 0 3px 36px 4px rgba(0, 0, 0, .2);
+
+    border-radius: 2rem;
+    position: relative;
+    padding-bottom: 27.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+    video {
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        max-width: 58rem;
+      }
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &_desc {
+    flex-basis: 48%;
+    width: 48%;
+    &-title {
+      font-weight: 800;
+      font-size: 3rem;
+      margin-top: 2.5rem;
+    }
+    &-text {
+      line-height: 1.4;
+      p {
+        margin-top: 2rem;
+        font-weight: 600;
+      }
+
+    }
+    .button--pink {
+      margin-top: 3rem;
+    }
+  }
+  &_icon-block {
+    margin-top: 6rem;
+  }
+  &_list {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_item {
+    max-width: 26rem;
+    margin: 2rem auto 0;
+    &-block {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto;
+    }
+    text-align: center;
+    p {
+      margin-top: 3.4rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+  }
+  &_img-bg {
+    flex-basis: 48%;
+    width: 48%;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 3rem;
+  }
+}
+
+.about-school--home {
+  background-color: $white;
+  .about-school_desc-text {
+    p {
+      &:last-child {
+        font-size: 2.4rem;
+      }
+    }
+
+  }
+}
+
+.about-school--main {
+  padding-top: 0;
+  padding-bottom: 4rem;
+  .about-school_desc {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .about-school_video {
+    margin-right: 3.2rem;
+    flex-basis: 100%;
+    width: 100%;
+    box-shadow: 0 3px 36px 4px rgba(0, 0, 0, .2);
+
+    border-radius: 2rem;
+    position: relative;
+    padding-bottom: 55%; /* 16:9 */
+    padding-top: 25px;
+    margin-top: 2rem;
+    height: 0;
+    overflow: hidden;
+    video {
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        max-width: 58rem;
+      }
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .about-school_wrap {
+    margin-top: 4rem;
+    border-left: 12px solid #f8e7b8;
+    border-right: 12px solid #e6bcbc;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-image: linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%), linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%);
+    background-color: $white;
+    padding: 4rem;
+  }
+  .about-school_video-block, .about-school_desc-title {
+    margin-top: 0;
+  }
+  .about-school_desc-text {
+    font-size: 2.5rem;
+  }
+  .about-school_desc-title {
+    font-size: 3.6rem;
+  }
+  .about-school_item {
+    margin: 2rem 0;
+    min-width: 30rem;
+    p {
+      font-size: 2.5rem;
+    }
+  }
+  .about-school_item-block {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border-left: 12px solid #f8e7b8;
+    border-right: 12px solid #e6bcbc;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-image: linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%), linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%);
+    background-color: $white;
+
+    padding: 1.5rem 1rem;
+    text-align: center;
+    p {
+      color: #e73876;
+      font-weight: 700;
+      font-size: 4rem;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+
+  .about-school_list {
+    margin-top: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+
+  .about-school--main {
+    .text-img{
+      display: none;
+    }
+    .about-school_desc-title{
+      font-size: 3rem;
+    }
+    .about-school_desc-text{
+      font-size: 2rem;
+    }
+    .about-school_list{
+      justify-content: center;
+      align-items: center;
+    }
+    .about-school_item{
+      p{
+        font-size: 2rem;
+      }
+    }
+    .about-school_item-block{
+      p{
+        font-size: 3rem;
+      }
+    }
+  }
+  .about-school {
+    &_video-block {
+      display: block;
+    }
+    &_video,
+    &_desc {
+      flex-basis: 100%;
+      width: 100%;
+    }
+    &_desc {
+      text-align: center;
+    }
+    &_item {
+
+      p {
+        margin-top: .5rem;
+      }
+    }
+    &_video {
+      padding-bottom: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .about-school--main{
+    .about-school_wrap{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  .about-school {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .about-school_desc-title {
+    font-size: 2.6rem;
+  }
+  .about-school_list {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .about-school_item {
+    margin-top: 3rem;
+  }
+  .about-school_item p {
+    margin-top: 1.5rem;
+  }
+  .about-school_icon-block {
+    margin-top: 3rem;
+  }
+}

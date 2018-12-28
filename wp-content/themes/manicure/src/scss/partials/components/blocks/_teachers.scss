@@ -1,0 +1,55 @@
+.teachers {
+    background-color: #f0eeee;
+    position: relative;
+    p {
+        margin-top: 1rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    .program_img {
+        height: 31.8rem;
+    }
+    .img-bg{
+        left: 0;
+        bottom: 11%;
+    }
+}
+.teachers-vip{
+    padding-top: 6rem;
+    .img-pos1{
+        left: 0 !important;
+        top: 2%;
+        max-height: 40rem;
+    }
+    .img-pos3{
+        right: 0 !important;
+        top: 35%;
+        left: auto !important;
+    }
+    .course-right{
+        padding-left: 18%;
+    }
+    .course--page{
+        margin-top: 9rem;
+        min-height: 27rem;
+        h2{
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+@media only screen and (max-width: $screen-sm-max) {
+    .teachers-vip .course-right {
+        padding-left: 0;
+    }
+    .teachers-vip  .course--page{
+        margin-top: 2.5rem;
+        h2{
+            font-size: 2.4rem;
+        }
+    }
+}

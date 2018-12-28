@@ -1,0 +1,104 @@
+.advantages-home {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  h3 {
+    text-align: left;
+  }
+  &_blocks {
+    display: flex;
+    margin-top: 6.5rem;
+  }
+  &_left {
+    flex-basis: 38%;
+  }
+  &_right {
+    flex-basis: 62%;
+    margin-left: 9rem;
+  }
+  &_top {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36rem;
+    margin-bottom: 5px;
+  }
+  &_bottom {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      padding-left: 2.5px;
+      padding-right: 2.5px;
+      max-width: 20.8rem;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 27.5rem;
+    }
+  }
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -4.5rem;
+  }
+  &_item {
+    max-width: 34rem;
+    padding-left: 8rem;
+    margin-top: 4rem;
+    p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+  }
+  &_title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .advantages-home_right {
+    flex-basis: 84%;
+    margin-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .advantages-home {
+    text-align: center;
+    h3 {
+      text-align: center;
+    }
+  }
+  .advantages-home_blocks {
+    flex-direction: column;
+  }
+  .advantages-home_right {
+    flex-basis: 100%;
+  }
+  .advantages-home_left {
+    display: none;
+  }
+  .advantages-home_list {
+
+    justify-content: center
+
+  }
+  .advantages-home_item {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+
+  .advantages-home_list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

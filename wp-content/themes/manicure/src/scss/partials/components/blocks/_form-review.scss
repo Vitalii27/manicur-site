@@ -1,0 +1,65 @@
+.review-form {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  .subtitle {
+    margin-top: 2.5rem;
+  }
+  &_form-block {
+    margin-top: 5rem;
+  }
+  &_input-blocks {
+    display: flex;
+
+  }
+  &_input-block {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    input, textarea {
+      color: #b5b4b4;
+      background-color: transparent;
+      padding: 1.9rem 2.5rem;
+      width: 100%;
+      display: inline-block;
+      font-weight: 300;
+      font-size: 1.5rem;
+      border-radius: 30rem;
+      border: 1px solid #b5b4b4;
+    }
+    @include placeholder {
+      color: #b5b4b4;
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+    textarea {
+      min-height: 15rem;
+      border-radius: 3.5rem;
+      margin-top: 2rem;
+    }
+  }
+  &_btn-block {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .review-form {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    &_form-block{
+      margin-top: 2rem;
+    }
+    &_input-blocks {
+      flex-direction: column;
+    }
+    &_input-block {
+      margin-top: 2rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

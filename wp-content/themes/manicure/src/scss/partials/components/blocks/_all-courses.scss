@@ -1,0 +1,27 @@
+.all-courses {
+  padding-bottom: 10rem;
+  position: relative;
+  .img-pos1 {
+    top: 10%;
+    left: 0;
+    height: 30rem;
+  }
+  .img-pos2 {
+    top: 30%;
+    right: 0;
+  }
+  .img-pos3 {
+    bottom:20%;
+    left: 0;
+    height: 40rem;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .all-courses {
+    padding-bottom: 6rem;
+    .text-block {
+      margin-top: 4rem;
+    }
+  }
+}

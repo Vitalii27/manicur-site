@@ -1,0 +1,79 @@
+.advantages-main {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
+  &_icon-block {
+    img {
+      max-height: 7rem;
+    }
+  }
+
+  &_item {
+    flex-basis: 24%;
+    text-align: center;
+    margin-top: 5rem;
+    border-left: 12px solid #f8e7b8;
+    border-right: 12px solid #e6bcbc;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 12px;
+    background-image: linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%), linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 4rem 1.5rem 6rem;
+    background-color: $white;
+    &-title {
+      margin-top: 3rem;
+      font-weight: 900;
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.4;
+      max-width: 37rem;
+      margin: 1.5rem auto 0;
+      strong {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .advantages-main {
+    &_item {
+      flex-basis: 50%;
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .advantages-main {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .advantages-main {
+    &_item {
+      &:first-child {
+        margin-top: 1rem;
+      }
+      margin-top: 3rem;
+      flex-basis: 100%;
+      width: 100%;
+    }
+  }
+}

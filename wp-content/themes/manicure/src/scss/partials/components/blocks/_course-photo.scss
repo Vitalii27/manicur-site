@@ -1,0 +1,51 @@
+.course-photo {
+  display: flex;
+  height: 47rem;
+  overflow: hidden;
+  &-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &_left {
+    width: 33.3333%;
+  }
+  &_left-img {
+    width: 100%;
+    height: 50%;
+  }
+  &_right {
+    width: 33.3333%;
+  }
+  &_right-img {
+    height: 50%;
+  }
+  &_center {
+    height: 100%;
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (max-width: $screen-md-max) {
+  .course-photo {
+    height: 40rem;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .course-photo {
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .course-photo {
+    height: 23rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .course-photo {
+    height: 14rem;
+  }
+}
