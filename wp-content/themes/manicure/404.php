@@ -30,7 +30,7 @@ get_header(); ?>
             <div class="section-error_text">
                 <div class="section-error_text-title">oops !</div>
                 <div class="section-error_text-bottom">Такой страницы не существует!</div>
-                <a href="<?php echo home_url() ?>" class="sub-section_link btn">перейти на главную</a>
+                <a href="https://www.shkola-nika.ru/kursy-manikyura-i-pedikyura/" class="section-error-btn sub-section_link btn button--pink">Перейти в раздел Все курсы</a>
             </div>
 
         </div>

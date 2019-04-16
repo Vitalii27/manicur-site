@@ -1,0 +1,250 @@
+.unique-vip {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.unique-vip_content {
+  max-width: 78rem;
+  margin: 0 0 0 auto;
+}
+
+.unique-vip_title {
+  background-image: url('../../assets/images/bg-title.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: $oswald-font;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  h3 {
+    font-size: 4rem;
+    color: $red-third;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+  p {
+    font-size: 3rem;
+    color: $black;
+    margin-top: 1.5rem;
+  }
+}
+
+.unique-vip_form-title {
+  text-align: center;
+  p {
+    font-family: $oswald-font;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
+
+.unique-vip_form {
+  .action--new-form .form_container .form_input {
+    max-width: 37rem;
+  }
+  .form_input-block {
+    &:last-child {
+      margin-right: 0;
+    }
+
+  }
+  .action_bottom-text {
+    p {
+      font-size: 1.4rem;
+    }
+    a {
+      display: inline-block;
+    }
+  }
+}
+
+.unique-course {
+  .unique-vip_content {
+    margin: 0 auto 0 0;
+  }
+  .action_form {
+    margin-top: 1rem;
+  }
+  .unique-vip_title {
+    h3 {
+      color: #2b2b2b;
+      font-weight: 500;
+    }
+    p {
+      margin-top: 2.5rem;
+    }
+  }
+  .price_red {
+    font-size: 4.5rem;
+    color: $red-third;
+    font-family: $oswald-font;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+  }
+  .price-underline {
+    position: relative;
+    display: inline-block;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: $red-third;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  .price-black {
+    font-weight: 400;
+
+    color: #565656;
+    font-family: $oswald-font;
+  }
+}
+
+.new-vip-action {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  border-bottom: 1px solid $grey;
+  &-content {
+    text-align: center;
+    p {
+      font-family: $oswald-font;
+      font-weight: 600;
+      font-size: 4.5rem;
+      text-transform: uppercase;
+      line-height: 1.9;
+      color: $black;
+      .text-yellow {
+        background-color: $yellow;
+        padding: 2px 10px;
+        border-radius: 5px;
+      }
+      .text-red {
+        background-color: $red-third;
+        color: $white;
+        padding: 2px 10px;
+        border-radius: 5px;
+      }
+    }
+    .text-gray {
+      font-size: 1.5rem;
+      color: #888888;
+      margin-top: 4rem;
+    }
+  }
+  .new-vip-action_list {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 105rem;
+    margin: 6rem auto;
+  }
+  .new-vip-action_item {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    p {
+      margin-top: 3rem;
+      font-size: 1.6rem;
+      line-height: 1.4;
+    }
+  }
+  .sub-section_btn-block {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .unique-vip_content {
+    margin: 0 auto;
+    .form_container-wrap {
+      align-items: center;
+    }
+
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .unique-vip_title {
+    padding-top: 0;
+    h3 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2.2rem;
+    }
+  }
+  .unique-vip_form-title {
+    p {
+      font-size: 2.2rem;
+    }
+    .action--new-form {
+      margin-top: 2rem !important;
+    }
+  }
+  .unique-course {
+    .price_red {
+      font-size: 3rem;
+
+    }
+    .unique-vip_title {
+      padding-bottom: 0;
+    }
+  }
+  .unique-vip_content {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+  .new-vip-action {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    &-content {
+
+      p {
+        br{
+          display: none;
+        }
+        font-size: 2.2rem;
+        line-height: 1.5;
+        .text-yellow {
+          display: block;
+        }
+        .text-red {
+          display: block;
+        }
+      }
+      .text-gray {
+
+        margin-top: 2rem;
+      }
+    }
+    .new-vip-action_list {
+      flex-direction: column;
+      justify-content: center;
+      max-width: none;
+      margin: 1.5rem auto;
+    }
+    .new-vip-action_item {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      margin-top: 2rem;
+      p {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+
+      }
+    }
+
+  }
+}

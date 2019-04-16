@@ -8,7 +8,7 @@
   margin-top: 9rem;
   .title-center {
 
-    top: 27%;
+    top: 22%;
   }
   .img-banner {
     position: absolute;
@@ -34,6 +34,14 @@
     color: $black;
     white-space: nowrap;
   }
+
+  .banner-subtitle_text {
+    top: 38%;
+    font-size: 2.6rem;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: $screen-xs-max) {
@@ -50,7 +58,11 @@
     &_text {
       font-size: 2.6rem;
     }
+    .banner-subtitle_text {
+      font-size: 1.8rem;
+    }
   }
+
 }
 
 @media only screen and (max-width: 480px) {

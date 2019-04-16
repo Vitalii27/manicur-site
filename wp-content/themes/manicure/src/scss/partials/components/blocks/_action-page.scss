@@ -1,0 +1,122 @@
+.action-page {
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  font-family: $oswald-font;
+
+
+}
+
+.action-page {
+  .action-item {
+
+    display: flex;
+    min-height: 25.5rem;
+    border-bottom: 1px solid #eaff00;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    &:nth-child(4n) {
+      border-bottom: none;
+    }
+  }
+
+  .action-img {
+    margin-right: 2rem;
+    img {
+      max-width: 37.5rem;
+      height: 26rem;
+
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .action-page_title {
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 2rem;
+    color: $white;
+    background-color: #ff3b57;
+    margin-left: -2rem;
+    padding: 2rem;
+    min-width: 50.5rem;
+
+  }
+
+  .action-page_subtitle {
+    font-size: 1.8rem;
+    margin-top: 2.8rem;
+    font-family: $main-font;
+  }
+
+  .action-page_desc {
+    margin-top: 1.8rem;
+    font-weight: 500;
+  }
+
+  .action-content {
+    position: relative;
+    color: #2b2b2b;
+    font-size: 2.6rem;
+    line-height: 1;
+
+    .new-btn {
+      position: absolute;
+      bottom: 0;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+        &:before {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+    p {
+      margin-top: .7rem;
+    }
+  }
+
+  .action-page_btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}
+@media only screen and (max-width: $screen-xs-max) {
+  .action-list {
+    text-align: center;
+  }
+  .action-item {
+    flex-direction: column;
+  }
+  .action-page_btn {
+    position: static;
+    margin-top: 2rem;
+  }
+  .action-page_title {
+    margin-top: 1rem;
+  }
+  .action-page .action-page_title{
+    margin-left: 0;
+    text-align: center;
+    min-width: auto;
+    width: 100%;
+  }
+  .action-page .action-img{
+    margin-right: 0;
+  }
+  .action-page .action-content .new-btn{
+    position: relative;
+    bottom: auto;
+    margin-top: 2rem;
+    display: inline-block;
+  }
+  .action-page{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .action-page .page-numbers{
+    margin-top: -1.8rem;
+  }
+}

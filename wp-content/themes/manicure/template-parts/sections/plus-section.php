@@ -1,13 +1,10 @@
 <section class="setion plus-section">
     <div class="container-fluid">
-        <?php if (get_field('plus-section-title')): ?>
-            <h3 class="title shadow-text--light"><?php the_field('plus-section-title') ?></h3>
-        <?php endif; ?>
-        <?php if (get_field('plus-section-subtitle')): ?>
-            <h4 class="subtitle shadow-text--light"><?php the_field('plus-section-subtitle') ?></h4>
-        <?php endif; ?>
+        <h3 class="title vip-title">Плюсы обучения</h3>
+        <h4 class="subtitle">маникюру и педикюру в нашей школе</h4>
+
         <?php if (have_rows('plus-section-list')): ?>
-            <ul class="plus-section_list shadow-text--super-light">
+            <ul class="plus-section_list ">
                 <?php while (have_rows('plus-section-list')): the_row(); ?>
                     <li class="plus-section_item">
                         <div class="plus-section_top">
@@ -29,6 +26,9 @@
                             <?php if (get_sub_field('plus-section-list-title')): ?>
                                 <h4 class="plus-section_title"><?php the_sub_field('plus-section-list-title') ?></h4>
                             <?php endif; ?>
+                            <div class="vip-teachers_border">
+
+                            </div>
                             <?php if (get_sub_field('plus-section-list-desc')): ?>
                                 <div class="plus-section_desc">
                                     <?php the_sub_field('plus-section-list-desc') ?>
@@ -40,5 +40,6 @@
             </ul>
         <?php endif; ?>
     </div>
-    <img class="img-bg" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
+    <img class="img-bg2" src="<?php echo get_template_directory_uri() ?>/assets/images/foot2.png" alt="img">
 </section>
+<img class="img-bg" src="<?php echo get_template_directory_uri() ?>/assets/images/foot1.png" alt="img">

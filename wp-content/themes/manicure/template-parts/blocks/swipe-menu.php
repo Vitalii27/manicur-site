@@ -1,4 +1,4 @@
-<nav id="side-menu" class="swipe-menu shadow-text--super-light">
+<nav id="side-menu" class="swipe-menu">
     <?php
     $args = array(
         'theme_location' => 'menu-1',

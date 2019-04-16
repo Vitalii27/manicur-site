@@ -1,72 +1,51 @@
 <?php $action = get_option('action2'); ?>
 <section class="section action">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
     <div class="container-fluid">
-        <div class="action_content shadow-text--light">
-
-            <div class="action_content-period">
-                <div class="action_content-top">
-
-                    <h2><strong>Акция, только с<span>
-                                <span
-                                > <?php echo $action['action-top']; ?></span>&nbsp;<span
-                                >по</span> <span
-                                ><?php echo $action['action-po']; ?></span>&nbsp;<span
-                                ><?php echo $action['action-section-month']; ?></span></span>!</strong>
-                    </h2>
-                </div>
-                <div class="action_content-top-border"></div>
-                <h2><strong><span style="color: #000000;">Полный курс <br></span><span style="color: #ff0000;">«Vip Мастер — Универсал»</span></strong>
-                </h2>
-                <h2 style="margin-top: 1rem;"><strong class="border-str"><span style="color: #000000;"> всего за</span>
-                        <span
-                                style="color: #00ff00;"><span
-                                    style="color: #339966;"><?php echo $action['action-old-price']; ?> ₽</span> </span>&nbsp;<span
-                                style="color: #000000;">вместо</span>
-                        <span style="color: #ff0000;"><?php echo $action['action-new-price']; ?> ₽!</span></strong>
-                </h2>
-                <div class="h3-wrapp">
-                    <h3><span style="color: #000000;"><strong>Без Доплат. Срок обучения Месяц. </strong></span></h3>
-                    <h3><span style="color: #ff0000;"><strong>Диплом. Трудоустройство!</strong></span></h3>
-                </div>
-
+        <div class="action_content">
+            <div class="action_content-img">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/action-img.png" alt="img">
 
             </div>
-            <p class="action-last-time"><span style="color: #000000;"><strong>Спешите! Осталось:</strong></span></p>
-
-
-            <?php if (!empty($action['action-year'])) {
-                ?>
-                <div class="action_content-time">
-                    <!--                    --><?php //the_field('action-remained') ?>
-                    <div id="js-timer" class="action_content-timer"></div>
+            <div class="action_content-time">
+                <div class="action-text">
+                    <?php if (get_field('vip-master-course-title')): ?>
+                        <div class="action-text_subtitle"><?php the_field('vip-master-course-title') ?></div>
+                    <?php endif; ?>
+                    <?php if (get_field('vip-master-course-title-name')): ?>
+                        <div class="action-text_title"><?php the_field('vip-master-course-title-name') ?></div>
+                    <?php endif; ?>
+                    <?php if (get_field('vip-master-course-title-price')): ?>
+                        <div class="action-text_subtitle-price">
+                            <?php the_field('vip-master-course-title-price') ?>
+                        </div>
+                    <?php endif; ?>
+                    <p>До конца акции осталось:</p>
                 </div>
+                <?php if (!empty($action['action-year'])) {
+                ?>
+
+                <!--                    --><?php //the_field('action-remained') ?>
+                <div id="js-timer" class="action_content-timer"></div>
+                <?php if (!empty($action['action-form'])) {
+                    ?>
+                    <div class="action_form action--new-form">
+                        <?php echo do_shortcode($action['action-form']); ?>
+                    </div>
+                <?php } ?>
+                <div class="action_bottom-text">
+                    <p> *Внимание! Нажимая на кнопку, вы соглашаетесь с
+                        <a href="<?php echo get_template_directory_uri() ?>/assets/pdf/privacy-policy.pdf"
+                           target="_blank">политикой обработки персональных данных.</a>
+
+                    </p>
+                </div>
+            </div>
             <?php } ?>
 
-        </div>
-        <?php if (!empty($action['action-form'])) {
-            ?>
-            <div class="action_form">
-                <?php echo do_shortcode($action['action-form']); ?>
-            </div>
-        <?php } ?>
-
-        <div class="action_bottom-text shadow-text--super-light">
-            <p> Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с
-
-                <a href="<?php echo get_template_directory_uri() ?>/assets/pdf/privacy-policy.pdf"
-                   target="_blank">политикой обработки персональных данных.</a>
-
-            </p>
         </div>
 
 
     </div>
-    <!--    --><?php //if (get_field('action-img')): ?>
-    <img src="https://shkola-manikyura.com/wp-content/uploads/2018/08/action.png" alt="img" class="action_bg">
-    <!--    --><?php //endif; ?>
 </section>
 
 <script>
@@ -113,9 +92,9 @@
         var elmnt = document.getElementById('js-timer');
 
         elmnt.innerHTML =
-            '<div>' + '<div class="timer-number">' + days + '</div>' + '<div class="timer-name">' + 'дня' + '</div>' + '</div>' +
-            '<div>' + '<div class="timer-number">' + hours + '</div>' + '<div class="timer-name">' + 'часа' + '</div>' + '</div>' +
-            '<div>' + '<div class="timer-number">' + minutes + '</div>' + '<div class="timer-name">' + 'минут' + '</div>' + '</div>' +
+            '<div>' + '<div class="timer-number">' + days + '</div>' + '<div class="timer-name">' + 'дня' + '</div>' + '</div>' + '<p>:</p>' +
+            '<div>' + '<div class="timer-number">' + hours + '</div>' + '<div class="timer-name">' + 'часа' + '</div>' + '</div>' + '<p>:</p>' +
+            '<div>' + '<div class="timer-number">' + minutes + '</div>' + '<div class="timer-name">' + 'минут' + '</div>' + '</div>' + '<p>:</p>' +
             '<div>' + '<div class="timer-number">' + seconds + '</div>' + '<div class="timer-name">' + 'секунд' + '</div>' + '</div>';
 
         setTimeout(timer, 1000);
@@ -124,7 +103,6 @@
     window.onload = function () {
 
         timer();
-
 
 
     }

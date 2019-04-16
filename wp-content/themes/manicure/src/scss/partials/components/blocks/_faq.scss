@@ -138,14 +138,123 @@
   }
 }
 
+.faq--vip {
+  background-color: $white;
+  font-family: $oswald-font;
+  position: relative;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  .bg-img-section1 {
+    position: absolute;
+    right: 0;
+    top: 20rem;
+  }
+  .bg-img-section2 {
+    position: absolute;
+    left: 0;
+    top: 40rem;
+  }
+  &_columns {
+    display: flex;
+  }
+  .faq_list {
+    position: relative;
+    z-index: 2;
+    &:last-child {
+      margin-left: 2rem;
+    }
+
+    .is-close {
+      .faq_item_wrapp, .faq_item_content {
+        background-color: #f0f0f0;
+      }
+      .faq_item-icon {
+        &:before {
+          transform: translate(-61%, -50%) rotate(45deg);
+        }
+      }
+    }
+  }
+  .faq_item-icon {
+    right: 1rem;
+  }
+  .faq_triangle {
+    padding-left: 0;
+    font-size: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    text-transform: uppercase;
+  }
+  .faq_acco_content {
+    font-size: 1.6rem;
+    background-color: $white;
+    border-radius: 0;
+    padding: 2rem;
+    border: 2px solid #e7f598;
+    border-top: none;
+  }
+  .faq_item {
+    .faq_item_wrapp {
+      background-color: #e7f598;
+      min-height: 8.6rem;
+      box-shadow: none;
+    }
+    .faq_item_content {
+      background-color: $white;
+      border: none;
+      ul {
+        margin-left: 2.2rem;
+      }
+    }
+    &-icon {
+      width: 2rem;
+      height: 2rem;
+      background-color: transparent;
+      border: 2px solid $black;
+      border-radius: 50%;
+      &:before {
+        content: '';
+        border-top: 2px solid $black;
+        border-right: 2px solid $black;
+        width: .7rem;
+        height: .7rem;
+        color: $black;
+
+        transform: translate(-50%, -61%) rotate(135deg);
+      }
+    }
+
+  }
+  .faq_item_wrapp, .faq_item, .faq_item_content {
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .faq--vip{
+    .faq_triangle{
+      font-size: 1.6rem;
+    }
+  }
+}
 @media only screen and (max-width: $screen-xs-max) {
+  .faq--vip{
+    .faq--vip_columns{
+      flex-direction: column;
+    }
+    .faq_list{
+      margin-left: 0 !important;
+      margin-top: 0;
+      &:first-child{
+        margin-top: 4rem;
+      }
+    }
+
+  }
   .faq_item .faq_item_content {
     border-radius: 115px;
   }
   .faq {
-    .faq_item-icon {
-      display: none;
-    }
+
     padding-top: 4rem;
     padding-bottom: 4rem;
     &_top {

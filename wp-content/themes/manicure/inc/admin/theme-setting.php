@@ -77,7 +77,28 @@ if (!class_exists('Manicure_Settings_API')):
                 'popup' => array(
                     array(
                         'name' => 'popup_shortcode',
-                        'label' => __('Шорткод флрмы', 'manicure'),
+                        'label' => __('Шорткод формы', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+
+                    array(
+                        'name' => 'popup_shortcode-vipbanner',
+                        'label' => __('Шорткод формы баннер', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+
+                    array(
+                        'name' => 'popup_shortcodeVip',
+                        'label' => __('Шорткод формы Вип', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+
+                    array(
+                        'name' => 'shortcodeVip',
+                        'label' => __('Шорткод формы Вип секция', 'manicure'),
                         'type' => 'text',
 
                     )
@@ -86,6 +107,11 @@ if (!class_exists('Manicure_Settings_API')):
                     array(
                         'name' => 'form_shortcode',
                         'label' => __('Шорткод формы', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'form_shortcode2',
+                        'label' => __('Шорткод формы на главной', 'manicure'),
                         'type' => 'text',
 
                     )

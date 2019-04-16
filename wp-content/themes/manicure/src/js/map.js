@@ -18,8 +18,7 @@ function init() {
             ]
         }
     };
-    console.log(mapConfig)
-    // var ballonContentHtml = $('.ballon');
+        // var ballonContentHtml = $('.ballon');
     var myMap = new ymaps.Map(mapConfig.maps[0].id, {
             center: mapConfig.maps[0].mapCenter,
             zoom: mapConfig.maps[0].zoom

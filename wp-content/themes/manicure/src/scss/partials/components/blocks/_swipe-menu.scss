@@ -74,30 +74,62 @@ body.is-swipe-menu-shown {
     }
     >li {
         display: block;
-        padding-right: 29px;
+        position: relative;
         white-space: nowrap;
+        text-align: center;
+        padding-top: 1.5rem;
+        padding-bottom: .5rem;
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            margin: 0 auto;
+            bottom: -8px;
+            height: 3px;
+            background: $red-third;
+            width: 0;
+            transition: all 0.2s ease-out;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &:hover {
+            color: $red-third;
+
+
+            &:before {
+                width: 85%;
+            }
+        }
+        &:first-child{
+            a{
+                //padding-left: 0;
+            }
+
+        }
+        &:last-child{
+            a{
+                padding-right: 0;
+                border-right: none;
+            }
+
+        }
         a {
             display: block;
             font-weight: 400;
             transition: all .2s;
             position: relative;
             height: inherit;
-            transition: all 0.2s ease-out;
-            padding: 3rem 0;
+            text-align: center;
+            padding-right: 15px;
+            padding-left: 15px;
             font-size: 1.6rem;
+            text-transform: uppercase;
+            font-family: $oswald-font;
             color: $black;
-            &:before {
-                content: '';
-                position: absolute;
-                display: block;
-                margin: 0 auto;
-                bottom: -8px;
-                height: 5px;
-                background: $orange;
-                width: 0;
-                transition: all 0.2s ease-out;
-                text-align: center;
-            }
+            border-right: 1px solid $black;
+
+
             &:after {
                 display:block;
                 content:'';
@@ -108,16 +140,9 @@ body.is-swipe-menu-shown {
                 visibility:hidden;
                 margin-bottom:-1px;
             }
-            &:hover {
-                color: $orange;
-                text-shadow: 0 0 .1px $orange, 0 0 .1px $orange;
 
-                &:before {
-                    width: 100%;
-                }
-            }
             &:focus {
-                color: $orange;
+                color: $red-third;
                 &:before {
                     width: 100%;
                 }
@@ -126,28 +151,29 @@ body.is-swipe-menu-shown {
     }
 }
 
-.active {
-    color: $orange;
+.active, .current-menu-item {
+    color: $red-third !important;
     &:before {
-        content: '';
-        position: absolute;
-        display: block;
-        margin: 0 auto;
-        //top: 0;
-        height: 2px;
-        background: $blue;
-        width: 100% !important;
-        transition: all 0.2s ease-out;
-        text-align: center;
+        width: 85% !important;
     }
 }
-
+.photo-section{
+    .active, .current-menu-item {
+        color: $red-third !important;
+        &:before {
+            width: 5% !important;
+        }
+    }
+}
 @media only screen and (max-width: $screen-md-max) {
     .swipe-menu__list {
         >li {
             padding-right: 15px;
             &:last-child {
                 padding-right: 0;
+            }
+            a{
+                border-right: none !important;
             }
         }
     }

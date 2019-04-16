@@ -48,9 +48,29 @@ jQuery(function ($) {
         infinite: true,
         arrows: true,
         dots: true,
+        adaptiveHeight: true,
         nextArrow: '<button type="button" class="slider_btn--next slider_btn"> ' + arrowRight + ' </button>',
         prevArrow: '<button type="button" class="slider_btn--prev slider_btn">' + arrowLeft + '</button>',
 
+        //accessibility: false // prevent page scroll up on autoplay
+    };
+    var reviewSliderVip = $('.js-review-slider-vip');
+    var reviewOptionVip = {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        fade: true,
+        arrows: true,
+        dots: false,
+
+        nextArrow: '<button type="button" class="slider_btn--next slider_btn"> ' + arrowRight + ' </button>',
+        prevArrow: '<button type="button" class="slider_btn--prev slider_btn">' + arrowLeft + '</button>',
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                adaptiveHeight: true,
+            }
+        }]
         //accessibility: false // prevent page scroll up on autoplay
     };
     var photoSlider = $('.js-photo-slider');
@@ -78,14 +98,39 @@ jQuery(function ($) {
 
         //accessibility: false // prevent page scroll up on autoplay
     };
+    var photoSliderVip = $('.js-photo-slider-vip');
+    var photoOptionVip = {
+        slidesToShow: 3,
+        slidesToScroll: 1,
 
-    jQuery('.js-photo-slider').on('init', function(event, slick, currentSlide, nextSlide){
+        // infinite: true,
+        arrows: true,
+        dots: false,
+
+        nextArrow: '<button type="button" class="slider_btn--next slider_btn"> ' + arrowRight + ' </button>',
+        prevArrow: '<button type="button" class="slider_btn--prev slider_btn">' + arrowLeft + '</button>',
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }],
+
+        //accessibility: false // prevent page scroll up on autoplay
+    };
+
+    jQuery('.js-photo-slider').on('init', function (event, slick, currentSlide, nextSlide) {
+        PopUpModule.initImg(".js-pop-up-img");
+    });
+    jQuery('.js-photo-slider-vip').on('init', function (event, slick, currentSlide, nextSlide) {
         PopUpModule.initImg(".js-pop-up-img");
     });
     // init slider
     partnersSlider.slick(partnersOption);
     reviewSlider.slick(reviewOption);
+    reviewSliderVip.slick(reviewOptionVip);
     photoSlider.slick(photoOption);
+    photoSliderVip.slick(photoOptionVip);
 
 
 }); // ready

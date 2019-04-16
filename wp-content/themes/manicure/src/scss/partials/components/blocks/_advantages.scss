@@ -1,64 +1,204 @@
 .advantages {
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    &_list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 2rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  &_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  &_icon-block {
+    min-height: 7rem;
+  }
+  &_item {
+    flex-basis: 33.3333%;
+    width: 33.3333%;
+    text-align: center;
+    margin-top: 5rem;
+    //margin-left: 1.5rem;
+    //margin-right: 1.5rem;
+    &-title {
+      margin-top: 3rem;
+      font-weight: 900;
     }
-    &_icon-block{
-        min-height: 7rem;
+    &-desc {
+      font-weight: 400;
+      font-size: 1.5rem;
+      line-height: 1.4;
+      max-width: 37rem;
+      margin: 1.5rem auto 0;
+      strong {
+        font-weight: 600;
+      }
     }
-    &_item {
-        flex-basis: 33.3333%;
-        width: 33.3333%;
-        text-align: center;
-        margin-top: 5rem;
-        //margin-left: 1.5rem;
-        //margin-right: 1.5rem;
-        &-title {
-            margin-top: 3rem;
-            font-weight: 900;
-        }
-        &-desc {
-            font-weight: 400;
-            font-size: 1.5rem;
-            line-height: 1.4;
-            max-width: 37rem;
-            margin: 1.5rem auto 0;
-            strong {
-                font-weight: 600;
-            }
-        }
-    }
+  }
 }
 
-@media only screen and (max-width: $screen-sm-max) {
-    .advantages {
-        &_item {
-            flex-basis: 50%;
-            width: 50%;
-        }
+.advantages-vip-page {
+  background-image: url('../../assets/images/bg/bg-section.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .border-trap {
+    max-width: 80rem;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    z-index: 3;
+    &:after {
+      border-bottom: 65px solid #ff3b57;
+      border-left: 37px solid transparent;
     }
+
+  }
+
+  .container-fluid {
+    position: relative;
+  }
+
+  .advantages-vip_title {
+    font-weight: 500;
+    font-size: 3.3rem;
+    color: $white;
+    font-family: $oswald-font;
+    text-transform: uppercase;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .vip-advantages {
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+  }
+  .vip-advantages_item {
+    padding: 1.5rem !important;
+    flex-basis: 50%;
+    min-height: 27rem;
+
+    &:last-child {
+      border-top: 1px solid #d3d3d3;
+      border-left: none;
+    }
+
+    &:nth-child(3n){
+      border-top: 1px solid #d3d3d3;
+      border-right: 1px solid #d3d3d3;
+    }
+  }
+  .vip-advantages_title{
+    font-size: 2rem;
+  }
+  .vip-advantages_desc{
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  .advantages-vip-img{
+    position: absolute;
+    right: -14rem;
+    top: 0;
+    z-index: 1;
+    bottom: 0;
+    img{
+      height: 100%;
+    }
+  }
+}
+.course-advantages_parent{
+  .vip-advantages_desc{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  .vip-advantages li{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+}
+@media only screen and (max-width: 1650px) {
+  .advantages-vip-page .border-trap{
+    max-width: 65rem;
+  }
+}@media only screen and (max-width: 1550px) {
+  .advantages-vip-page .border-trap{
+    max-width: 55rem;
+  }
+}
+@media only screen and (max-width: $screen-md-max) {
+  .advantages-vip-page .border-trap{
+    position: relative;
+    max-width: none;
+    &:after{   border-left: 0;}
+
+  }
+  .advantages-vip-page{
+    .container-fluid{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .advantages-vip-page .advantages-vip_title{
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .vip-advantages{
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .advantages {
+    &_item {
+      flex-basis: 50%;
+      width: 50%;
+    }
+  }
+  .course-advantages_parent{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .vip-advantages li{
+    max-height: none;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+    }
+  }
 }
 
 @media only screen and (max-width: $screen-xs-max) {
-    .advantages {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+  .advantages {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .advantages-vip-page .advantages-vip_title{
+    font-size: 2.3rem;
+  }
+  .vip-advantages{
+    flex-direction: column;
+    li{
+      flex-basis: 100%;
+      width: 100%;
+      border: none !important;
+      max-height: 21rem;
     }
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
-    .advantages {
-        &_item {
-            &:first-child {
-                margin-top: 1rem;
-            }
-            margin-top: 3rem;
-            flex-basis: 100%;
-            width: 100%;
-        }
+  .advantages {
+    &_item {
+      &:first-child {
+        margin-top: 1rem;
+      }
+      margin-top: 3rem;
+      flex-basis: 100%;
+      width: 100%;
     }
+  }
 }

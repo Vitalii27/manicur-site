@@ -1,22 +1,25 @@
 .action_content-timer {
   display: flex;
   justify-content: space-between;
-  max-width: 50rem;
+  max-width: 35rem;
   margin: 2.5rem auto 0;
+  p{
+    padding-top: 1rem  ;
+  }
 }
 
 .timer-number {
-  width: 10rem;
-  height: 10rem;
+  width: 7.3rem;
+  height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $red;
-  border-radius: 50%;
-  color: $white;
-  font-size: 4.5rem;
+  //background-color: $yellow;
+  background-image: linear-gradient(to bottom, #e7f598 50%, $yellow 50%);
+  border-radius: 5px;
+  font-size: 5rem;
   margin-bottom: 2rem;
-
+padding: 1.5rem;
 }
 
 .timer-name {
@@ -37,8 +40,8 @@
     align-items: center;
     justify-content: center;
     background-color: $red;
-    border-radius: 50%;
-    color: $white;
+
+
     font-size: 2.6rem;
     margin-bottom: 2rem;
 

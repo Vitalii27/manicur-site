@@ -1,22 +1,24 @@
-.page-template-page-contact{
+.page-template-page-contact {
 
   .contacts {
     padding-top: 16rem;
   }
 }
+
 @media only screen and (max-width: $screen-sm-max) {
-  .page-template-page-contact{
+  .page-template-page-contact {
 
     .contacts {
       padding-top: 14rem;
     }
   }
 }
+
 .contacts {
-  &-page{
+  &-page {
     padding-top: 0;
     padding-bottom: 0;
-    .contacts_map{
+    .contacts_map {
       margin-right: 0;
       height: 68rem;
       border-radius: 0;
@@ -25,7 +27,7 @@
   padding-top: 9rem;
   padding-bottom: 9rem;
   background-color: #f0eeee;
-  &_bg{
+  &_bg {
     position: absolute;
     right: -16.8rem;
     top: 2rem;
@@ -61,25 +63,76 @@
       color: #1e1e1e;
       line-height: 1.3;
       strong, b {
-        font-size: 1.8rem;
+
         font-weight: 600;
       }
     }
+
   }
 
 }
 
+.contacts--vip {
+  .contacts_desc {
+    max-width: 110rem;
+    p {
+      margin-top: 3.1rem;
+      font-size: 1.5rem;
+      color: #1e1e1e;
+      line-height: 1.3;
+      strong, b {
+
+        font-weight: 600;
+      }
+    }
+    div {
+      display: inline-block;
+      margin-left: 4rem;
+      p {
+        margin-top: 1rem;
+
+        font-family: $main-font;
+      }
+    }
+  }
+  .contacts-icon {
+    display: flex;
+    align-items: center;
+&:first-child{
+  margin-top: .5rem;
+}
+    strong{
+      font-size: 2rem;
+    }
+    img {
+      margin-right: 1.5rem;
+    }
+
+  }
+  .contacts_desc--bottom {
+    padding-left: 4rem;
+    p {
+      font-family: $main-font;
+      &:first-child{
+        margin-top: .5rem;
+        font-family: $oswald-font;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: $screen-sm-max) {
-  .contacts--vip{
-    .contacts_content{
+  .contacts--vip {
+    .contacts_content {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
   .contacts {
-    &-page{
+    &-page {
 
-      .contacts_map{
+      .contacts_map {
 
         height: 35rem;
 

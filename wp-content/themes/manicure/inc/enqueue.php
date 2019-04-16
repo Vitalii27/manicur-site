@@ -9,6 +9,7 @@ function get_css() {
     wp_enqueue_style( 'slick-carousel', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css' );
     wp_enqueue_style( 'slick-theme', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css' );
     wp_enqueue_style('magnific', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css');
+    wp_enqueue_style('select', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css');
 //    wp_enqueue_style('select', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css');
     wp_enqueue_style('main-style', get_template_directory_uri() . '/assets/css/style.css');
 }
@@ -26,7 +27,8 @@ function get_js() {
     wp_enqueue_script('plyr-js', 'https://cdn.plyr.io/3.3.12/plyr.js', null, false, true);
     wp_enqueue_script('waypoints', get_template_directory_uri() . '/assets/vendors/waypoints/waypoints.min.js', array('jquery'), false, true);
     wp_enqueue_script('slick-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array('jquery'), false, true);
-//    wp_enqueue_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), false, true);
+    wp_enqueue_script('select', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js', array('jquery'), false, true);
+    wp_enqueue_script('isotop', 'https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js', array('jquery'), false, true);
 //    wp_enqueue_script('select', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js', array('jquery'), false, true);
 //    wp_enqueue_script('select-2', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/i18n/defaults-*.min.js', array('jquery'), false, true);
     wp_enqueue_script('yandex-map', '//api-maps.yandex.ru/2.1/?lang=ru_RU', array('jquery'), false, true);

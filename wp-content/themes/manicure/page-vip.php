@@ -11,66 +11,40 @@
 
 get_header(); ?>
 
-<section class="section hero hero--vip" id="hero" style="background-image: url(<?php the_field('hero_img-phone') ?>)">
-    <?php if (get_field('hero_img-bg')): ?>
-        <div class="hero_img">
-            <img src="<?php the_field('hero_img-bg') ?>" alt="img">
-        </div>
-    <?php endif; ?>
-    <div class="container-fluid">
-        <div class="hero_content shadow-text--light">
-            <?php if (get_field('hero_title')): ?>
-                <div class="hero_title"><?php the_field('hero_title') ?></div>
-            <?php endif; ?>
-
-            <?php if (get_field('hero_subtitle')): ?>
-                <div class="hero_subtitle"><?php the_field('hero_subtitle') ?></div>
-            <?php endif; ?>
-            <div class="pink-block pink-line-block">
-                <p>156 часов обучения!</p>
-            </div>
-
-            <div class="hero_subtitle hero_subtitle--bottom">
-                <p>Трудоустройство в лучшие салоны <br>
-                    Москвы и Подмосковья!</p>
-            </div>
 
 
-        </div>
-    </div>
 
-</section>
+<?php get_template_part('./template-parts/sections/hero-vip'); ?>
 
-
-<?php get_template_part('./template-parts/sections/action'); ?>
 
 <section class="section program program--vip" id="program">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
+
     <div class="container-fluid">
         <div class="program_content">
-            <h3 class="program_title shadow-text--light"><p>Программа обучения —&nbsp;<span
-                            style="color: #8400ff;"><strong>«VIP Мастер — Универсал»</strong></span>:</p>
-            </h3>
-            <div class="program_subtitle shadow-text--light">Полный Курс Обучения — 156 часов!</div>
-            <ul class="program_list shadow-text--super-light">
+            <h3 class="vip-title ">Что входит в курс обучения</h3>
+
+            <ul class="program_list ">
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/program-bg.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course1.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">50 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>50 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Маникюр и педикюр</div>
+                        <div>Маникюр и педикюр</div>
                         <p class="program_text-desc">Во время нашего курса вы познакомитесь с видами маникюра и
                             педикюра, типами покрытий для ногтей, вариантами их дизайна. Максимум знаний за минимум
                             времени! </p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup0" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup0" class="js-pop-up  program_link">Подробнее</a>
                     </div>
 
 
@@ -87,20 +61,26 @@ get_header(); ?>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/Narashhivanie-nogtey-Melitopol.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course2.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">25 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>25 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Наращивание ногтей</div>
-                        <p class="program_text-desc">Курсы наращивания ногтей – это возможность научиться выбирать
-                            гель-лаки, подбирать форму и длину ногтей, правильно готовить их к процедуре моделирования и
+                        <div>Наращивание ногтей</div>
+                        <p class="program_text-desc">Курсы наращивания ногтей – это возможность научиться правильной
+                            выкладки геля, подбирать форму и длину ногтей, правильно готовить их к процедуре
+                            моделирования и
                             коррекции</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup1" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup1" class="js-pop-up  program_link">Подробнее</a>
                     </div>
 
 
@@ -118,20 +98,25 @@ get_header(); ?>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/jfjdkf.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course3.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">20 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>20 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Покрытие ногтей</div>
+                        <div>Покрытие ногтей</div>
                         <p class="program_text-desc">Покрытие ногтей выполняется после их тщательной подготовки. За курс
                             вы научитесь правильно наносить гель-лаки и Shellac, снимать покрытия и ухаживать за
                             ногтями.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup2" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup2" class="js-pop-up  program_link">Подробнее</a>
                     </div>
 
 
@@ -149,20 +134,25 @@ get_header(); ?>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/7-14-768x512.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course4.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">20 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>20 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Аппаратные технологии</div>
+                        <div>Аппаратные технологии</div>
                         <p class="program_text-desc">Для создания аппаратного маникюра и педикюра используются
                             современные фрезеры. Они бережно ухаживают за ногтями, делая процесс обработки
-                            безболезненным и быстрым. </p>
+                            безболезненным и быстрым.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup3" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup3" class="js-pop-up  program_link">Подробнее</a>
                     </div>
 
 
@@ -180,52 +170,59 @@ get_header(); ?>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/43621.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course5.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">8 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>8 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">SPA-процедуры</div>
+                        <div>SPA-процедуры</div>
                         <p class="program_text-desc">За руками, как и за ногтями, нужен уход с использованием
                             профессиональных средств. Вы научитесь современным SPA-процедурам для омоложения, увлажнения
-                            кожи рук. </p>
+                            кожи рук.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup4" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup4" class="js-pop-up  program_link">Подробнее</a>
                     </div>
-
-
                     <div class="program_popup-block popup">
 
                         <div class="pop-up_content program_popup-content" id="popup4">
 
                             <p><em>За руками, как и за ногтями, нужен уход с использованием профессиональных средств. Вы
-                                    научитесь современным SPA-процедурам для омоложения, увлажнения кожи рук. </em></p>
+                                    научитесь современным SPA-процедурам для омоложения, увлажнения кожи рук.</em></p>
 
                         </div>
                     </div>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/7c0e0b77765d99eb55d5835e5b52681c.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course6.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">20 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>20 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Дизайн ногтей</div>
-                        <p class="program_text-desc">Во время занятий вы научитесь выполнять втирку блестками, дизайну
-                            бархатным песком и 3D, 4D гелями, инкрустации стразами, китайской росписи и другим
-                            художественным приемам. </p>
+                        <div>Дизайн ногтей</div>
+                        <p class="program_text-desc">Во время занятий вы научитесь выполнять дизайны с блестками, со
+                            стразами, дизайн акриловой краской, дизайн на матовом покрытии, различные наклейки, дизайн с
+                            бульенками, классический френч, дизайн профессиональной иглой по мокрому лаку и дизайн
+                            стемпинг. Обработка на тренировачных картах.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup5" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup5" class="js-pop-up  program_link">Подробнее</a>
                     </div>
-
-
                     <div class="program_popup-block popup">
 
                         <div class="pop-up_content program_popup-content" id="popup5">
@@ -240,23 +237,26 @@ get_header(); ?>
                 </li>
                 <li class="program_item">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/1636064.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course7.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">7 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>7 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Заболевания ногтей</div>
+                        <div>Заболевания ногтей</div>
                         <p class="program_text-desc">Мы расскажем, как работать с проблемными ногтями, как ухаживать за
                             ними, чтобы избежать грибковых и других заболеваний, которые возникают на ногтевых
-                            пластинах. </p>
+                            пластинах.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup6" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup6" class="js-pop-up  program_link">Подробнее</a>
                     </div>
-
-
                     <div class="program_popup-block popup">
 
                         <div class="pop-up_content program_popup-content" id="popup6">
@@ -269,25 +269,28 @@ get_header(); ?>
                         </div>
                     </div>
                 </li>
-                <li class="program_item">
+                <li class="program_item program_item--fix">
                     <div class="program_img"
-                         style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/08/metody-i-sredstva-dezinfekcii-manikyurnyh-instrumentov.jpg)">
+                         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/course8.jpg)">
                         <div class="program_img-name">
                         </div>
-                        <div class="btn">6 часов</div>
+                        <div class="border-trap">
+                            <div class="program-vip-child-border">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/images/stopwatch1.png"
+                                     alt="img"><span>6 часов</span>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="program_text">
-                        <div class="program_text-bold">Дезинфекция и подготовка рабочего места</div>
+                        <div>Дезинфекция и подготовка рабочего места</div>
                         <p class="program_text-desc">Мастер маникюра должен принимать клиентов на аккуратном и
                             безопасном рабочем месте, постоянно дезинфицировать, стерилизовать инструменты и рабочие
-                            поверхности. </p>
+                            поверхности.</p>
                     </div>
-                    <div class="program_btn ">
-                        <a href="#popup7" class="js-pop-up btn program_link">Подробнее...</a>
+                    <div class="program_btn--vip ">
+                        <a href="#popup7" class="js-pop-up  program_link">Подробнее</a>
                     </div>
-
-
                     <div class="program_popup-block popup">
 
                         <div class="pop-up_content program_popup-content" id="popup7">
@@ -300,243 +303,432 @@ get_header(); ?>
                         </div>
                     </div>
                 </li>
+                <li class="program_item">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/li-img.jpg" alt="img">
+
+                </li>
+
             </ul>
         </div>
     </div>
+    <img class="bg-img-section1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img-section1.png"
+         alt="img">
+    <img class="bg-img-section2" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img-section2.png"
+         alt="img">
 </section>
-
-
-<section class="section action">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
+<?php get_template_part('./template-parts/sections/action'); ?>
+<section class="section new-vip-action">
     <div class="container-fluid">
-        <div class="action_content shadow-text--light">
+        <div class="new-vip-action-content">
+            <p><span class="text-yellow">Двойная выгода!</span><br>
+                Запишись на <span class="text-red">«VIP – Мастер Универсал»</span> <br>
+                и пройди <span class="text-yellow">21 дополнительный курс</span> школы <br>
+                <span class="text-red">со скидкой 30%*</span></p>
 
-            <div class="action_content-period" style="padding-bottom: 6rem;">
-                <div class="action_content-top">
+            <div class="text-gray">* Предложение только для выпускников школы “Золотая ника” по курсу VIP – Мастер
+                Универсал
+            </div>
+        </div>
+        <ul class="new-vip-action_list">
+            <li class="new-vip-action_item">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/vip-icon1.png" alt="img">
+                <p>Бесплатные<br>
+                    материалы<br>
+                    для обучения</p>
+            </li>
+            <li class="new-vip-action_item">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/vip-icon2.png" alt="img">
+                <p>21 курс<br>
+                    повышения<br>
+                    мастерства</p>
+            </li>
+            <li class="new-vip-action_item">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/vip-icon3.png" alt="img">
+                <p>Лучшие<br>
+                    преподоватли<br>
+                    в Nail инлустрии</p>
+            </li>
+            <li class="new-vip-action_item">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/images/vip-icon4.png" alt="img">
+                <p>Высокое<br>
+                    качество<br>
+                    обучения</p>
+            </li>
+        </ul>
+        <div class="sub-section_btn-block">
+            <a href="#form-page-vip" class="sub-section_link button button-vip js-pop-up">
+                <span class="btn-yallow"></span>
+                Записаться на курс</a>
+        </div>
+    </div>
+</section>
+<section class="section about-school--vip about-school--home" id="about">
+    <h3 class="vip-title">О нашей школе</h3>
 
-                    <h2>
-                        <strong>Внимание!</strong>
-                    </h2>
+    <div class="container-fluid">
+        <div class="about-school_content">
+
+            <div class="about-school_video-block">
+                <div class="about-school_video">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kp2g_KGPtE" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
-                <div class="action_content-top-border"></div>
-                <h2><strong>Во время обучения вы<br>
-                        <span style="color: #ff0000;">НЕ ДОПЛАЧИВАЕТЕ</span> за инструменты, <br>модели, как в других
-                        школах.</strong>
-                </h2>
-                <h2 class="border-str" style="margin: 2rem auto 0; max-width: 111rem; "><strong><span
-                                style="color: #000000;"> Мы предоставляем расходные материалы </span>
-                        <span
-                                style="color: #00ff00;"><span
-                                    style="color: #339966;">БЕСПЛАТНО!</span> </span>&nbsp;
-                    </strong>
-                </h2>
+                <div class="about-school_desc ">
+                    <div class="about-school_desc-title">Учебный центр «Золотая Ника»</div>
+                    <div class="about-school_desc-text">
+                        <p> Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
+                            лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены нужным
+                            Оборудованием, Мультимедийными Системами, Наглядными Пособиями, поэтому вы сможете получить
+                            профессию в Максимально Удобных Условиях.</p>
+
+                        <p> Главная задача Учебного Центра состоит в обучении Маникюру, Педикюру и Наращиванию ногтей на
+                            VIP-уровне, а главная цель школы — максимально полно и гармонично обучить Любого Желающего
+                            бесценным знаниям в области Ногтевого Сервиса.</p>
+                    </div>
+
+                </div>
 
 
+            </div>
+
+            <div class="about_info-block">
+                <div class="about_img-block about_img-block--text">
+                    <img class="about-img-text-bg"
+                         src="<?php echo get_template_directory_uri() ?>/assets/images/shoud2.png" alt="img">
+                    <div class="about-img-text-content">
+                        <h3 class="about-block-top-title">Выдаем <br> диплом!</h3>
+                        <h3 class="about-block-title">Мастер-универсал
+                            ногтевого сервиса!</h3>
+                        <ul>
+                            <li>— После обучения Вы получите диплом
+                                - Мастер-универсал ногтевого сервиса
+                            </li>
+                            <li>— Диплом утвержден Департаментом
+                                образования г. Москва
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="about_img-block">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/image1.jpg" alt="img">
+
+                </div>
             </div>
 
         </div>
-        <?php if (!empty($action['action-form'])) {
-            ?>
-            <div class="action_form">
-                <?php echo do_shortcode($action['action-form']); ?>
+    </div>
+</section>
+<section class="section vip-photo-classes photo">
+    <div class="container-fluid">
+        <h3 class="vip-title"> Фотографии учебных классов и кабинетов</h3>
+        <div class="photo_content">
+            <div class="photo_slider js-photo-slider-vip">
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0889-1.jpg"
+                           class="photo_slider-link" tabindex="0"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0889-1.jpg"
+                                    class="photo_img"
+                                    alt="Класс для обучения и отработки практики по  педикюру">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0891-1.jpg"
+                           class="photo_slider-link" tabindex="0"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0891-1.jpg"
+                                    class="photo_img" alt="Класс для обучения педикюру">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0892-1.jpg"
+                           class="photo_slider-link" tabindex="0"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0892-1.jpg"
+                                    class="photo_img"
+                                    alt="Класс для обучения и отработки практики по  педикюру">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0904-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0904-1.jpg"
+                                    class="photo_img" alt="Лекционный класс">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0907-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0907-1.jpg"
+                                    class="photo_img" alt="Лекционный класс">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0928-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0928-1.jpg"
+                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0936-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0936-1.jpg"
+                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0938-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0938-1.jpg"
+                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6136-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6136-1.jpg"
+                                    class="photo_img" alt="Класс по обучению маникюру">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6141-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6141-1.jpg"
+                                    class="photo_img" alt="Класс по обучению маникюру">
+
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6149-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6149-1.jpg"
+                                    class="photo_img" alt="Кабинет дезинфекции и стерилизации">
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6156-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6156-1.jpg"
+                                    class="photo_img" alt="Класс по обучению маникюру">
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6161-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6161-1.jpg"
+                                    class="photo_img" alt="Класс по обучению Мехенди и Нейл Арт">
+
+                        </a>
+                    </div>
+                </div>
+
+                <div class="photo_slider-elem">
+                    <div class="photo_slider-wrapp js-pop-up-img">
+                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6168-1.jpg"
+                           class="photo_slider-link" tabindex="-1"> <img
+                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6168-1.jpg"
+                                    class="photo_img"
+                                    alt="Класс аппаратного маникюра, педикюра,  японский маникюр">
+
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
-        <?php } ?>
+        </div>
     </div>
 
+    <div class="photo-vip_text">
+
+        <div class="btn-vip">
+            <a class="btn-vip-link" href="https://www.shkola-nika.ru/photo-vip-master/">Больше фотографий</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section advantages-vip-page">
+    <div class="border-trap border-trap--reverse">
+        <?php if (get_field('advantages-vip-title')): ?>
+            <div class="advantages-vip_title">
+                <?php the_field('advantages-vip-title') ?>
+            </div>
+        <?php endif; ?>
+    </div>
+    <div class="container-fluid">
+        <?php if (have_rows('advantages-vip--list')): ?>
+            <ul class="vip-advantages">
+                <?php while (have_rows('advantages-vip--list')): the_row(); ?>
+                    <li class="vip-advantages_item">
+                        <?php if (get_sub_field('advantages-vip--icon')): ?>
+                            <div class="vip-advantages_img-block">
+                                <img src="<?php the_sub_field('advantages-vip--icon') ?>" alt="img">
+                            </div>
+                        <?php endif; ?>
+                        <?php if (get_sub_field('advantages-vip--text-title')): ?>
+                            <h4 class="vip-advantages_title"><?php the_sub_field('advantages-vip--text-title') ?></h4>
+                        <?php endif; ?>
+                        <?php if (get_sub_field('advantages-vip--text-desc')): ?>
+                            <div class="vip-advantages_desc">
+                                <?php the_sub_field('advantages-vip--text-desc') ?>
+                            </div>
+                        <?php endif; ?>
+                    </li>
+                <?php endwhile; ?>
+
+            </ul>
+        <?php endif; ?>
+        <div class="advantages-vip-img">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/women-png.png" alt="img">
+
+        </div>
+    </div>
+</section>
+<?php get_template_part('./template-parts/sections/photo2'); ?>
+<section class="section vip-teachers">
+    <div class="container-fluid">
+        <h3 class="vip-title">Наши преподаватели</h3>
+        <ul class="vip-teachers_list">
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block"
+                     style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/12.jpg)">
+                </div>
+                <div class="vip-teachers_name">Шерри магомедова</div>
+                <div class="vip-teachers_position">Завуч школы «Золотая Ника»</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Технологии современных трендов - Nail Art;
+                        Тонкие линии в дизайне; Мехенди.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block"
+                     style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/543.jpg)">
+                </div>
+                <div class="vip-teachers_name">олеся солодилова</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Аппаратные технологии; Японский маникюр; Бразильский маникюр; Горячий маникюр.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block"
+                     style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/563.jpg)">
+                </div>
+                <div class="vip-teachers_name">Ирина лабода</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Арочное моделирование;
+                        3D и 4D лепка гелем; Акварельная техника в дизайне.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block"
+                     style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/36485.jpg)">
+                </div>
+                <div class="vip-teachers_name">Любовь Светличная</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Японский маникюр; Бразильский маникюр; Горячий маникюр;
+                        SPA-уход за кожей рук и ног..</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </section>
 
 <?php get_template_part('./template-parts/sections/faq'); ?>
+<?php get_template_part('./template-parts/sections/unique-offer'); ?>
+<?php get_template_part('./template-parts/sections/we-study-vip'); ?>
+<?php get_template_part('./template-parts/sections/licenses'); ?>
 
-<div class="section section diplom"
+<?php get_template_part('./template-parts/sections/reviews-vip'); ?>
 
 
-     style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/diploma-clipart-2.png)">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
-    <div class="container-fluid">
-        <div class="diplom_content">
-            <div class="diplom_left">
-                <h3 class="diplom_title shadow-text--light">
-                    <p>Выдаем Диплом: </p>
-
-                </h3>
-                <div class="diplom_green">
-                    <div style="color: #f03866;"><strong>«Мастер — универсал Ногтевого Сервиса»</strong></div>
-                    <div class="diplom_right">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/09/1301_Золотая-Ника_ДИПЛОМ-01.jpg"
-                             alt="Диплом школа маникюра ">
-                    </div>
-                </div>
-                <ul class="diplom_list">
-                    <li class="diplom_item shadow-text--light">
-                        После обучения вы получите Диплом — "Мастер — Универсал Ногтевого Сервиса"
-                    </li>
-                    <li class="diplom_item shadow-text--light">
-                        Диплом утверждён Департаментом образования г. Москва
-                    </li>
-                </ul>
-            </div>
-
-        </div>
+<div class="section section partners partners--vip">
+    <div class="partners_title">
+        300 Салонов-Партнеров, которые ждут Вас на Работу после Обучения!
     </div>
-</div>
-
-
-<section class="section pass-section shadow-text--light">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
-
     <div class="container-fluid">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/link-img.png" alt="img">
-        <div class="pink-block pink-line-block">
-            <p>Пропустили занятие?</p>
-        </div>
-        <div class="pass-section-desc">
-            <p>Вы сможете возобновить обучение!</p>
 
-            <p> В любое время с того места, на котором остановились!</p>
-
-            <p> Даже через Неделю, Месяц или Год!</p>
-        </div>
-    </div>
-</section>
-
-<section class="section advantages-main"
-
-
-         style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/images/bg-png.png)">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
-    <div class="container-fluid">
-        <div class="advantages-main_content ">
-            <h3 class="title shadow-text--light">Наши преимущества:</h3>
-            <ul class="advantages-main_list shadow-text--super-light">
-
-                <li class="advantages-main_item">
-                    <div class="advantages-main_icon-block">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/11/4.svg" alt="icon"
-                             class="advanyages_icon">
-                    </div>
-                    <div class="advantages-main_item-title">Никаких доплат!</div>
-                    <div class="advantages-main_item-desc">
-                        <p><strong>Вы платите только за курс! Все остальное – инструменты, модели, расходные материалы –
-                                предоставляется бесплатно! </strong></p>
-                    </div>
-                </li>
-
-
-                <li class="advantages-main_item">
-                    <div class="advantages-main_icon-block">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/11/6565.svg" alt="icon"
-                             class="advanyages_icon">
-                    </div>
-                    <div class="advantages-main_item-title">Гарантия трудоустройства</div>
-                    <div class="advantages-main_item-desc">
-                        <p><strong>Как только обучение закончится, ваши контакты и выпускные работы будут разосланы по
-                                салонам красоты Москвы и Московской области. Где работать и получать высокий доход, вы
-                                выберете сами! </strong></p>
-                    </div>
-                </li>
-
-
-                <li class="advantages-main_item">
-                    <div class="advantages-main_icon-block">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/11/2306.svg" alt="icon"
-                             class="advanyages_icon">
-                    </div>
-                    <div class="advantages-main_item-title">Удобный график</div>
-                    <div class="advantages-main_item-desc">
-                        <p><strong>Мы набираем дневные, вечерние и выходные группы. Возможно возобновление занятий при
-                                пропусках с того места, где закончилось обучение. </strong></p>
-                    </div>
-                </li>
-
-
-                <li class="advantages-main_item">
-                    <div class="advantages-main_icon-block">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/11/564456.svg" alt="icon"
-                             class="advanyages_icon">
-                    </div>
-                    <div class="advantages-main_item-title">Диплом установленного образца</div>
-                    <div class="advantages-main_item-desc">
-                        <p><strong>Диплом, выданный нашей школой, станет гарантией того, что ваши знания и навыки будут
-                                востребованы в лучших салонах России. </strong></p>
-                    </div>
-                </li>
-
-
-                <li class="advantages-main_item">
-                    <div class="advantages-main_icon-block">
-                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/11/56265.svg" alt="icon"
-                             class="advanyages_icon">
-                    </div>
-                    <div class="advantages-main_item-title">Квалифицированные преподаватели</div>
-                    <div class="advantages-main_item-desc">
-                        <p><strong>За ваше обучение отвечают практикующие преподаватели с 15-летним опытом работы! Они
-                                умело совмещают в своей работе знания и навыки и модные тенденции сезона
-                                2018-2019! </strong></p>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-</section>
-
-
-<section class="section action">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
-    <div class="container-fluid">
-        <div class="action_content shadow-text--light">
-
-            <div class="action_content-period" style="padding-bottom: 6rem;">
-                <div class="action_content-top">
-
-                    <h2>
-                        <strong>Уникальное предложение!</strong>
-                    </h2>
-                </div>
-                <div class="action_content-top-border"></div>
-                <h2><strong>Если по окончанию обучения Вы не <br> освоите материал.</strong>
-                </h2>
-                <h2 class="border-str" style="margin: 2rem auto 0; max-width: 111rem; "><strong>
-                     <span
-                             style="color: #339966;">Вернем Деньги!</span>
-                    </strong>
-                </h2>
-
-                <div class="h3-wrapp">
-                    <h3><span style="color: #000000;"><strong>Мы единственная школа, которая дает <br>Финансовую Гарантию!</strong></span>
-                    </h3>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<div class="section section partners">
-    <img class="img-br" src="<?php echo get_template_directory_uri() ?>/assets/images/border-img.png" alt="img">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
-    <div class="container-fluid">
-        <div class="partners_title shadow-text--light">
-            300 Салонов-Партнеров, которые ждут Вас на Работу после Обучения!
-        </div>
         <div class="partners_slider ">
-
 
             <div>
                 <div class="partners_slider-elem">
                     <img src="https://shkola-manikyura.com/wp-content/uploads/2018/08/logo1.png" alt="">
                 </div>
             </div>
-
 
             <div>
                 <div class="partners_slider-elem">
@@ -602,97 +794,100 @@ get_header(); ?>
 
 </div>
 
-
-<section class="section about-school about-school--main" id="about">
-    <img class="img-bg img-pos1" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img3.png" alt="img">
-    <img class="img-bg img-pos3" src="<?php echo get_template_directory_uri() ?>/assets/images/bg-img2.png" alt="img">
+<section class="section vip-photo-classes photo">
     <div class="container-fluid">
-        <div class="about-school_content">
-            <h3 class="title shadow-text--light">О нашей школе</h3>
-            <div class="about-school_wrap">
+        <h3 class="vip-title">Фотографии c уроков</h3>
+        <div class="photo_content">
+            <?php if (have_rows('photo-list-vip-lesson')): ?>
+                <div class="photo_slider js-photo-slider-vip">
+                    <?php while (have_rows('photo-list-vip-lesson')):
+                        the_row(); ?>
+                        <div class="photo_slider-elem">
+                            <div class="photo_slider-wrapp js-pop-up-img">
+                                <a href="<?php the_sub_field('photo-list-vip-lesson-vip'); ?>"
+                                   class="photo_slider-link"> <img
+                                            src="<?php the_sub_field('photo-list-vip-lesson-vip'); ?>" class="photo_img"
+                                            alt="photo">
 
-
-                <div class="about-school_video-block">
-
-                    <div class="about-school_desc shadow-text--super-light">
-                        <img class="text-img"
-                             src="<?php echo get_template_directory_uri() ?>/assets/images/img111.png)" alt="img">
-                        <div class="about-school_desc-title">Учебный Центр «Золотая Ника»</div>
-                        <div class="about-school_desc-text">
-
-                            <p>Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
-                                лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены
-                                нужным Оборудованием, Мультимедийными Системами, Наглядными Пособиями, поэтому вы
-                                сможете получить профессию в Максимально Удобных Условиях.</p>
-                            <p>Главная задача Учебного Центра состоит в обучении Маникюру, Педикюру и Наращиванию ногтей
-                                на VIP-уровне, а главная цель школы — максимально полно и гармонично обучить Любого
-                                Желающего бесценным знаниям в области Ногтевого Сервиса.</p>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    <?php endwhile; ?>
                 </div>
-                <div class="about-school_video">
+            <?php endif; ?>
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kp2g_KGPtE" frameborder="0"
-                            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+            <div class="photo-vip_text">
+
+                <div class="btn-vip">
+                    <a class="btn-vip-link" href="<?php the_field('photo-list-vip-lesson-link'); ?>">Больше
+                        фотографий</a>
                 </div>
 
             </div>
-            <ul class="about-school_list">
 
-                <li class="about-school_item shadow-text--super-light">
-                    <div class="about-school_item-block">
-                        <p>2 этажа</p>
-                    </div>
-                    <p>2 этажа для Комфортного Обучения!</p>
-                </li>
-
-                <li class="about-school_item shadow-text--super-light">
-                    <div class="about-school_item-block">
-                        <p>650 кв. м.</p>
-                    </div>
-                    <p>650 м² — это площадь, которую занимает Школа!</p>
-                </li>
-
-                <li class="about-school_item shadow-text--super-light">
-                    <div class="about-school_item-block">
-                        <p>8 заллов</p>
-                    </div>
-                    <p>8 современных&nbsp; Лекционных залов!</p>
-                </li>
-            </ul>
         </div>
+
     </div>
 </section>
-
-
-<?php get_template_part('./template-parts/sections/photo-study-vip'); ?>
-<section class="section pink-line-block shadow-text--light">
+<section class="section section-info-new section-info-new--vip">
     <div class="container-fluid">
-        <div class="pink-line-block-content">
-            <p>Школа «Золотая Ника»: мы реально учим!</p>
+        <div class="section-info-new_content ">
+            <div class="section-info-new-block ">
+                <div class="section-info-new_wrap">
+                    <div class="section-info-new_img">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/info-img1.jpg" alt="img">
+
+                    </div>
+                    <div class="section-info-new_text">
+                        <h3 class="section-info-new_title">запись моделей</h3>
+                        <div class="vip-teachers_border"></div>
+                        <div class="section-info-new_desc"><p>Хотите стать Моделью для наших мастеров и получить
+                                стильный маникюр или педикюр совершенно бесплатно?</p>
+                            <p>Приходите в школу «Золотая Ника» и подчеркните свою красоту и изящество красивыми
+                                ноготками!</p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="border-trap section-info-absl">
+                            <p>Ждем ваших заявок по телефону&nbsp;—&nbsp;8-915-494-82-64</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="section-info-new-block">
+                <div class="section-info-new_wrap section-info-new_wrap--reverse">
+                    <div class="section-info-new_img">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/info-img2.jpg" alt="img">
+                    </div>
+                    <div class="section-info-new_text">
+                        <h3 class="section-info-new_title">информация для салонов</h3>
+                        <div class="vip-teachers_border"></div>
+                        <div class="section-info-new_desc"><p>Если вашему салону нужны Профессиональные мастера Маникюра
+                                и Педикюра, высылайте свои Резюме для Соискательниц на нашу электронную почту</p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p><strong><span style="color: #ff0000;">В заявке укажите:</span> Требования к мастерам, %,
+                                    который будет им выплачиваться, Условия работы и территориальное Расположение вашего
+                                    Салона. </strong></p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="border-trap border-trap--reverse section-info-absl">
+                            <p>info@shkola-nika<span>.ru</span></p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
+
+
 </section>
-<?php //get_template_part('./template-parts/sections/about-number'); ?>
 
-<?php //get_template_part('./template-parts/sections/video-home'); ?>
-<?php get_template_part('./template-parts/sections/realy-study-vip'); ?>
-<!---->
-<?php get_template_part('./template-parts/sections/teachers-vip'); ?>
-<?php //get_template_part('./template-parts/sections/photo2'); ?>
-<?php //get_template_part('./template-parts/sections/grafic'); ?>
-<?php //get_template_part('./template-parts/sections/info'); ?>
-<?php get_template_part('./template-parts/sections/numbers-vip'); ?>
-<?php //get_template_part('./template-parts/sections/advantages-main-home'); ?>
-<?php //get_template_part('./template-parts/sections/info_link'); ?>
+<?php get_template_part('./template-parts/sections/text'); ?>
 
-<?php get_template_part('./template-parts/sections/reviews-vip'); ?>
-<?php get_template_part('./template-parts/sections/info-vip'); ?>
-<?php get_template_part('./template-parts/sections/photo'); ?>
-
-<!---->
-<!---->
-<?php //get_template_part('./template-parts/sections/text'); ?>
 <?php get_template_part('./template-parts/sections/contacts-vip'); ?>
 
 

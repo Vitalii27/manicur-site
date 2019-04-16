@@ -7,6 +7,6 @@ jQuery(function($) {
 
 
     if (!ua.search(/MSIE/) > 0){
-        console.log('dsf')
+
     }
 });

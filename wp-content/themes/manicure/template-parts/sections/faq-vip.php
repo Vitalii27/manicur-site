@@ -1,10 +1,5 @@
 <section class="section faq shadow-text--light">
-    <?php if (get_field('faq_top-image')): ?>
-        <img src="<?php the_field('faq_top-image') ?>" alt="img" class="faq_top">
-    <?php endif; ?>
-    <?php if (get_field('faq_bottom-image')): ?>
-        <img src="<?php the_field('faq_bottom-image') ?>" alt="img" class="faq_bottom">
-    <?php endif; ?>
+
     <div class="container-fluid">
         <?php if (get_field('faq_title')): ?>
             <h3 class="title"><?php the_field('faq_title') ?></h3>
@@ -32,4 +27,5 @@
             </ul>
         <?php endif; ?>
     </div>
+
 </section>

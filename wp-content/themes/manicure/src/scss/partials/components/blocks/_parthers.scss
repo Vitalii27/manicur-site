@@ -3,12 +3,12 @@
   padding-bottom: 9rem;
   text-align: center;
   background-color: #f0eeee;
-  .img-pos1{
+  .img-pos1 {
     left: 0;
     top: 2%;
     max-height: 40rem;
   }
-  .img-pos3{
+  .img-pos3 {
     right: 0;
     top: 35%;
   }
@@ -29,10 +29,10 @@
     flex-wrap: wrap;
     align-items: center;
     &-elem {
-margin: 1.5rem;
+      margin: 1.5rem;
       position: relative;
       padding-right: 1.5rem;
-      img{
+      img {
         max-height: 8rem;
       }
     }
@@ -46,7 +46,23 @@ margin: 1.5rem;
   }
 }
 
+.partners--vip {
+  padding-top: 0;
+  .partners_title {
+    background-color: $red-third;
+    font-family: $oswald-font;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $white;
+    max-width: 100%;
+    width: 100%;
+    padding: 1.45rem 1.5rem;
+  }
+
+}
+
 @media only screen and (max-width: $screen-xs-max) {
+
   .partners {
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -56,6 +72,12 @@ margin: 1.5rem;
     &_slider {
       margin-top: 1rem;
       margin-bottom: 0;
+    }
+  }
+  .partners--vip{
+    padding-top: 0;
+    .partners_title{
+      font-size: 2.2rem;
     }
   }
 }

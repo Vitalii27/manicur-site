@@ -1,0 +1,1790 @@
+WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 161,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%b2-%d0%bf%d0%be%d0%bf%d0%b0%d0%bf%d0%b5',
+   'title' => 'Форма в попапе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="callback_content">
+                <div class="callback_block">
+                   [text* form-name class:form_input class:callback_input placeholder "Ваше имя"]
+                </div>  <div class="callback_block">
+                   [tel* form-tel class:form_input class:callback_input placeholder "Ваш телефон"]
+                </div>
+                <div class="callback_block">
+                   [submit class:btn-form class:btn class:callback_btn "Отправить заявку"]
+                             </div>
+<input type="hidden" name="roistat-promo-code">
+            </div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Тема: Заявка',
+      'sender' => '[form-name] <wordpress@shkola-manikyura.com>',
+      'recipient' => 'nica-school@yandex.ru',
+      'body' => 'Имя: [form-name]
+Телефон: [form-tel]',
+      'additional_headers' => '',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => '',
+      'sender' => '',
+      'recipient' => '',
+      'body' => '',
+      'additional_headers' => '',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за ваше сообщение. Он был отправлен.',
+      'mail_sent_ng' => 'Произошла ошибка при отправке сообщения. Пожалуйста, повторите попытку позже.',
+      'validation_error' => 'Одно или несколько полей имеют ошибку. Пожалуйста проверьте и попробуйте снова.',
+      'spam' => 'Произошла ошибка при отправке сообщения. Пожалуйста, повторите попытку позже.',
+      'accept_terms' => 'Перед отправкой сообщения вы должны принять условия.',
+      'invalid_required' => 'Поле обязательно.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты неверен.',
+      'date_too_early' => 'Дата предшествует раннему разрешению..',
+      'date_too_late' => 'Дата после последнего разрешена.',
+      'upload_failed' => 'Не удалось загрузить файл.',
+      'upload_file_type_invalid' => 'Вы не можете загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой..',
+      'upload_failed_php_error' => 'Произошла ошибка при загрузке файла.',
+      'invalid_number' => 'Формат номера недействителен.',
+      'number_too_small' => 'Число меньше разрешенного минимума..',
+      'number_too_large' => 'Номер больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Ответ на викторину неверен.',
+      'captcha_not_match' => 'Your entered code is incorrect.',
+      'invalid_email' => 'Указанный адрес электронной почты недействителен.',
+      'invalid_url' => 'Недопустимый URL.',
+      'invalid_tel' => 'Номер телефона недействителен.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'class:callback_input',
+        2 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'class:callback_input',
+        2 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:btn-form',
+        1 => 'class:btn',
+        2 => 'class:callback_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Отправить заявку',
+      ),
+       'values' => 
+      array (
+        0 => 'Отправить заявку',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Отправить заявку',
+             'after' => 'Отправить заявку',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Отправить заявку',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))WPCF7_ContactForm::__set_state(array(
+   'id' => 1530,
+   'name' => '%d1%84%d0%be%d1%80%d0%bc%d0%b0-%d0%bd%d0%b0-%d0%ba%d1%83%d1%80%d1%81%d0%b5',
+   'title' => 'Форма на курсе',
+   'locale' => 'ru_RU',
+   'properties' => 
+  array (
+    'form' => '<div class="form_container">
+
+                <div class="form_input-block">
+                [text* form-name class:form_input placeholder "Ваше имя"]
+                </div>
+                <div class="form_input-block">
+              [tel* form-tel class:form_input placeholder "Ваш телефон"]
+                </div>
+
+           <div class="form_btn-block">
+                      [submit class:form_btn "Записаться на курс"]
+                </div>    
+      [hidden form-hidden class:form_hiiden ]  
+
+
+</div>',
+    'mail' => 
+    array (
+      'active' => true,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => '[your-name] <wordpress@manicure-site>',
+      'recipient' => 'trane2929@gmail.com',
+      'body' => 'От: [your-name] <[your-email]>
+Тема: [your-subject]
+
+Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: [your-email]',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'mail_2' => 
+    array (
+      'active' => false,
+      'subject' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы "[your-subject]"',
+      'sender' => 'Школа маникюра и педикюра в Москве - "Золотая Ника" - обучение и курсы <wordpress@manicure-site>',
+      'recipient' => '[your-email]',
+      'body' => 'Сообщение:
+[your-message]
+
+-- 
+Это сообщение отправлено с сайта Школа маникюра и педикюра в Москве - &quot;Золотая Ника&quot; - обучение и курсы (http://manicure-site)',
+      'additional_headers' => 'Reply-To: trane2929@gmail.com',
+      'attachments' => '',
+      'use_html' => false,
+      'exclude_blank' => false,
+    ),
+    'messages' => 
+    array (
+      'mail_sent_ok' => 'Спасибо за Ваше сообщение. Оно успешно отправлено.',
+      'mail_sent_ng' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'validation_error' => 'Одно или несколько полей содержат ошибочные данные. Пожалуйста, проверьте их и попробуйте ещё раз.',
+      'spam' => 'При отправке сообщения произошла ошибка. Пожалуйста, попробуйте ещё раз позже.',
+      'accept_terms' => 'Вы должны принять условия и положения перед отправкой вашего сообщения.',
+      'invalid_required' => 'Поле обязательно для заполнения.',
+      'invalid_too_long' => 'Поле слишком длинное.',
+      'invalid_too_short' => 'Поле слишком короткое.',
+      'invalid_date' => 'Формат даты некорректен.',
+      'date_too_early' => 'Введённая дата слишком далеко в прошлом.',
+      'date_too_late' => 'Введённая дата слишком далеко в будущем.',
+      'upload_failed' => 'При загрузке файла произошла неизвестная ошибка.',
+      'upload_file_type_invalid' => 'Вам не разрешено загружать файлы этого типа.',
+      'upload_file_too_large' => 'Файл слишком большой.',
+      'upload_failed_php_error' => 'При загрузке файла произошла ошибка.',
+      'invalid_number' => 'Формат числа некорректен.',
+      'number_too_small' => 'Число меньше минимально допустимого.',
+      'number_too_large' => 'Число больше максимально допустимого.',
+      'quiz_answer_not_correct' => 'Неверный ответ на проверочный вопрос.',
+      'captcha_not_match' => 'Код введен неверно.',
+      'invalid_email' => 'Неверно введён электронный адрес.',
+      'invalid_url' => 'Введён некорректный URL адрес.',
+      'invalid_tel' => 'Введён некорректный телефонный номер.',
+    ),
+    'additional_settings' => '',
+  ),
+   'unit_tag' => NULL,
+   'responses_count' => 0,
+   'scanned_form_tags' => 
+  array (
+    0 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'text*',
+       'basetype' => 'text',
+       'name' => 'form-name',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваше имя',
+             'after' => 'Ваше имя',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваше имя',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    1 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'tel*',
+       'basetype' => 'tel',
+       'name' => 'form-tel',
+       'options' => 
+      array (
+        0 => 'class:form_input',
+        1 => 'placeholder',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'values' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Ваш телефон',
+             'after' => 'Ваш телефон',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Ваш телефон',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    2 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'submit',
+       'basetype' => 'submit',
+       'name' => '',
+       'options' => 
+      array (
+        0 => 'class:form_btn',
+      ),
+       'raw_values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'values' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+          0 => 
+          WPCF7_Pipe::__set_state(array(
+             'before' => 'Записаться на курс',
+             'after' => 'Записаться на курс',
+          )),
+        ),
+      )),
+       'labels' => 
+      array (
+        0 => 'Записаться на курс',
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+    3 => 
+    WPCF7_FormTag::__set_state(array(
+       'type' => 'hidden',
+       'basetype' => 'hidden',
+       'name' => 'form-hidden',
+       'options' => 
+      array (
+        0 => 'class:form_hiiden',
+      ),
+       'raw_values' => 
+      array (
+      ),
+       'values' => 
+      array (
+      ),
+       'pipes' => 
+      WPCF7_Pipes::__set_state(array(
+         'pipes' => 
+        array (
+        ),
+      )),
+       'labels' => 
+      array (
+      ),
+       'attr' => '',
+       'content' => '',
+    )),
+  ),
+   'shortcode_atts' => 
+  array (
+  ),
+))
+
+
+

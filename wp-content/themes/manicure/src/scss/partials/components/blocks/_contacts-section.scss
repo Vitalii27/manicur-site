@@ -51,29 +51,38 @@
 }
 
 .contacts--vip {
+  background-color: $white;
+  font-family: $oswald-font;
+  padding-top: 3rem;
   .title{
     text-align: center;
   }
   .contacts_content {
-    margin-top: 9rem;
+    margin-top: 2rem;
     background-color: $white;
-    border-left: 12px solid #f8e7b8;
-    border-right: 12px solid #e6bcbc;
-    background-position: 0 0, 0 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 12px;
-    background-image: linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%), linear-gradient(to right, #f8e7b8 0%, #e6bcbc 100%);
+
     padding: 4rem 4rem;
+  }
+  .contacts_text {
+    padding-top: 0;
   }
   .contacts_content {
     display: block;
+    &:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
   }
   .contacts_map {
     float: left;
-    width: 48%;
-    height: 47rem;
+    width: 46%;
+    height: 40rem;
     border-radius: 0;
-    margin-top: -10rem;
+
   }
 }
 
@@ -81,7 +90,15 @@
   .contacts--vip .contacts_map{
     float: none;
 width: 100%;
+    margin-bottom: 1.5rem;
     
+  }
+  .contacts--vip{
+   .contacts_content{
+     margin-top: 1.5rem;
+     padding-left: 0;
+     padding-right: 0;
+   }
   }
   .contacts-section {
     padding-top: 4rem;

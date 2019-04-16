@@ -1,0 +1,112 @@
+.we-study-vip {
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+  &_list {
+    font-family: $oswald-font;
+    margin-top: 7rem;
+    .vip-teachers_border{
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
+  &_item {
+    display: flex;
+    margin-top: 4rem;
+    position: relative;
+    &:first-child {
+      .we-realy-study-bg-img {
+        left: -13%;
+        top: 23%;
+      }
+    }
+    &:nth-child(2n){
+      .we-realy-study-bg-img {
+        right: -13%;
+        top: 68%;
+      }
+    }
+    &:last-child{
+      .we-realy-study-bg-img {
+        left: -13%;
+        top: -20%;
+      }
+    }
+  }
+  &_item--reverse {
+    flex-direction: row-reverse;
+    .we-study-vip_img-block {
+      margin-right: 0;
+      margin-left: 3rem;
+    }
+
+  }
+  &_img-block {
+    margin-right: 3rem;
+    position: relative;
+    z-index: 2;
+    max-width: 47rem;
+    width: 100%;
+    img {
+      max-width: 47rem;
+      max-height: 34rem;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+  &_first-block {
+    margin-top: 1.5rem;
+    position: relative;
+    z-index: 2;
+
+    h3 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.6rem;
+      line-height: 1.5;
+    }
+  }
+  .we-realy-study-bg-img {
+    position: absolute;
+
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .we-study-vip{
+    padding-top: 3rem;
+
+  }
+  .we-study-vip_item{
+    flex-direction: column;
+    text-align: center;
+    .vip-teachers_border{
+      margin: 1.5rem auto;
+    }
+    .we-realy-study-bg-img{
+      display: none;
+    }
+  }
+  .we-study-vip_img-block img{
+    max-height: none;
+    max-width: 100%;
+    height: auto;
+  }
+  .we-study-vip_img-block{
+    margin: 0 auto;
+  }
+  .we-study-vip_item--reverse .we-study-vip_img-block{
+    margin: 0 auto;
+  }
+  .we-study-vip_first-block{
+    h3{
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+  }
+}

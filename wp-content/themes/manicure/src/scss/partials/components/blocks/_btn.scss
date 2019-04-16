@@ -49,7 +49,123 @@
   margin-top: 2rem;
 }
 
+.button-vip {
+  border-radius: 4px;
+  background-color: $red-third;
+  position: relative;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
+  font-size: 2.5rem;
+  text-transform:  none !important;
+  padding-right: 5.5rem;
+  .btn-yallow {
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: $yellow;
+    border-radius: 50%;
+    position: absolute;
+    right: -37px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &:after {
+      content: '';
+      background-image: url('../../assets/images/btn-arrow.png');
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+
+}
+.btn-vip{
+  margin-top: 1.5rem;
+}
+.btn-vip-link{
+  font-family: $oswald-font;
+  font-size: 1.8rem;
+  color: $red-third;
+  min-width: 25rem;
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid $red-third;
+  border-radius: 5px;
+  display: inline-block;
+  transition: all .2s;
+  &:hover{
+    background-color: $red-third;
+    border: 2px solid $white;
+    color: $white;
+  }
+}
+.section-error-btn{
+  margin-top: 2rem;
+}
+.new-btn{
+  text-align: left;
+  color: #ff3b57;
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: $oswald-font;
+  a{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    &:before{
+      content: "";
+      display: block;
+      border-right: 2px solid #ff3b57;
+      border-top: 2px solid #ff3b57;
+      position: absolute;
+      right: 0;
+      top: 52%;
+      transform: translateY(-50%) rotate(45deg);
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: $screen-sm-max) {
+  .new-btn{
+    font-size: 2.2rem;
+  }
+  .sub-section_btn-block{
+    text-align: center !important;
+    .button-vip{
+      margin: 0 auto;
+      font-size: 2rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .btn-yallow{
+      height: 5.8rem;
+      width: 5.8rem;
+      right: -39px;
+    }
+  }
+}
 @media only screen and (max-width: $screen-xs-max) {
+  .sub-section_btn-block{
+    margin-top: 1rem;
+    .button-vip{
+      margin-top: 1rem !important;
+      font-size: 1.6rem;
+    }
+    .btn-yallow{
+      height: 5.2rem;
+      width: 5.2rem;
+      right: -33px;
+    }
+  }
   .btn {
     padding: .5rem 2rem;
     font-size: 1.4rem;

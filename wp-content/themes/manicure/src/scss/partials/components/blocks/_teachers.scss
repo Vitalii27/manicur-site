@@ -1,55 +1,123 @@
 .teachers {
-    background-color: #f0eeee;
-    position: relative;
+  background-color: #f0eeee;
+  position: relative;
+  p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  .program_img {
+    height: 31.8rem;
+  }
+  .img-bg {
+    left: 0;
+    bottom: 11%;
+  }
+}
+
+.teachers-vip {
+  padding-top: 6rem;
+  .img-pos1 {
+    left: 0 !important;
+    top: 2%;
+    max-height: 40rem;
+  }
+  .img-pos3 {
+    right: 0 !important;
+    top: 35%;
+    left: auto !important;
+  }
+  .course-right {
+    padding-left: 18%;
+  }
+  .course--page {
+    margin-top: 9rem;
+    min-height: 27rem;
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
     p {
-        margin-top: 1rem;
-        font-weight: 600;
-        font-size: 1.5rem;
-        line-height: 1.3;
+      font-size: 2rem;
     }
-    .program_img {
-        height: 31.8rem;
-    }
-    .img-bg{
-        left: 0;
-        bottom: 11%;
-    }
+  }
 }
-.teachers-vip{
-    padding-top: 6rem;
-    .img-pos1{
-        left: 0 !important;
-        top: 2%;
-        max-height: 40rem;
+
+.vip-teachers {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  font-family: $oswald-font;
+  &_list {
+    display: flex;
+    margin-top: 6rem;
+  }
+  &_item {
+    padding: 1.3rem 1.3rem 2.5rem 1.3rem;
+    text-align: center;
+    margin-left: 3.5rem;
+    border: 5px solid #f0f0f0;
+    width: 100%;
+    &:first-child {
+      margin-left: 0;
     }
-    .img-pos3{
-        right: 0 !important;
-        top: 35%;
-        left: auto !important;
+  }
+  &_img-block {
+    max-width: 24rem;
+    max-height: 24rem;
+    background-position: 50% 16%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24rem;
+    width: 100%;
+  }
+  &_name {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  &_position {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+  }
+  &_border {
+    display: block;
+    height: 4px;
+    width: 9rem;
+    background-color: #ff3b57;
+    margin: 2rem auto;
+  }
+  &_desc {
+    p {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.4;
     }
-    .course-right{
-        padding-left: 18%;
-    }
-    .course--page{
-        margin-top: 9rem;
-        min-height: 27rem;
-        h2{
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        p{
-            font-size: 2rem;
-        }
-    }
+  }
 }
+
 @media only screen and (max-width: $screen-sm-max) {
-    .teachers-vip .course-right {
-        padding-left: 0;
+  .teachers-vip .course-right {
+    padding-left: 0;
+  }
+  .vip-teachers{
+    .vip-teachers_list{
+      flex-direction: column;
     }
-    .teachers-vip  .course--page{
-        margin-top: 2.5rem;
-        h2{
-            font-size: 2.4rem;
-        }
+    .vip-teachers_item{
+      margin-left: 0 !important;
+      margin-top: 1.5rem;
     }
+    .vip-teachers_img-block{
+      margin: 0 auto;
+    }
+  }
+  .teachers-vip .course--page {
+    margin-top: 2.5rem;
+    h2 {
+      font-size: 2.4rem;
+    }
+  }
 }

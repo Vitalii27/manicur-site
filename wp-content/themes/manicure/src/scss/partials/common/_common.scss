@@ -46,7 +46,7 @@ img{
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  background-color: $orange;
+  background-color: $red-third;
   border-radius: 50%;
   transition: opacity .2s;
   opacity: 0;
@@ -69,8 +69,18 @@ img{
   }
 }
 
-
+.main-content{
+  .img-bg{
+    top: 40%;
+    z-index: 3;
+  }
+}
 @media only screen and (max-width: $screen-xs-max) {
+  .main-content{
+    .img-bg{
+   display: none;
+    }
+  }
   .arrow-vissible{
     opacity: .8;
     visibility: visible;

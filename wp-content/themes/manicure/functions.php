@@ -46,6 +46,7 @@ if ( ! function_exists( 'manicure_setup' ) ) :
         register_nav_menus( array(
             'menu-1' => esc_html__( 'Primary', 'manicure' ),
             'footer' => esc_html__( 'Footer', 'manicure' ),
+            'stati' => esc_html__( 'Stati', 'manicure' ),
         ) );
 
         /*
@@ -135,20 +136,14 @@ add_action( 'wp_enqueue_scripts', 'manicure_scripts' );
 
 function wpcf7_modify_this( $WPCF7_ContactForm ) {
 
-    $filename = $_SERVER['DOCUMENT_ROOT'].'/log-post2.txt';
-    $dh = fopen ($filename,'a+');
-    fwrite($dh, var_export($_POST,true));
-    fclose($dh);
-
-    $filename = $_SERVER['DOCUMENT_ROOT'].'/log-post22.txt';
-    $dh = fopen ($filename,'a+');
-    fwrite($dh, var_export($WPCF7_ContactForm,true));
-    fclose($dh);
 
 
     if ($_POST['form-name']){$name=$_POST['form-name'];}
     if ($_POST['form-tel']){$phone=$_POST['form-tel'];}
     if ($_POST['form-email']){$email=$_POST['form-email'];}
+	if ($_POST['form-hidden']){$kurs=$_POST['form-hidden'];}
+	
+	
     $title=$WPCF7_ContactForm->title;
 
     // Отправка данных в amoCRM
@@ -156,7 +151,7 @@ function wpcf7_modify_this( $WPCF7_ContactForm ) {
         'roistat' => isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : null,
 
         'key'     => 'OTMxNDc6NjkxNzU6MzI4ZjU0MGE5OTk0MTU1NWMxZWQxYzA1YzMzZDcwYWI=', // Замените SECRET_KEY на секретный ключ из пункта меню Настройки -> Интеграция со сделками в нижней части экрана и строчке Ключ для интеграций
-        'title'   => 'Заявка с сайта shkola-manikyura.com', // Постоянное значение
+        'title'   => 'Заявка с сайта shkola-nika.ru', // Постоянное значение
         'comment' => $comment,
         'name'    => $name,
         'email'   => $email,
@@ -165,6 +160,8 @@ function wpcf7_modify_this( $WPCF7_ContactForm ) {
         'fields'  => array(
             "190389"=>isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : null,
             "190391"=>$title,
+			"572715"=>$kurs,
+			
         ),
     );
     file_get_contents("https://cloud.roistat.com/api/proxy/1.0/leads/add?" . http_build_query($roistatData));

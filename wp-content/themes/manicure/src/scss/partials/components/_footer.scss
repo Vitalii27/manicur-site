@@ -1,3 +1,15 @@
+.footer_all-course{
+  margin-top: 2rem;
+  a{
+    font-family: $oswald-font;
+    font-size: 2rem;
+    transition: all .2s;
+    &:hover {
+      color: #e7f598;
+
+    }
+  }
+}
 .footer {
   background-color: $black;
   color: $white;
@@ -13,38 +25,68 @@
   }
   &_container {
     @extend .header_container;
+    justify-content: flex-start;
   }
   &_copy {
     text-align: center;
+    margin-left: 12%;
   }
   &_copy-text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-top: 3rem;
-    color: #cccccc;
+    color: $white;
   }
   &_menu {
 
     ul {
       display: flex;
       justify-content: center;
+
     }
     li {
-      padding-left: 2.5rem;
+
+      padding-bottom: 1.5rem;
+      position: relative;
       &:first-child {
         padding-left: 0;
+      }
+      &:last-child{
+        a{
+          border-right: none;
+        }
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        bottom: -5px;
+        height: 3px;
+        background: transparent;
+        width: 0;
+        transition: all 0.2s ease-out;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
       }
       a {
         transition: all .25s;
         font-size: 1.6rem;
+        border-right: 1px solid $white;
+        font-family: $oswald-font;
+        text-transform: uppercase;
+        padding-right: 15px;
+        padding-left: 15px;
         &:hover {
-          color: #ec9e14;
-          text-shadow: 0 0 0.1px #ec9e14, 0 0 0.1px #ec9e14;
+          color: #e7f598;
+
         }
 
       }
     }
   }
   &_social {
+    margin-top: 3rem;
     a {
       display: inline-block;
       padding-left: 1.4rem;
@@ -52,27 +94,37 @@
   }
   &_link-web{
     font-size: 13px;
-    color: $orange;
+    color: #e7f598;
     display: block;
     line-height: 1.4;
     &:hover{
       text-decoration: underline;
     }
   }
+  .current_page_item{
+    color: #e7f598 !important;
+    border-bottom-color: #e7f598;
+    &:before{
+      width: 85%;
+      background:#e7f598 ;
+    }
+  }
 }
 
-@media only screen and (max-width: $screen-sm-max) {
+@media only screen and (max-width: $screen-md-max) {
   .footer {
     &_container {
       flex-direction: column;
     }
     &_copy {
       margin-top: 1.5rem;
+      margin-left: 0;
     }
     &_copy-text {
       padding-top: 1.5rem;
     }
     &_social {
+      text-align: center;
       margin-top: 1.5rem;
     }
   }
@@ -89,7 +141,7 @@
   }
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: $screen-xs-max) {
   .footer {
     &_menu {
       ul {
@@ -98,6 +150,10 @@
       li {
         margin-top: 1rem;
         padding-left: 0;
+        a{border-right: none !important;}
+        &:before{
+          display: none!important;
+        }
       }
     }
   }
