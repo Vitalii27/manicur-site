@@ -12,7 +12,7 @@
 get_header(); ?>
 
 <section class="section container-fluid title-page">
-    <h3 class="vip-title">Курсы нашей школы</h3>
+    <h1 class="vip-title">Курсы маникюра и педикюра в Москве</h1>
 </section>
 
 <?php //get_template_part('./template-parts/sections/courses-home'); ?>
@@ -22,8 +22,10 @@ get_header(); ?>
         <div class="container-fluid">
             <img class="quete-img" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/quete.png"
                  alt="img">
-            <p>Существует огромное количество нужных профессий. Нужных, и при том интересных — сравнительно меньше.
-                Профессий, которые объединяли бы эти два качества, гарантируя стабильную прибыль, совсем немного.</p>
+            <p>Школа «Золотая Ника» предлагает профессиональные курсы маникюра. Вас будут обучать мастера, ежегодно
+                подтверждающие свою квалификацию. Образование ведется по спланированным программам с преобладанием
+                практики над теорией. Курсы маникюра и педикюра в Москве преподаются в просторном лекционном зале в
+                центре столицы.</p>
 
         </div>
     </div>
@@ -38,7 +40,7 @@ get_header(); ?>
         <!--            -->
         <div class="text-block-new">
             <div class="hero-courses-text">
-                <h2>Курс для новичков</h2>
+                <h4>Курс для новичков</h4>
                 <h3><strong>Обучение с нуля до уровня мастер-универсал!</strong></h3>
                 <p>156 часов обучения — 90% практики. Трудоустройство!</p>
             </div>
@@ -46,63 +48,113 @@ get_header(); ?>
                  src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">
         </div>
         <div class="course">
-            <div class="course-left ">
-                <div class="course-img_block">
-                    <div>
-                        <div class="schedule-section-border"></div>
-                        <div class="schedule-section_item-img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/universal-preview.jpg)"></div>
-                    </div>
-                </div>
-                <img class="img-bg img-pos1"
-                     src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/course-bubs.png"
-                     alt="img">
-            </div>
-            <div class="course-right">
-                <h5 class="course_title">Курс по Маникюру — "VIP-Мастер Универсал"</h5>
-                <div class="vip-teachers_border">
-
-                </div>
-                <p>В рамках этого курса вы научитесь всему в сфере nail-индустрии: делать маникюр, создавать дизайны с
-                    помощью страз, блесток, трафаретов, наращивать ногти по гелевым технологиям, удалять вросшие ногти,
-                    проводить спа-процедуры для рук. Отдельное внимание уделяется подготовке рабочего места, дезинфекции
-                    инструментов и заболеваниям ногтей.</p>
-
-                <div class="course_icon border-trap">
-                    <div class="course-icons">
-                        <div class="course_block">
-
-                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png"
-                                 alt="img">
-
-                            <p>156 часов</p>
-                        </div>
-                        <div class="course_block">
-
-                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png"
-                                 alt="img">
-
-                            <p>12 000 руб.</p>
+            <div class="course-container">
+                <div class="course-left ">
+                    <div class="course-img_block">
+                        <div>
+                            <div class="schedule-section-border"></div>
+                            <div class="schedule-section_item-img"
+                                 style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/universal-preview.jpg)"></div>
                         </div>
                     </div>
+                    <img class="img-bg img-pos1"
+                         src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/course-bubs.png"
+                         alt="img">
                 </div>
-                <div class="new-btn">
-                    <a href="https://www.shkola-nika.ru/kurs-po-manikyuru-vip-master-universal">
-                        Подробнее</a>
+                <div class="course-right">
+                    <h5 class="course_title">Курс по Маникюру — "VIP-Мастер Универсал"</h5>
+                    <div class="vip-teachers_border">
+
+                    </div>
+                    <p>В рамках этого курса вы научитесь всему в сфере nail-индустрии: делать маникюр, создавать дизайны
+                        с
+                        помощью страз, блесток, трафаретов, наращивать ногти по гелевым технологиям, удалять вросшие
+                        ногти,
+                        проводить спа-процедуры для рук. Отдельное внимание уделяется подготовке рабочего места,
+                        дезинфекции
+                        инструментов и заболеваниям ногтей.</p>
+
+                    <div class="course_icon border-trap">
+                        <div class="course-icons">
+                            <div class="course_block">
+
+                                <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png"
+                                     alt="img">
+
+                                <p>156 часов</p>
+                            </div>
+                            <div class="course_block">
+
+                                <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png"
+                                     alt="img">
+
+                                <?php the_field('hero_course_price-text') ?>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-btn">
+                        <a href="https://www.shkola-nika.ru/kurs-po-manikyuru-vip-master-universal">
+                            Подробнее</a>
+                    </div>
+
                 </div>
-
-
+            </div>
+            <div class="course-vip-desc">
+                <h3>Количество часов обучения</h3>
+                <div class="course-vip-list">
+                    <div class="course-vip-list-wrap">
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Маникюр и педикюр</div>
+                            <span>50 часов</span>
+                        </div>
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Аппаратные технологии</div>
+                            <span>20 часов</span>
+                        </div>
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Заболевания ногтей</div>
+                            <span>7 часов </span>
+                        </div>
+                    </div>
+                    <div class="course-vip-list-wrap">
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Наращивание ногтей</div>
+                            <span>25 часов</span>
+                        </div>
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">SPA-процедуры</div>
+                            <span>8 часов</span>
+                        </div>
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Дезинфекция и подготовка
+                                рабочего места
+                            </div>
+                            <span>6 часов </span>
+                        </div>
+                    </div>
+                    <div class="course-vip-list-wrap">
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Покрытие ногтей</div>
+                            <span>20 часов</span>
+                        </div>
+                        <div class="course-vip-item">
+                            <div class="course-vip-item-title">Дизайн ногтей</div>
+                            <span>20 часов</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="text-block-new">
-            <div class="hero-courses-text">
-                <h2>Дополнительные курсы</h2>
-                <h3><strong>по маникюру, педикюру, дизайну и уходу за ногтями и кожей рук и ног</strong></h3>
-                <!--                <p>156 часов обучения — 90% практики. Трудоустройство!</p>-->
-            </div>
-            <img class="arrow-bold"
-                 src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">
-        </div>
+        <!--        <div class="text-block-new">-->
+        <!--            <div class="hero-courses-text">-->
+        <!--                <h2>Дополнительные курсы</h2>-->
+        <!--                <h3><strong>по маникюру, педикюру, дизайну и уходу за ногтями и кожей рук и ног</strong></h3>-->
+        <!--                <!--                <p>156 часов обучения — 90% практики. Трудоустройство!</p>-->
+        <!--            </div>-->
+        <!--            <img class="arrow-bold"-->
+        <!--                 src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">-->
+        <!--        </div>-->
         <div class="virtical-course program--vip">
             <div class="course-filtering">
                 <button class="course-filtering_item active-filter" data-filter="*">Все курсы</button>
@@ -117,10 +169,9 @@ get_header(); ?>
             <ul class="course_list">
                 <li class="program_item resnis">
                     <a href="https://www.shkola-nika.ru/kurs-po-narashchivaniyu-resnic-master-leshmejker">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2019/02/6aca1bee-e857-4d83-9e45-00089311d7b9_1.png)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/6aca1bee-e857-4d83-9e45-00089311d7b9_1.png"
+                                 alt="Наращивание ресниц" class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -159,10 +210,10 @@ get_header(); ?>
                 <li class="program_item manikyr pedicyr">
                     <a href="https://www.shkola-nika.ru/kurs-po-manikyuru-apparatnyj-manikyur-i-pedikyur"
                     >
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/apprat.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img alt="Аппаратный Маникюр и Педикюр"
+                                 src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/apprat.jpg"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -202,10 +253,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/obuchenie-nail-art">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/nail-art-preview.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/nail-art-preview.jpg"
+                                 alt="Курс по дизайну Nail Art" class="program_img-course">
+
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -244,10 +295,10 @@ get_header(); ?>
 
                 <li class="program_item manikyr">
                     <a href="https://www.shkola-nika.ru/kursy-vyravnivanie-nogtevoj-plastiny-i-pokrytie-gel-lakom">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/vir-1.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/vir-1.jpg"
+                                 alt="Выравнивание ногтевой пластины и покрытие гель-лаком под кутикулу"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -287,10 +338,9 @@ get_header(); ?>
 
                 <li class="program_item pedicyr">
                     <a href="https://www.shkola-nika.ru/kursy-kislotnyj-pedikyur">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2019/02/Depositphotos_10895858_m-2015.png)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/Depositphotos_10895858_m-2015.png"
+                                 alt="Кислотный педикюр" class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -329,10 +379,10 @@ get_header(); ?>
 
                 <li class="program_item manikyr">
                     <a href="https://www.shkola-nika.ru/yaponskij-manikyur-goryachij-manikyur-brazilskij-manikyur-i-pedikyur">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/yap-1.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/yap-1.jpg"
+                                 alt="Японский маникюр + Бразильский маникюр + Горячий маникюр"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -371,10 +421,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kitajskaya-rospis-lite-folgoj-zhidkie-kamni">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview.jpg"
+                                 alt="Китайская роспись, Литье фольгой, Жидкие камни"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -414,10 +464,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-mekhendi">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/mehendi.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/mehendi.jpg"
+                                 alt="Основы традиционной росписи Мехенди"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -456,10 +506,10 @@ get_header(); ?>
 
                 <li class="program_item">
                     <a href="https://www.shkola-nika.ru/kursy-tekhniki-spa-shugaring-bandazhnaya-i-manualnaya">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-4.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-4.jpg"
+                                 alt="Техники SPA-шугаринг: бандажная и мануальная"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -500,10 +550,10 @@ get_header(); ?>
                 <li class="program_item">
                     <a href="https://www.shkola-nika.ru/kursy-spa-uhod-za-kozhej-ruk-i-nog-piling-obertyvanie-parafinoterapiya"
                     >
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-3.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-3.jpg"
+                                 alt="SPA-уход за кожей рук и ног: пилинг, обертывание, парафинотерапия"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -542,10 +592,10 @@ get_header(); ?>
 
                 <li class="program_item">
                     <a href="https://www.shkola-nika.ru/kursy-arochnoe-modelirovanie-i-dizajn">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-5.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-5.jpg"
+                                 alt="Арочное моделирование и Дизайн с использованием новейших систем в гелевых технология"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -586,10 +636,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-aehrografiya-vozdushnaya-kist-v-nail-art">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-6.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-6.jpg"
+                                 alt="Аэрография – воздушная кисть в Nail Art"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -629,10 +679,9 @@ get_header(); ?>
 
                 <li class="program_item kos">
                     <a href="https://www.shkola-nika.ru/kursy-po-pleteniyu-kos">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/plet.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/plet.jpg" alt="Плетение кос"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -671,10 +720,10 @@ get_header(); ?>
 
                 <li class="program_item brovist">
                     <a href="https://www.shkola-nika.ru/kursy-master-brovist-ili-kurs-master-leshmejker">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-8.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-8.jpg"
+                                 alt="Мастер - бровист: архитектура бровей; Коррекция бровей; Окрашивание бровей хной; Окрашивание бровей краской"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -715,10 +764,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-hudozhestvennaya-lepka-gelem-3d-4d">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-9.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-9.jpg"
+                                 alt="Художественная лепка гелем 3D, 4D"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -758,10 +807,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-po-multidizajnu-nogtej">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/mult.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/mult.jpg"
+                                 alt="Мультидизайн ногтей"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -799,10 +848,10 @@ get_header(); ?>
 
                 <li class="program_item">
                     <a href="https://www.shkola-nika.ru/kursy-ukreplenie-nogtevoj-plastiny-biogelem">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-11.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-11.jpg"
+                                 alt="Укрепление ногтевой пластины Биогелем"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -844,10 +893,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-osnovy-dekorativnoj-rospisi">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/decorro.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/decorro.jpg"
+                                 alt="Основы декоративной росписи"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -888,10 +937,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-po-manikyuru-crystal-nails">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/crystal.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/crystal.jpg"
+                                 alt="Курс по дизайну Cristal Nails"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -930,10 +979,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-po-manikyuru-akvarelnaya-tekhnika-v-dizajne-nogtej">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-12.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-12.jpg"
+                                 alt="Акварельная техника в дизайне ногтей"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -975,10 +1024,10 @@ get_header(); ?>
 
                 <li class="program_item desing-nogtey">
                     <a href="https://www.shkola-nika.ru/kursy-po-manikyuru-tonkie-linii-v-dizajne">
-                        <div class="program_img"
-                             style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/line.jpg)">
-                            <div class="program_img-name">
-                            </div>
+                        <div class="program_img-container">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/line.jpg"
+                                 alt="Тонкие линии в дизайне"
+                                 class="program_img-course">
                             <div class="border-trap">
                                 <div class="program-vip-child-border">
                                     <!--                                        -->
@@ -1033,6 +1082,161 @@ get_header(); ?>
         </div>
     </div>
 
+</section>
+<section class="section about-school--all" id="about">
+    <h3 class="vip-title">Видео о наших курсах маникюра</h3>
+
+    <div class="container-fluid">
+        <div class="about-school_content">
+
+            <div class="about-school_video-block">
+                <div class="about-school_video">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sNQfk0v113g" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+</section>
+<section class="section vip-teachers">
+    <div class="container-fluid">
+        <h3 class="vip-title">Наши преподаватели</h3>
+        <ul class="vip-teachers_list">
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container">
+                    <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/12.jpg"
+                         alt="Преподаватель курсов: Технологии современных трендов — NAil Art, Тонкие линии в дизайне, Мехенди"
+                         class="vip-teachers_img-block">
+
+                </div>
+                <div class="vip-teachers_name">Шерри магомедова</div>
+                <div class="vip-teachers_position">Завуч школы «Золотая Ника»</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Технологии современных трендов - Nail Art;
+                        Тонкие линии в дизайне; Мехенди.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container">
+                    <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/543.jpg"
+                         alt="Ирина Лобода Преподаватель курсов: Арочное моделирование, ЗD и 4D лепка гелем, Акварельная техника в Дизайне"
+                         class="vip-teachers_img-block">
+
+                </div>
+                <div class="vip-teachers_name">олеся солодилова</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Аппаратные технологии; Японский маникюр; Бразильский маникюр; Горячий маникюр.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container">
+                    <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/563.jpg"
+                         alt="Олеся Солодилова Преподаватель курсов: Аппаратный маникюр и педикюр, Укрепление ногтей биогелем"
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Ирина лабода</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Арочное моделирование;
+                        3D и 4D лепка гелем; Акварельная техника в дизайне.</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container">
+                    <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/36485.jpg"
+                         alt="Елена Донская Преподаватель курсов: Китайская роспись, Основы декоративной росписи, Аэрография"
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Любовь Светличная</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Японский маникюр; Бразильский маникюр; Горячий маникюр;
+                        SPA-уход за кожей рук и ног..</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container"
+                >
+                    <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6535.jpg"
+                         alt="Любовь Светличная Преподаватель курсов: Японский маникюр, Бразильский маникюр, Горячий маникюр, SPA-уход за кожей рук и ног"
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Елена Донская</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Китайская роспись, Основы декоративной росписи, Аэрография</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container"
+                >
+                    <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6866.jpg" alt=""
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Миронова Наталья</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Мультидизайн, Шугаринг</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container"
+                >
+                    <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6554.jpg" alt=""
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Муллина Ольга</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Японский маникюр, Crystal Nails</p>
+                </div>
+            </li>
+            <li class="vip-teachers_item">
+                <div class="vip-teachers_img-block-container"
+                >
+                    <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6823.jpg" alt=""
+                         class="vip-teachers_img-block">
+                </div>
+                <div class="vip-teachers_name">Ким Наталья</div>
+                <div class="vip-teachers_position">Преподаватель курсов</div>
+                <div class="vip-teachers_border">
+
+                </div>
+                <div class="vip-teachers_desc">
+                    <p>Плетение кос, Плетение кос с лентами</p>
+                </div>
+            </li>
+        </ul>
+    </div>
 </section>
 <section class="section vip-photo-classes photo">
     <div class="container-fluid">
@@ -1230,7 +1434,6 @@ get_header(); ?>
             <div class="contacts_text">
 
 
-
                 <div class="contacts_desc ">
 
                     <p class="contacts-icon"><img
@@ -1245,15 +1448,15 @@ get_header(); ?>
                                 src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/phone.png"
                                 alt="img"><strong>Телефон:</strong></p>
                     <div><p>8 (800) 333-83-19</p></div>
-                    <p  class="contacts-icon">
+                    <p class="contacts-icon">
                         <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/marker.png"
                              alt="img"><strong>Адрес:&nbsp;</strong></p>
                     <div><p><span>г. Москва</span>, м. Красносельская или м. Бауманская,<br>
-                            <span >ул. Ольховская, д. 22</span></p></div>
+                            <span>ул. Ольховская, д. 22</span></p></div>
                     <p class="contacts-icon">
                         <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/04/email-red-1.png"
                              alt="img"><strong>E-mail:&nbsp;</strong></p>
-                    <div><p><strong>info@shkola-nika<span>.ru</span> </strong> </p></div>
+                    <div><p><strong>info@shkola-nika<span>.ru</span> </strong></p></div>
 
                 </div>
 

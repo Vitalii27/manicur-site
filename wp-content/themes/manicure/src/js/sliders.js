@@ -62,6 +62,7 @@ jQuery(function ($) {
         fade: true,
         arrows: true,
         dots: false,
+        adaptiveHeight: true,
 
         nextArrow: '<button type="button" class="slider_btn--next slider_btn"> ' + arrowRight + ' </button>',
         prevArrow: '<button type="button" class="slider_btn--prev slider_btn">' + arrowLeft + '</button>',

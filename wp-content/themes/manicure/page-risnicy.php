@@ -405,7 +405,7 @@ get_header(); ?>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kp2g_KGPtE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                     </div>
                     <div class="about-school_desc ">
-                        <div class="about-school_desc-title">Учебный центр «Золотая Ника»</div>
+                        <div class="about-school_desc-title">Школа «Золотая Ника»</div>
                         <div class="about-school_desc-text">
                             <p> Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
                                 лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены нужным
@@ -746,7 +746,10 @@ get_header(); ?>
             <h3 class="vip-title">Наши преподаватели</h3>
             <ul class="vip-teachers_list">
                 <li class="vip-teachers_item">
-                    <div class="vip-teachers_img-block" style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/12.jpg)">
+                    <div class="vip-teachers_img-block-container">
+                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/12.jpg" alt="Преподаватель курсов: Технологии современных трендов — NAil Art, Тонкие линии в дизайне, Мехенди"
+                             class="vip-teachers_img-block">
+
                     </div>
                     <div class="vip-teachers_name">Шерри магомедова</div>
                     <div class="vip-teachers_position">Завуч школы «Золотая Ника»</div>
@@ -759,7 +762,10 @@ get_header(); ?>
                     </div>
                 </li>
                 <li class="vip-teachers_item">
-                    <div class="vip-teachers_img-block" style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/543.jpg)">
+                    <div class="vip-teachers_img-block-container">
+                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/543.jpg" alt="Ирина Лобода Преподаватель курсов: Арочное моделирование, ЗD и 4D лепка гелем, Акварельная техника в Дизайне"
+                             class="vip-teachers_img-block">
+
                     </div>
                     <div class="vip-teachers_name">олеся солодилова</div>
                     <div class="vip-teachers_position">Преподаватель курсов</div>
@@ -771,7 +777,9 @@ get_header(); ?>
                     </div>
                 </li>
                 <li class="vip-teachers_item">
-                    <div class="vip-teachers_img-block" style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/563.jpg)">
+                    <div class="vip-teachers_img-block-container">
+                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/563.jpg" alt="Олеся Солодилова Преподаватель курсов: Аппаратный маникюр и педикюр, Укрепление ногтей биогелем"
+                             class="vip-teachers_img-block">
                     </div>
                     <div class="vip-teachers_name">Ирина лабода</div>
                     <div class="vip-teachers_position">Преподаватель курсов</div>
@@ -784,7 +792,9 @@ get_header(); ?>
                     </div>
                 </li>
                 <li class="vip-teachers_item">
-                    <div class="vip-teachers_img-block" style="background-image: url(https://shkola-manikyura.com/wp-content/uploads/2018/12/36485.jpg)">
+                    <div class="vip-teachers_img-block-container">
+                        <img src="https://shkola-manikyura.com/wp-content/uploads/2018/12/36485.jpg" alt="Елена Донская Преподаватель курсов: Китайская роспись, Основы декоративной росписи, Аэрография"
+                             class="vip-teachers_img-block">
                     </div>
                     <div class="vip-teachers_name">Любовь Светличная</div>
                     <div class="vip-teachers_position">Преподаватель курсов</div>
@@ -794,6 +804,66 @@ get_header(); ?>
                     <div class="vip-teachers_desc">
                         <p>Японский маникюр; Бразильский маникюр; Горячий маникюр;
                             SPA-уход за кожей рук и ног..</p>
+                    </div>
+                </li>
+                <li class="vip-teachers_item">
+                    <div class="vip-teachers_img-block-container"
+                    >
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6535.jpg" alt="Любовь Светличная Преподаватель курсов: Японский маникюр, Бразильский маникюр, Горячий маникюр, SPA-уход за кожей рук и ног"
+                             class="vip-teachers_img-block">
+                    </div>
+                    <div class="vip-teachers_name">Елена Донская</div>
+                    <div class="vip-teachers_position">Преподаватель курсов</div>
+                    <div class="vip-teachers_border">
+
+                    </div>
+                    <div class="vip-teachers_desc">
+                        <p>Китайская роспись, Основы декоративной росписи, Аэрография</p>
+                    </div>
+                </li>
+                <li class="vip-teachers_item">
+                    <div class="vip-teachers_img-block-container"
+                    >
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6866.jpg" alt=""
+                             class="vip-teachers_img-block">
+                    </div>
+                    <div class="vip-teachers_name">Миронова Наталья</div>
+                    <div class="vip-teachers_position">Преподаватель курсов</div>
+                    <div class="vip-teachers_border">
+
+                    </div>
+                    <div class="vip-teachers_desc">
+                        <p>Мультидизайн, Шугаринг</p>
+                    </div>
+                </li>
+                <li class="vip-teachers_item">
+                    <div class="vip-teachers_img-block-container"
+                    >
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6554.jpg" alt=""
+                             class="vip-teachers_img-block">
+                    </div>
+                    <div class="vip-teachers_name">Муллина Ольга</div>
+                    <div class="vip-teachers_position">Преподаватель курсов</div>
+                    <div class="vip-teachers_border">
+
+                    </div>
+                    <div class="vip-teachers_desc">
+                        <p>Японский маникюр, Crystal Nails</p>
+                    </div>
+                </li>
+                <li class="vip-teachers_item">
+                    <div class="vip-teachers_img-block-container"
+                    >
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/IMG_6823.jpg" alt=""
+                             class="vip-teachers_img-block">
+                    </div>
+                    <div class="vip-teachers_name">Ким Наталья</div>
+                    <div class="vip-teachers_position">Преподаватель курсов</div>
+                    <div class="vip-teachers_border">
+
+                    </div>
+                    <div class="vip-teachers_desc">
+                        <p>Плетение кос, Плетение кос с лентами</p>
                     </div>
                 </li>
             </ul>

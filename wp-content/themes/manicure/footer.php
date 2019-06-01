@@ -101,19 +101,18 @@
     var LiveTex = {
         onLiveTexReady: function() {
             // код, выполняемый после инициализации LiveTex Client API
-            console.log('Livetex инициализирован!');
             // Поле с введенным текстом - исчезает после отправки, поэтому отлавливаем изменения в поле.
-            $('.lt-offline [name="message"]').on('input keyup', function(e) {
+            jQuery('.lt-offline [name="message"]').on('input keyup', function(e) {
                 cacheMessageLivetex = $(this).val();
             });
 
             window.LiveTex.addEventListener(window.LiveTex.Event.OFFLINE_MESSAGE_SENT, function(event){
 
-                var name    = $('.lt-offline [name="name"]').val();
+                var name    = jQuery('.lt-offline [name="name"]').val();
                 var email = '';
                 var phone = '';
                 // Это поле может быть и номером, и почтой одновременно.
-                var cacheEmailPhoneLivetex = $('.lt-offline [name="phone"]').val();
+                var cacheEmailPhoneLivetex = jQuery('.lt-offline [name="phone"]').val();
                 if (cacheEmailPhoneLivetex.indexOf('@') != -1) {
                     email = cacheEmailPhoneLivetex;
                 }else{
@@ -127,7 +126,7 @@
             // Отлавливаем обратный звонок
             window.LiveTex.addEventListener(window.LiveTex.Event.CALL_STARTED, function(event){
 
-                var phone = $(".lt-xbutton-form-action input.lt-xbutton-input").val();
+                var phone = jQuery(".lt-xbutton-form-action input.lt-xbutton-input").val();
                 roistat.event.send('callback',{'Текущая страница' : location.href});
                 roistatGoal.reach({leadName: "Новый лид (LiveTex) - Обратный звонок", name: "Неизвестный контакт", phone: phone, text: 'Со страницы: '+document.location.href});
 
@@ -135,10 +134,10 @@
 
             window.LiveTex.addEventListener(window.LiveTex.Event.CONVERSATION_STARTED, function(event){
 
-                var name  = $('.lt-welcome input[name="name"]').val();
-                var email = $(".lt-welcome input[valid-type='prechat_email']").val();
-                var phone = $(".lt-welcome input[valid-type='prechat_phone']").val();
-                var text = $(".lt-welcome textarea[name='message']").val();
+                var name  = jQuery('.lt-welcome input[name="name"]').val();
+                var email = jQuery(".lt-welcome input[valid-type='prechat_email']").val();
+                var phone = jQuery(".lt-welcome input[valid-type='prechat_phone']").val();
+                var text = jQuery(".lt-welcome textarea[name='message']").val();
                 roistat.event.send('livetex',{'Текущая страница' : location.href});
                 roistatGoal.reach({leadName: "Новый лид (LiveTex) - Чат", name: name, phone: phone, email: email, text: "Текст сообщения: "+text+"\n"+"Со страницы: "+document.location.href});
 

@@ -241,6 +241,14 @@
   }
 }
 
+.about-school--all{
+  .about-school_video{
+    width: 100%;
+    flex-basis: 100%;
+    padding-top: 25%;
+  }
+}
+
 @media only screen and (max-width: $screen-sm-max) {
 
   .about-school--main {

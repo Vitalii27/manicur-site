@@ -52,8 +52,13 @@
     }
   }
 }
-
+.licenses--home{
+  padding-top: 8rem;
+}
 @media only screen and (max-width: $screen-xs-max) {
+  .licenses--home{
+    padding-top: 4rem;
+  }
   .licenses {
     padding-top: 4rem;
     padding-bottom: 4rem;

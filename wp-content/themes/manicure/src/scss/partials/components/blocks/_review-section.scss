@@ -21,9 +21,9 @@
     text-align: left;
     padding-bottom: 4.5rem;
     padding-top: 3rem;
-    &:nth-child(4n) {
-      border-bottom: none;
-    }
+    //&:nth-child(4n) {
+    //  border-bottom: none;
+    //}
 
 
   }
@@ -88,7 +88,8 @@
     margin-right: 0;
   }
   .slider_btn {
-    top: 32%;
+    top: 210px;
+    z-index: 5;
   }
   .slider_btn--prev {
     left: 41.5rem;
@@ -196,8 +197,7 @@
       margin-top: 1.5rem;
     }
     .slider_btn {
-      top: 50%;
-      transform: translateY(-50%);
+      top: 164px;
     }
   }
   .review-section {

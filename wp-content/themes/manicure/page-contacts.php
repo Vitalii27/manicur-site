@@ -54,211 +54,33 @@ get_header(); ?>
             </div>
 
         </div>
-        <div class="contacts_desc contacts_desc--bottom">
-            <p><strong>Как добраться:</strong></p>
-
-            <p><span style="color: #ff0000;"><strong> М. Красносельская&nbsp;</strong></span>— выходите,идете вперед,в сторону
-                церкви. Вдоль трамвайных путей до бензозаправки и поворачиваете налево вместе с путями. Метров через
-                100 пешеходный переход. Переходите, перед Вами ворота и дверь. Улица Ольховская 22. Заходите в
-                дверь, поворачиваете налево, через 30 м. справа подъезд . Этаж 3, вторая дверь по правой стороне
-                «ЗОЛОТАЯ НИКА».</p>
-            <p><span style="color: #ff0000;"><strong>М. Баумаская</strong> <span style="color: #333333;">— в</span></span>ыходите из
-                дверей направо на ул. Бауманская, переходим на противоположную сторону, идем вдоль трамвайных путей,
-                нумерация на уменьшение, прямо мин 5-7 пешком, никуда не сворачиваем. Доходим до пересечения ул.
-                Бауманская с ул. Ольховская, Т-образный перекрёсток, трамвайные пути поворачивают налево, и мы
-                вместе с ними, проходим остановку, за ней коричневые ворота и дверь с вывеской Ольховская 22.Заходим
-                в дверь, поворачиваем налево, через 30 м справа подъезд . Этаж 3, вторая дверь по правой стороне
-                «Золотая Ника».</p>
-            <p><strong>Будем рады Вас видеть! С уважением.</strong></p>
-        </div>
+        <p class="contacts-info-cv">Реквизиты - ООО "ЗОЛОТАЯ НИКА"<br>
+            ИНН: 7701416585   <br>
+            КПП: 770101001       <br>
+            ОГРН: 5147746424964<br>
+            Расчетный счет: 40702810838000017039<br>
+            Юридический адрес: 105066, Москва г, Красносельская Нижн ул, дом № 35, строение 52, помещение III, комната 21Б<br>
+            Генеральный директор: Голубева Виктория Вагифовна</p>
+<!--        <div class="contacts_desc contacts_desc--bottom">-->
+<!--            <p><strong>Как добраться:</strong></p>-->
+<!---->
+<!--            <p><span style="color: #ff0000;"><strong> М. Красносельская&nbsp;</strong></span>— выходите,идете вперед,в сторону-->
+<!--                церкви. Вдоль трамвайных путей до бензозаправки и поворачиваете налево вместе с путями. Метров через-->
+<!--                100 пешеходный переход. Переходите, перед Вами ворота и дверь. Улица Ольховская 22. Заходите в-->
+<!--                дверь, поворачиваете налево, через 30 м. справа подъезд . Этаж 3, вторая дверь по правой стороне-->
+<!--                «ЗОЛОТАЯ НИКА».</p>-->
+<!--            <p><span style="color: #ff0000;"><strong>М. Баумаская</strong> <span style="color: #333333;">— в</span></span>ыходите из-->
+<!--                дверей направо на ул. Бауманская, переходим на противоположную сторону, идем вдоль трамвайных путей,-->
+<!--                нумерация на уменьшение, прямо мин 5-7 пешком, никуда не сворачиваем. Доходим до пересечения ул.-->
+<!--                Бауманская с ул. Ольховская, Т-образный перекрёсток, трамвайные пути поворачивают налево, и мы-->
+<!--                вместе с ними, проходим остановку, за ней коричневые ворота и дверь с вывеской Ольховская 22.Заходим-->
+<!--                в дверь, поворачиваем налево, через 30 м справа подъезд . Этаж 3, вторая дверь по правой стороне-->
+<!--                «Золотая Ника».</p>-->
+<!--            <p><strong>Будем рады Вас видеть! С уважением.</strong></p>-->
+<!--        </div>-->
     </div>
 </section>
-<section class="section vip-photo-classes photo">
-    <div class="container-fluid">
-        <h3 class="vip-title"> Фотографии учебных классов и кабинетов</h3>
-        <div class="photo_content">
-            <div class="photo_slider js-photo-slider-vip">
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0889-1.jpg"
-                           class="photo_slider-link" tabindex="0"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0889-1.jpg"
-                                    class="photo_img"
-                                    alt="Класс для обучения и отработки практики по  педикюру">
 
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0891-1.jpg"
-                           class="photo_slider-link" tabindex="0"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0891-1.jpg"
-                                    class="photo_img" alt="Класс для обучения педикюру">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0892-1.jpg"
-                           class="photo_slider-link" tabindex="0"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0892-1.jpg"
-                                    class="photo_img"
-                                    alt="Класс для обучения и отработки практики по  педикюру">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0904-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0904-1.jpg"
-                                    class="photo_img" alt="Лекционный класс">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0907-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0907-1.jpg"
-                                    class="photo_img" alt="Лекционный класс">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0928-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0928-1.jpg"
-                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0936-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0936-1.jpg"
-                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0938-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/DSC_0938-1.jpg"
-                                    class="photo_img" alt="Класс по маникюру и покрытию лаком ногтей">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6136-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6136-1.jpg"
-                                    class="photo_img" alt="Класс по обучению маникюру">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6141-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6141-1.jpg"
-                                    class="photo_img" alt="Класс по обучению маникюру">
-
-                        </a>
-                    </div>
-                </div>
-
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6149-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6149-1.jpg"
-                                    class="photo_img" alt="Кабинет дезинфекции и стерилизации">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6156-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6156-1.jpg"
-                                    class="photo_img" alt="Класс по обучению маникюру">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6161-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6161-1.jpg"
-                                    class="photo_img" alt="Класс по обучению Мехенди и Нейл Арт">
-
-                        </a>
-                    </div>
-                </div>
-
-                <div class="photo_slider-elem">
-                    <div class="photo_slider-wrapp js-pop-up-img">
-                        <a href="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6168-1.jpg"
-                           class="photo_slider-link" tabindex="-1"> <img
-                                    src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/IMG_6168-1.jpg"
-                                    class="photo_img"
-                                    alt="Класс аппаратного маникюра, педикюра,  японский маникюр">
-
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-    <div class="photo-vip_text">
-
-        <div class="btn-vip">
-            <a class="btn-vip-link" href="https://www.shkola-nika.ru/photo-vip-master/">Больше фотографий</a>
-        </div>
-
-    </div>
-
-</section>
 <script>
     var mapConfig = {
         maps: [{

@@ -67,7 +67,7 @@
     a {
       display: inline-block;
       font-size: 1.6rem;
-      padding: .8rem 2rem ;
+      padding: .8rem 2rem;
       color: $black;
       //border-bottom: 1px dashed #2d800d;
       font-weight: 600;
@@ -93,6 +93,38 @@
 
 .header_call {
   animation: pulse 10s infinite;
+}
+
+.header-sber-container {
+  display: flex;
+  align-items: center;
+  .header_phone {
+    order: 1;
+  }
+  .header_btn {
+    margin-left: 1.5rem;
+    order: 2;
+    display: none;
+    a {
+      background-color: $red-third;
+      border: 1px solid $white;
+      &:hover {
+        background-color: $white;
+        border-color: $red-third;
+        color: $red-third;
+
+      }
+    }
+
+  }
+}
+
+.page-template-page-vip {
+  .header-sber-container {
+    .header_btn {
+      display: block
+    }
+  }
 }
 
 @-webkit-keyframes pulse {
@@ -132,7 +164,6 @@
   }
 }
 
-
 .header_btn-mobile-pay {
   display: none;
   a {
@@ -144,7 +175,15 @@
 }
 
 @media only screen and (max-width: $screen-sm-max) {
+  .page-template-page-vip {
+    .header-sber-container {
+      .header_btn {
+        padding-right: 7rem;
+      }
+    }
+  }
   .header {
+
     &_phone {
       padding-right: 9rem;
     }
@@ -160,6 +199,25 @@
 }
 
 @media only screen and (max-width: $screen-xs-max) {
+  .page-template-page-vip {
+    .header-sber-container {
+      .header_btn {
+        display: none;
+      }
+    }
+
+    .header_btn-mobile-pay {
+      display: block;
+      position: fixed;
+      bottom: .5rem;
+      left: 1.8rem;
+
+      img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  }
   .header {
     padding-top: 1.1rem;
     padding-bottom: 1.1rem;
@@ -227,17 +285,8 @@
 
     }
   }
-  .header_btn-mobile-pay {
-    display: block;
-    position: fixed;
-    bottom: .5rem;
-    left: 1.8rem;
 
-    img {
-      width: 56px;
-      height: 56px;
-    }
-  }
+
 }
 
 @media only screen and (max-width: 321px) {

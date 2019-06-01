@@ -26,7 +26,7 @@ get_header(); ?>
                             allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
                 <div class="about-school_desc ">
-                    <div class="about-school_desc-title">Учебный центр «Золотая Ника»</div>
+                    <div class="about-school_desc-title">Школа «Золотая Ника»</div>
                     <div class="about-school_desc-text">
                         <p> Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
                             лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены нужным
@@ -49,6 +49,47 @@ get_header(); ?>
 
 
 </div>
+<section class="section licenses ">
+    <div class="container-fluid">
+        <h3 class="vip-title">
+            Дипломы, лицензии и свидетельства
+        </h3>
+
+        <div class="licenses_images">
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/04/959.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/04/959.jpg" alt="Диплом 'Мастер-универсал Ногтевого Сервиса'"></a>
+
+            </div>
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5115.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5115.jpg" alt="Лицензия Департамента образования г. Москвы"></a>
+
+            </div>
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5222.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5222.jpg" alt="Лицензия Департамента образования города Москвы"></a>
+
+            </div>
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/533.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/533.jpg" alt="Приложение № 1.1 к лицензии на осуществлении образовательной деятельности № 037366"></a>
+
+            </div>
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/04/1133.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/04/1133.jpg" alt="Свидетельство о постановке на учет в налоговом органе юридического лица ООО 'Золотая Ника'"></a>
+
+            </div>
+            <div class="licenses_single-img js-pop-up-img">
+                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/04/1122.jpg"> <img
+                            src="https://www.shkola-nika.ru/wp-content/uploads/2019/04/1122.jpg" alt="Свидетельство о государственной регистрации юридического лица ООО 'Золотая Ника'"></a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
 <section class="section vip-photo-classes photo">
     <div class="container-fluid">
         <h3 class="vip-title"> Фотографии учебных классов и кабинетов</h3>
@@ -335,28 +376,8 @@ get_header(); ?>
         </ul>
     </div>
 </div>
-<section class="section licenses">
-    <div class="container-fluid">
-        <h3 class="vip-title">
-           Дипломы и лицензии
-        </h3>
-        <div class="licenses_images">
-            <div class="licenses_single-img js-pop-up-img">
-                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5115.jpg"> <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5115.jpg" alt="img"></a>
 
-            </div>
-            <div class="licenses_single-img js-pop-up-img">
-                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5222.jpg"> <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/5222.jpg" alt="img"></a>
 
-            </div>
-            <div class="licenses_single-img js-pop-up-img">
-                <a href="https://www.shkola-nika.ru/wp-content/uploads/2019/02/533.jpg"> <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/02/533.jpg" alt="img"></a>
-
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <?php get_template_part('./template-parts/sections/text'); ?>
 <section class="section contacts contacts--vip" id="contacts">
