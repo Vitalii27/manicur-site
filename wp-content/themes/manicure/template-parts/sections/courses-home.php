@@ -29,16 +29,8 @@
             <?php //echo get_template_directory_uri() ?><!--/assets/images/arrow-bold.png" alt="img">-->
             <!--                </div>-->
             <!--            --><?php //endif; ?>
-            <div class="text-block-new">
-                <div class="hero-courses-text">
-                    <h4>Курс для новичков</h4>
-                    <h3><strong>Обучение с нуля до уровня мастер-универсал!</strong></h3>
-                    <p>156 часов обучения — 90% практики. Трудоустройство!</p>
-                </div>
-                <img class="arrow-bold"
-                     src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">
-            </div>
-            <?php get_template_part('./template-parts/blocks/course'); ?>
+
+<!--            --><?php //get_template_part('./template-parts/blocks/course'); ?>
 <!--            <div class="text-block-new">-->
 <!--                <div class="hero-courses-text">-->
 <!--                    <h2>Дополнительные курсы</h2>-->
@@ -51,7 +43,7 @@
             <div class="virtical-course program--vip">
                 <div class="course-filtering">
                     <button class="course-filtering_item active-filter" data-filter="*">Все курсы</button>
-                    <button class="course-filtering_item" data-filter=".manikyr">Курсы по маникюру</button>
+                    <button class="course-filtering_item" =".manikyr">Курсы по маникюру</button>
                     <button class="course-filtering_item" data-filter=".pedicyr">Курсы по педикюру</button>
                     <button class="course-filtering_item" data-filter=".desing-nogtey">Курсы дизайна ногтей</button>
                     <button class="course-filtering_item" data-filter=".resnis">Курсы по наращиванию ресниц</button>
@@ -126,7 +118,7 @@
 
                                 </div>
                                 <div class="program_text-desc">
-                                    <p>На курсах аппаратного маникюра и педикюра вы научитесь безопасно ухаживать за
+                                    <p>В рамках этого курса вы научитесь безопасно ухаживать за
                                         ногтями рук
                                         и ног, удалять омертвевшие клетки кожи и отросшую кутикулу с помощью аппаратной
                                         фрезы.
@@ -173,9 +165,9 @@
                                         необычные
                                         рисунки, узоры и дизайны. Nail art – это искусство по украшению ногтей, и мы
                                         готовы
-                                        обучить ему вас! За программу вы узнаете, как правильно наносить покрытие, как
+                                        обучить ему вас! За программу вы узнаете, как правильно наносить покрытие и как
                                         украшать
-                                        ногти разными способами и как их готовить к маникюру.</p>
+                                        ногти разными способами.</p>
                                 </div>
                             </div>
                             <div class="program_btn--vip ">
@@ -287,7 +279,7 @@
                                 </div>
                             </div>
                             <div class="program_text">
-                                <div> Японский маникюр + <br>Бразильский маникюр + <br> Горячий маникюр</div>
+                                <div> Японский + <br>Бразильский + <br> Горячий маникюр</div>
                                 <div class="course-title-bub">Курс по маникюру</div>
                                 <div class="vip-teachers_border">
 

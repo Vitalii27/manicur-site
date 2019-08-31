@@ -11,7 +11,7 @@
 
 get_header(); ?>
 
-<section class="section hero" id="hero" style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/526526.png)">
+<section class="section hero" id="hero" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/526526.png)">
     <div class="container-fluid">
         <div class="hero_content shadow-text--light">
             <div class="hero_title"><p>Школа маникюра</p>
@@ -35,11 +35,11 @@ get_header(); ?>
         <div class="course">
             <div class="course-left">
                 <div class="course-img_block">
-                    <img src="http://manicure-site/wp-content/uploads/2018/12/universal-preview.jpg">
+                    <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/universal-preview.jpg">
                 </div>
 
                 <div class="course_btn ">
-                    <a href="http://manicure-site/vip-%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB/" class="button">Подробнее</a>
+                    <a href="https://www.shkola-nika.ru/vip-%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB/" class="button">Подробнее</a>
                 </div>
             </div>
             <div class="course-right shadow-text--super-light">
@@ -48,13 +48,13 @@ get_header(); ?>
                 <div class="course_icon">
                     <div class="course_block">
 
-                        <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
 
                         <p>12 часов</p>
                     </div>
                     <div class="course_block">
 
-                        <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
 
                         <p>6 000 руб.</p>
                     </div>
@@ -64,9 +64,9 @@ get_header(); ?>
 
             <ul class="course_list">
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/">
+                    <a href="https://www.shkola-nika.ru/%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/10/512.png" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/512.png" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Кислотный педикюр</div>
@@ -76,24 +76,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B8-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/">
+                    <a href="https://www.shkola-nika.ru/%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B8-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/apprat.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/apprat.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Аппаратный маникюр и педикюр</div>
@@ -103,24 +103,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B8-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B8-%D0%BF%D0%B5%D0%B4%D0%B8%D0%BA%D1%8E%D1%80/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/nail-art/">
+                    <a href="https://www.shkola-nika.ru/nail-art/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/nail-art-preview.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/nail-art-preview.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Нейл-арт</div>
@@ -130,24 +130,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/nail-art/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/nail-art/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BB%D0%B5%D1%88%D0%BC%D0%B5%D0%B9%D0%BA%D0%B5%D1%80/">
+                    <a href="https://www.shkola-nika.ru/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BB%D0%B5%D1%88%D0%BC%D0%B5%D0%B9%D0%BA%D0%B5%D1%80/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/10/564.png" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/564.png" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Наращивание ресниц</div>
@@ -157,24 +157,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BB%D0%B5%D1%88%D0%BC%D0%B5%D0%B9%D0%BA%D0%B5%D1%80/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BB%D0%B5%D1%88%D0%BC%D0%B5%D0%B9%D0%BA%D0%B5%D1%80/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BA/">
+                    <a href="https://www.shkola-nika.ru/%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BA/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/vir-1.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/vir-1.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Выравнивание ногтевой пластины и покрытие гель-лаком под кутикулу</div>
@@ -184,24 +184,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>12 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BA/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%B2%D1%8B%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B8-%D0%BF%D0%BE%D0%BA/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B1%D1%80%D0%B0/">
+                    <a href="https://www.shkola-nika.ru/%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B1%D1%80%D0%B0/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/yap-1.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/yap-1.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Японский маникюр+  <br>Бразильский маникюр+ <br> Горячий маникюр</div>
@@ -211,24 +211,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B1%D1%80%D0%B0/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B3%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9-%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80-%D0%B1%D1%80%D0%B0/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C-%D0%BB%D0%B8%D1%82%D1%8C%D0%B5-%D1%84%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%B9-%D0%B6%D0%B8%D0%B4%D0%BA/">
+                    <a href="https://www.shkola-nika.ru/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C-%D0%BB%D0%B8%D1%82%D1%8C%D0%B5-%D1%84%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%B9-%D0%B6%D0%B8%D0%B4%D0%BA/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Китайская роспись, литье фольгой, жидкие камни</div>
@@ -238,24 +238,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C-%D0%BB%D0%B8%D1%82%D1%8C%D0%B5-%D1%84%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%B9-%D0%B6%D0%B8%D0%B4%D0%BA/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D1%8C-%D0%BB%D0%B8%D1%82%D1%8C%D0%B5-%D1%84%D0%BE%D0%BB%D1%8C%D0%B3%D0%BE%D0%B9-%D0%B6%D0%B8%D0%B4%D0%BA/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8-%D0%BC%D0%B5%D1%85%D0%B5%D0%BD%D0%B4%D0%B8/">
+                    <a href="https://www.shkola-nika.ru/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8-%D0%BC%D0%B5%D1%85%D0%B5%D0%BD%D0%B4%D0%B8/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/mehendi.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/mehendi.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Основы традиционной росписи мехенди</div>
@@ -265,24 +265,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8-%D0%BC%D0%B5%D1%85%D0%B5%D0%BD%D0%B4%D0%B8/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D1%82%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8-%D0%BC%D0%B5%D1%85%D0%B5%D0%BD%D0%B4%D0%B8/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8-spa-%D1%88%D1%83%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B3-%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BC%D0%B0%D0%BD%D1%83%D0%B0%D0%BB/">
+                    <a href="https://www.shkola-nika.ru/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8-spa-%D1%88%D1%83%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B3-%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BC%D0%B0%D0%BD%D1%83%D0%B0%D0%BB/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-4.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-4.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Техники SPA-шугаринг: бандажная и мануальная</div>
@@ -292,24 +292,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8-spa-%D1%88%D1%83%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B3-%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BC%D0%B0%D0%BD%D1%83%D0%B0%D0%BB/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B8-spa-%D1%88%D1%83%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D0%B3-%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%B8-%D0%BC%D0%B0%D0%BD%D1%83%D0%B0%D0%BB/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/spa-%D1%83%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9-%D1%80%D1%83%D0%BA-%D0%B8-%D0%BD%D0%BE%D0%B3-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%8B%D0%B2/">
+                    <a href="https://www.shkola-nika.ru/spa-%D1%83%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9-%D1%80%D1%83%D0%BA-%D0%B8-%D0%BD%D0%BE%D0%B3-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%8B%D0%B2/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-3.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-3.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  SPA-уход за кожей рук и ног: пилинг, обертывание, парафинотерапия</div>
@@ -319,24 +319,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/spa-%D1%83%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9-%D1%80%D1%83%D0%BA-%D0%B8-%D0%BD%D0%BE%D0%B3-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%8B%D0%B2/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/spa-%D1%83%D1%85%D0%BE%D0%B4-%D0%B7%D0%B0-%D0%BA%D0%BE%D0%B6%D0%B5%D0%B9-%D1%80%D1%83%D0%BA-%D0%B8-%D0%BD%D0%BE%D0%B3-%D0%BF%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3-%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%8B%D0%B2/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE/">
+                    <a href="https://www.shkola-nika.ru/%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-5.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-5.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Арочное моделирование и дизайн с использованием новейших систем в гелевых технологиях</div>
@@ -346,24 +346,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%B0%D1%80%D0%BE%D1%87%D0%BD%D0%BE%D0%B5-%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%81-%D0%B8%D1%81%D0%BF%D0%BE/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%B0%D1%8D%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D1%81%D1%82%D1%8C-%D0%B2-nail-art/">
+                    <a href="https://www.shkola-nika.ru/%D0%B0%D1%8D%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D1%81%D1%82%D1%8C-%D0%B2-nail-art/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-6.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-6.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Аэрография – воздушная кисть в Nail Art</div>
@@ -373,24 +373,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%B0%D1%8D%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D1%81%D1%82%D1%8C-%D0%B2-nail-art/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%B0%D1%8D%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D0%B0%D1%8F-%D0%BA%D0%B8%D1%81%D1%82%D1%8C-%D0%B2-nail-art/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BF%D0%BB%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D1%81/">
+                    <a href="https://www.shkola-nika.ru/%D0%BF%D0%BB%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D1%81/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/plet.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/plet.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Плетение кос</div>
@@ -400,24 +400,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BF%D0%BB%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D1%81/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BF%D0%BB%D0%B5%D1%82%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D1%81/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%81%D1%82-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B1%D1%80%D0%BE%D0%B2%D0%B5%D0%B9-%D0%BA/">
+                    <a href="https://www.shkola-nika.ru/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%81%D1%82-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B1%D1%80%D0%BE%D0%B2%D0%B5%D0%B9-%D0%BA/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-8.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-8.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Мастер - бровист:  архитектура бровей; коррекция бровей; окрашивание бровей хной; окрашивание бровей краской</div>
@@ -427,24 +427,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%81%D1%82-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B1%D1%80%D0%BE%D0%B2%D0%B5%D0%B9-%D0%BA/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%81%D1%82-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B1%D1%80%D0%BE%D0%B2%D0%B5%D0%B9-%D0%BA/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B5%D0%BF%D0%BA%D0%B0-%D0%B3%D0%B5%D0%BB%D0%B5%D0%BC-3d-4d/">
+                    <a href="https://www.shkola-nika.ru/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B5%D0%BF%D0%BA%D0%B0-%D0%B3%D0%B5%D0%BB%D0%B5%D0%BC-3d-4d/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-9.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-9.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Художественная лепка гелем 3D, 4D</div>
@@ -454,24 +454,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B5%D0%BF%D0%BA%D0%B0-%D0%B3%D0%B5%D0%BB%D0%B5%D0%BC-3d-4d/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B5%D0%BF%D0%BA%D0%B0-%D0%B3%D0%B5%D0%BB%D0%B5%D0%BC-3d-4d/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/">
+                    <a href="https://www.shkola-nika.ru/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/mult.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/mult.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Мультидизайн</div>
@@ -481,24 +481,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D1%83%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B1%D0%B8%D0%BE%D0%B3%D0%B5%D0%BB/">
+                    <a href="https://www.shkola-nika.ru/%D1%83%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B1%D0%B8%D0%BE%D0%B3%D0%B5%D0%BB/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-11.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-11.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Укрепление ногтевой пластины биогелем</div>
@@ -508,24 +508,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D1%83%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B1%D0%B8%D0%BE%D0%B3%D0%B5%D0%BB/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D1%83%D0%BA%D1%80%D0%B5%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B-%D0%B1%D0%B8%D0%BE%D0%B3%D0%B5%D0%BB/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8/">
+                    <a href="https://www.shkola-nika.ru/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/decorro.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/decorro.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Основы декоративной росписи</div>
@@ -535,24 +535,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9-%D1%80%D0%BE%D1%81%D0%BF%D0%B8%D1%81%D0%B8/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/crystal-nails/">
+                    <a href="https://www.shkola-nika.ru/crystal-nails/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/crystal.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/crystal.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Cristal Nails</div>
@@ -562,24 +562,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/crystal-nails/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/crystal-nails/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B9/">
+                    <a href="https://www.shkola-nika.ru/%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B9/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/preview-12.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/preview-12.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Акварельная техника в дизайне ногтей</div>
@@ -589,24 +589,24 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B9/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D0%B0%D0%BA%D0%B2%D0%B0%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5-%D0%BD%D0%BE%D0%B3%D1%82%D0%B5%D0%B9/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
                 <li class="course_item shadow-text--super-light">
-                    <a href="http://manicure-site/%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5/">
+                    <a href="https://www.shkola-nika.ru/%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5/">
                         <div class="course_item-img-block">
-                            <img src="http://manicure-site/wp-content/uploads/2018/12/line.jpg" alt="img" class="course_item-img">
+                            <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/12/line.jpg" alt="img" class="course_item-img">
                         </div>
 
                         <div class="course_title">  Тонкие линии в дизайне</div>
@@ -616,17 +616,17 @@ get_header(); ?>
 
                         <div class="course_icon">
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/652.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png" alt="img">
                                 <!--                                            -->                                            <p>8 часов</p>
                             </div>
                             <div class="course_block">
-                                <!--                                            -->                                            <img src="http://manicure-site/wp-content/themes/manicure/assets/images/68998.png" alt="img">
+                                <!--                                            -->                                            <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png" alt="img">
                                 <!--                                            -->                                            <p>4990 руб.</p>
                             </div>
                         </div>
                     </a>
                     <!--                            -->                            <div class="course-list_btn ">
-                        <a href="http://manicure-site/%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5/" class="button">Подробнее</a>
+                        <a href="https://www.shkola-nika.ru/%D1%82%D0%BE%D0%BD%D0%BA%D0%B8%D0%B5-%D0%BB%D0%B8%D0%BD%D0%B8%D0%B8-%D0%B2-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5/" class="button">Подробнее</a>
                     </div>
 
                     <!--                            -->                        </li>
@@ -634,9 +634,9 @@ get_header(); ?>
 
         </div>
     </div>
-    <img class="img-bg img-pos1" src="http://manicure-site/wp-content/themes/manicure/assets/images/bg-img1.png" alt="img">
-    <img class="img-bg img-pos2" src="http://manicure-site/wp-content/themes/manicure/assets/images/bg-img2.png" alt="img">
-    <img class="img-bg img-pos3" src="http://manicure-site/wp-content/themes/manicure/assets/images/bg-img3.png" alt="img">
+    <img class="img-bg img-pos1" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/bg-img1.png" alt="img">
+    <img class="img-bg img-pos2" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/bg-img2.png" alt="img">
+    <img class="img-bg img-pos3" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/bg-img3.png" alt="img">
 </section>
 
 
@@ -644,7 +644,7 @@ get_header(); ?>
 
 <section class="section about-school about-school--home" id="about">
     <h3 class="title shadow-text--light">О нашей школе</h3>
-    <img src=" http://manicure-site/wp-content/uploads/2018/08/gel-system.png" alt="img" class="about-school_bg">
+    <img src=" https://www.shkola-nika.ru/wp-content/uploads/2018/08/gel-system.png" alt="img" class="about-school_bg">
     <div class="container-fluid">
         <div class="about-school_content">
 
@@ -657,7 +657,7 @@ get_header(); ?>
                     </div>
                     <a href="" class="button button--pink">Подробнее о нас</a>
                 </div>
-                <div class="about-school_img-bg" style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/54489.jpg)">
+                <div class="about-school_img-bg" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/54489.jpg)">
 
                 </div>
 
@@ -667,8 +667,8 @@ get_header(); ?>
 
         </div>
     </div>
-    <img class="img-bg img-pos1" src="http://manicure-site/wp-content/themes/manicure/assets/images/bg-img1.png" alt="img">
-    <img class="img-bg img-pos2" src="http://manicure-site/wp-content/themes/manicure/assets/images/bg-img2.png" alt="img">
+    <img class="img-bg img-pos1" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/bg-img1.png" alt="img">
+    <img class="img-bg img-pos2" src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/bg-img2.png" alt="img">
 </section>
 <section class="section about-number">
     <div class="container-fluid">
@@ -682,7 +682,7 @@ get_header(); ?>
                         <p>занимает школа</p>
                     </div>
                 </div>
-                <div class="about-number_bottom" style="background-image: url(http://manicure-site/wp-content/uploads/2018/12/1266637420340024_b21f.jpg)"></div>
+                <div class="about-number_bottom" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/1266637420340024_b21f.jpg)"></div>
             </li>
             <li class="about-number_item shadow-text--super-light about-number_item-img-top">
                 <div class="about-number_top">
@@ -693,7 +693,7 @@ get_header(); ?>
                         <p>оборудованных аудиторий</p>
                     </div>
                 </div>
-                <div class="about-number_bottom" style="background-image: url(http://manicure-site/wp-content/uploads/2018/12/original_526fa52f40c08865098b780e_598ab8d6f1787.jpg)"></div>
+                <div class="about-number_bottom" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/original_526fa52f40c08865098b780e_598ab8d6f1787.jpg)"></div>
             </li>
             <li class="about-number_item shadow-text--super-light about-number_item-img-bottom">
                 <div class="about-number_top">
@@ -704,7 +704,7 @@ get_header(); ?>
                         <p>комфортного обучения</p>
                     </div>
                 </div>
-                <div class="about-number_bottom" style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/6548.jpg)"></div>
+                <div class="about-number_bottom" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/6548.jpg)"></div>
             </li>
         </ul>
     </div>
@@ -895,7 +895,7 @@ get_header(); ?>
     </div>
 
 </section>
-<section class="section video-home" style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/787.jpg)">
+<section class="section video-home" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/787.jpg)">
     <div class="container-fluid">
         <div class="about-school_video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kp2g_KGPtE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -910,7 +910,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Вышковец Олеся.</div>
@@ -928,7 +928,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/08/avatar.png" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/08/avatar.png" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Бурцева Анна.</div>
@@ -946,7 +946,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/11.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/11.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кожедуб Анна.</div>
@@ -964,7 +964,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/22.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/22.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Смольникова Светлана.</div>
@@ -982,7 +982,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/33.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/33.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кокорева Виктория.</div>
@@ -1000,7 +1000,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/99.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/99.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Алиева Патимат.</div>
@@ -1018,7 +1018,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/55.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/55.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Похоменко Надежда.</div>
@@ -1036,7 +1036,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/66.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/66.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Орчунова Динара.</div>
@@ -1054,7 +1054,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/77.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/77.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кокорина Эльвира .</div>
@@ -1072,7 +1072,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/88.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/88.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Сагдулаева Диана.</div>
@@ -1090,7 +1090,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/44.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/44.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Колымагина Елисавета.</div>
@@ -1108,7 +1108,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1010.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1010.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Минченко Ольга.</div>
@@ -1126,7 +1126,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1111.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1111.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Мирошниченко Ирина.</div>
@@ -1144,7 +1144,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Вышковец Олеся.</div>
@@ -1162,7 +1162,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/08/avatar.png" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/08/avatar.png" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Бурцева Анна.</div>
@@ -1180,7 +1180,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/11.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/11.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кожедуб Анна.</div>
@@ -1198,7 +1198,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/22.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/22.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Смольникова Светлана.</div>
@@ -1216,7 +1216,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/33.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/33.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кокорева Виктория.</div>
@@ -1234,7 +1234,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/99.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/99.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Алиева Патимат.</div>
@@ -1252,7 +1252,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/55.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/55.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Похоменко Надежда.</div>
@@ -1270,7 +1270,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/66.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/66.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Орчунова Динара.</div>
@@ -1288,7 +1288,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/77.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/77.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Кокорина Эльвира .</div>
@@ -1306,7 +1306,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/88.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/88.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Сагдулаева Диана.</div>
@@ -1324,7 +1324,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/44.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/44.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Колымагина Елисавета.</div>
@@ -1342,7 +1342,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1010.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1010.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Минченко Ольга.</div>
@@ -1360,7 +1360,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1111.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1111.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Мирошниченко Ирина.</div>
@@ -1378,7 +1378,7 @@ get_header(); ?>
                                     <div class="reviews_block">
                                         <div class="reviews_inform">
                                             <div class="reviews_avatar">
-                                                <img src="http://manicure-site/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
+                                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/1212.jpg" alt="avatar" class="reviews_img">
                                             </div>
                                             <div class="reviews_name">
                                                 <div>Вышковец Олеся.</div>
@@ -1532,7 +1532,7 @@ get_header(); ?>
     <div class="section-info_content ">
         <div class="section-info_left section-info-block shadow-text--super-light">
             <div class="section-info_wrap-left">
-                <img src="http://manicure-site/wp-content/uploads/2018/09/561-1.png" alt="img">
+                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/561-1.png" alt="img">
                 <div class="section-info_text">
                     <h3 class="section-info_title">запись <br> моделей</h3>
                     <div class="section-info_desc"><p>Хотите стать Моделью для наших мастеров и получить стильный маникюр или педикюр совершенно бесплатно?</p>
@@ -1544,7 +1544,7 @@ get_header(); ?>
         </div>
         <div class="section-info_right section-info-block">
             <div class="section-info_wrap-right">
-                <img src="http://manicure-site/wp-content/uploads/2018/09/81.png" alt="img">
+                <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/09/81.png" alt="img">
                 <div class="section-info_text">
                     <h3 class="section-info_title">информация <br> для салонов</h3>
                     <div class="section-info_desc"><p>Если вашему салону нужны Профессиональные мастера Маникюра и Педикюра, высылайте свои Резюме для Соискательниц на нашу электронную почту —&nbsp;<strong class="shadow-text">info@shkola-nika.ru</strong></p>
@@ -1566,32 +1566,32 @@ get_header(); ?>
 
 
             <div class="advantages-home_left">
-                <div class="advantages-home_top" style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/94562.png)">
+                <div class="advantages-home_top" style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/94562.png)">
                 </div>
                 <div class="advantages-home_bottom">
-                    <div style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/68468.png)"></div>
-                    <div style="background-image: url(http://manicure-site/wp-content/uploads/2018/10/5323.png)"></div>
+                    <div style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/68468.png)"></div>
+                    <div style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/10/5323.png)"></div>
                 </div>
             </div>
             <div class="advantages-home_right">
                 <ul class="advantages-home_list shadow-text--super-light">
                     <li class="advantages-home_item">
-                        <img src="http://manicure-site/wp-content/uploads/2018/10/icon1.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/icon1.png" alt="img">
                         <div class="advantages-home_title">Отсутствие доплат</div>
                         <p>Оборудование, материалы, модели включены в стоимость курса. Вам не нужно ничего покупать для обучения!</p>
                     </li>
                     <li class="advantages-home_item">
-                        <img src="http://manicure-site/wp-content/uploads/2018/10/icon2.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/icon2.png" alt="img">
                         <div class="advantages-home_title">Помощь в трудойстройстве</div>
                         <p>После обучения мы разошлем ваши контакты и выпускные работы по салонам Москвы и области, и вы быстро найдете работу.</p>
                     </li>
                     <li class="advantages-home_item">
-                        <img src="http://manicure-site/wp-content/uploads/2018/10/icon3.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/icon3.png" alt="img">
                         <div class="advantages-home_title">Гибкий график обучения </div>
                         <p>Пропустили занятия? Вы сможете возобновить обучение в любое время с того места, на котором остановились!</p>
                     </li>
                     <li class="advantages-home_item">
-                        <img src="http://manicure-site/wp-content/uploads/2018/10/icon4.png" alt="img">
+                        <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/10/icon4.png" alt="img">
                         <div class="advantages-home_title">Опытные преподаватели</div>
                         <p>Практикующие преподаватели с опытом работы 15 лет. Обучение ведется с учетом модных тенденций 2018-2019 года.</p>
                     </li>
@@ -1600,7 +1600,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<script type="text/javascript" src="http://manicure-site/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3"></script>
+<script type="text/javascript" src="https://www.shkola-nika.ru/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3"></script>
 <section class="section section reviews reviews--vip" id="reviews">
     <div class="container-fluid">
         <div class="reviews_content">
@@ -1943,7 +1943,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/gVjc2iTpxy0.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/gVjc2iTpxy0.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1973,7 +1973,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/FLz39Hj2iPQ.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/FLz39Hj2iPQ.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2004,7 +2004,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/e9_ee5k_U2M.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/e9_ee5k_U2M.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2033,7 +2033,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/0Soj1wqfjYw.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/0Soj1wqfjYw.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2061,7 +2061,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/4T0L-Vzwz7I.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/4T0L-Vzwz7I.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2089,7 +2089,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/5qNypALRk14.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/5qNypALRk14.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2122,7 +2122,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/5UjVhbxrzfQ.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/5UjVhbxrzfQ.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2150,7 +2150,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/6vZvqjT4kS0.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/6vZvqjT4kS0.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2189,7 +2189,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/7NPqqJM_Guo.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/7NPqqJM_Guo.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -2218,7 +2218,7 @@ get_header(); ?>
 
 <?php get_template_part('./template-parts/sections/text'); ?>
 <section class="section contacts" id="contacts">
-    <img src="http://manicure-site/wp-content/uploads/2018/08/contacts-bg.png" alt="img" class="contacts_bg">
+    <img src="https://www.shkola-nika.ru/wp-content/uploads/2018/08/contacts-bg.png" alt="img" class="contacts_bg">
     <div class="container-fluid">
         <div class="contacts_content">
             <div id="map" class="contacts_map map"></div>

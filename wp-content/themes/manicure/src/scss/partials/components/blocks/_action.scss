@@ -169,13 +169,31 @@
     font-size: 3.6rem;
   }
 }
-
+.action--premium{
+  background-color: #D9D9B9;
+  background-image: none;
+    .action_content-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .action_content{
+    justify-content: flex-end;
+  }
+}
 @media only screen and (max-width: $screen-sm-max) {
   .action_content {
     justify-content: center;
   }
   .action_content-img {
     display: none;
+  }
+  .action--premium{
+
+    .action_content{
+      justify-content: center;
+    }
   }
 }
 

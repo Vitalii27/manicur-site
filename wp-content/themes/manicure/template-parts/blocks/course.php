@@ -64,16 +64,20 @@
                     <div class="course-vip-item-title">Аппаратные технологии</div>
                     <span>20 часов</span>
                 </div>
-                <div class="course-vip-item">
-                    <div class="course-vip-item-title">Заболевания ногтей</div>
-                    <span>7 часов </span>
-                </div>
+
             </div>
             <div class="course-vip-list-wrap">
                 <div class="course-vip-item">
                     <div class="course-vip-item-title">Наращивание ногтей</div>
                     <span>25 часов</span>
                 </div>
+                <div class="course-vip-item">
+                    <div class="course-vip-item-title">Заболевания ногтей</div>
+                    <span>7 часов </span>
+                </div>
+
+            </div>
+            <div class="course-vip-list-wrap">
                 <div class="course-vip-item">
                     <div class="course-vip-item-title">SPA-процедуры</div>
                     <span>8 часов</span>

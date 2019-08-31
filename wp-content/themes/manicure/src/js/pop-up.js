@@ -128,6 +128,11 @@ jQuery(function ($) {
     var wpcf7Elm7 = document.getElementById('wpcf7-f2200-o5');
     var wpcf7Elm8 = document.getElementById('wpcf7-f2199-o6');
     var wpcf7Elm9 = document.getElementById('wpcf7-f2198-o4');
+    var wpcf7Elm10 = document.getElementById('wpcf7-f2579-o6');
+    var wpcf7Elm11 = document.getElementById('wpcf7-f2580-o5');
+    var wpcf7Elm12 = document.getElementById('wpcf7-f2657-o8');
+    var wpcf7Elm13 = document.getElementById('wpcf7-f2657-o7');
+    var wpcf7Elm14 = document.getElementById('wpcf7-f2657-o9');
 
     PopUpModule.initInline(".js-pop-up");
     PopUpModule.initImg(".js-pop-up-img");
@@ -186,6 +191,40 @@ jQuery(function ($) {
     }
     if (wpcf7Elm6) {
         wpcf7Elm6.addEventListener('wpcf7mailsent', function (event) {
+            $.magnificPopup.close();
+            alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
+
+        }, false);
+    }
+    if (wpcf7Elm10) {
+        wpcf7Elm10.addEventListener('wpcf7mailsent', function (event) {
+            $.magnificPopup.close();
+            alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
+
+        }, false);
+    }
+    if (wpcf7Elm11) {
+        wpcf7Elm11.addEventListener('wpcf7mailsent', function (event) {
+            $.magnificPopup.close();
+            alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
+
+        }, false);
+    }
+    if (wpcf7Elm12) {
+        wpcf7Elm12.addEventListener('wpcf7mailsent', function (event) {
+            $.magnificPopup.close();
+            alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
+
+        }, false);
+    }
+    if (wpcf7Elm13) {
+        wpcf7Elm13.addEventListener('wpcf7mailsent', function (event) {
+            $.magnificPopup.close();
+            alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
+
+        }, false);
+    }   if (wpcf7Elm14) {
+        wpcf7Elm14.addEventListener('wpcf7mailsent', function (event) {
             $.magnificPopup.close();
             alertSucsess.showAlert('<i class="fa fa-info-circle" aria-hidden="true"></i> Ваше сообщение отправлено');
 

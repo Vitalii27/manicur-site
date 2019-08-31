@@ -38,7 +38,7 @@ body.is-swipe-menu-shown {
 .swipe-menu {
     display: flex;
     justify-content: center;
-    align-items: center;
+
     max-width: 100%;
     z-index: $swipe-menu-z-index;
     &_list {
@@ -102,6 +102,7 @@ body.is-swipe-menu-shown {
             }
         }
         &:first-child{
+
             a{
                 //padding-left: 0;
             }
@@ -201,6 +202,9 @@ body.is-swipe-menu-shown {
         >li {
             margin-bottom: 45px;
             padding-right: 0;
+            &:first-child{
+                padding-top: 10rem;
+            }
             a {
                 font-size: 23px;
                 padding: 0;

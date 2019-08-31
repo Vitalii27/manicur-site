@@ -16,7 +16,6 @@ get_header(); ?>
 
 <?php get_template_part('./template-parts/sections/hero-vip'); ?>
 
-
 <section class="section program program--vip" id="program">
 
     <div class="container-fluid">
@@ -378,9 +377,9 @@ get_header(); ?>
                             allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
                 <div class="about-school_desc ">
-                    <div class="about-school_desc-title">Школа «Золотая Ника»</div>
+                    <div class="about-school_desc-title">«Золотая Ника» - это</div>
                     <div class="about-school_desc-text">
-                        <p> Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
+                        <p> 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
                             лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены нужным
                             Оборудованием, Мультимедийными Системами, Наглядными Пособиями, поэтому вы сможете получить
                             профессию в Максимально Удобных Условиях.</p>
@@ -680,7 +679,7 @@ get_header(); ?>
 
                 </div>
                 <div class="vip-teachers_desc">
-                    <p>Аппаратные технологии; Японский маникюр; Бразильский маникюр; Горячий маникюр.</p>
+                    <p>Аппаратные технологии; Японский; Бразильский; Горячий маникюр.</p>
                 </div>
             </li>
             <li class="vip-teachers_item">
@@ -1124,7 +1123,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/gVjc2iTpxy0.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/gVjc2iTpxy0.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1154,7 +1153,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/FLz39Hj2iPQ.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/FLz39Hj2iPQ.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1185,7 +1184,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/e9_ee5k_U2M.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/e9_ee5k_U2M.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1214,7 +1213,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/0Soj1wqfjYw.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/0Soj1wqfjYw.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1242,7 +1241,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/4T0L-Vzwz7I.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/4T0L-Vzwz7I.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1270,7 +1269,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/5qNypALRk14.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/5qNypALRk14.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1303,7 +1302,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/5UjVhbxrzfQ.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/5UjVhbxrzfQ.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1331,7 +1330,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/6vZvqjT4kS0.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/6vZvqjT4kS0.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1370,7 +1369,7 @@ get_header(); ?>
                     <div class="reviews_block">
                         <div class="reviews_inform">
                             <div class="reviews_avatar">
-                                <img src="http://manicure-site/wp-content/uploads/2019/01/7NPqqJM_Guo.jpg"
+                                <img src="https://www.shkola-nika.ru/wp-content/uploads/2019/01/7NPqqJM_Guo.jpg"
                                      alt="avatar" class="reviews_img">
                             </div>
                             <div class="reviews_name">
@@ -1522,8 +1521,8 @@ get_header(); ?>
                         <h3 class="section-info-new_title">запись моделей</h3>
                         <div class="vip-teachers_border"></div>
                         <div class="section-info-new_desc"><p>Хотите стать Моделью для наших мастеров и получить
-                                стильный маникюр или педикюр совершенно бесплатно?</p>
-                            <p>Приходите в школу «Золотая Ника» и подчеркните свою красоту и изящество красивыми
+                                стильные ногти  совершенно бесплатно?</p>
+                            <p>Приходите в «Золотая Ника» и подчеркните свою красоту и изящество красивыми
                                 ноготками!</p>
                             <p>&nbsp;</p>
                         </div>
@@ -1543,8 +1542,7 @@ get_header(); ?>
                     <div class="section-info-new_text">
                         <h3 class="section-info-new_title">информация для салонов</h3>
                         <div class="vip-teachers_border"></div>
-                        <div class="section-info-new_desc"><p>Если вашему салону нужны Профессиональные мастера Маникюра
-                                и Педикюра, высылайте свои Резюме для Соискательниц на нашу электронную почту</p>
+                        <div class="section-info-new_desc"><p>Если вашему салону нужны Профессиональные мастера ногтевого сервиса, высылайте свои Резюме для Соискательниц на нашу электронную почту</p>
                             <p>&nbsp;</p>
                             <p>&nbsp;</p>
                             <p><strong><span style="color: #ff0000;">В заявке укажите:</span> Требования к мастерам, %,

@@ -53,11 +53,21 @@ if (!class_exists('Manicure_Settings_API')):
                     'title' => __('Action Vip мастер', 'manicure')
                 ),
                 array(
+                    'id' => 'action3',
+                    'title' => __('Action PREMIUM курс', 'manicure')
+                ),
+                array(
                     'id' => 'popup',
                     'title' => __('Popup Settings (по кнопке закажите звонок)', 'manicure')
                 ), array(
                     'id' => 'form-course',
                     'title' => __('Форма курса', 'manicure')
+                ), array(
+                    'id' => 'table-vip',
+                    'title' => __('Форма в таблице Вип', 'manicure')
+                ), array(
+                    'id' => 'form-premium',
+                    'title' => __('Форма в таблице Premium', 'manicure')
                 )
 
 
@@ -74,6 +84,62 @@ if (!class_exists('Manicure_Settings_API')):
         function get_settings_fields()
         {
             $settings_fields = array(
+                'table-vip' => array(
+                    array(
+                        'name' => 'popup_shortcode-vip',
+                        'label' => __('Шорткод формы', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+
+                    array(
+                        'name' => 'block-table-price-vip-old',
+                        'label' => __('Старая цена', 'manicure'),
+                        'type' => 'text',
+
+                    ),    array(
+                        'name' => 'block-table-price-vip',
+                        'label' => __('Цена', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'block-table-price-vip-link',
+                        'label' => __('Ссылка на страницу', 'manicure'),
+                        'type' => 'text',
+
+                    )
+
+                ),
+                'form-premium' => array(
+                    array(
+                        'name' => 'popup_shortcode-premium',
+                        'label' => __('Шорткод формы', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+
+                    array(
+                        'name' => 'block-table-price-premium-old',
+                        'label' => __('Старая цена', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'block-table-price-premium',
+                        'label' => __('Цена', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'block-table-price-premium-link',
+                        'label' => __('Ссылка на страницу', 'manicure'),
+                        'type' => 'text',
+
+                    )
+
+
+                ),
                 'popup' => array(
                     array(
                         'name' => 'popup_shortcode',
@@ -85,6 +151,12 @@ if (!class_exists('Manicure_Settings_API')):
                     array(
                         'name' => 'popup_shortcode-vipbanner',
                         'label' => __('Шорткод формы баннер', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'last-price',
+                        'label' => __('Шорткод формы "Последний шанс"', 'manicure'),
                         'type' => 'text',
 
                     ),
@@ -182,6 +254,71 @@ if (!class_exists('Manicure_Settings_API')):
 
                     ), array(
                         'name' => 'action-second',
+                        'label' => __('Секунда', 'manicure'),
+                        'type' => 'text',
+                    ),
+                ),
+                'action3' => array(
+                    array(
+                        'name' => 'action-top2',
+                        'label' => __('Дата проведения C', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'action-po2',
+                        'label' => __('Дата проведения ПО', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-section-month2',
+                        'label' => __('Месяц', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-old-price2',
+                        'label' => __('Новая цена', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-new-price2',
+                        'label' => __('Старая цена', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'action-form2',
+                        'label' => __('Шорткод формы', 'manicure'),
+                        'type' => 'text',
+
+                    ),
+                    array(
+                        'name' => 'action-year2',
+                        'label' => __('Год', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-month2',
+                        'label' => __('Месяц', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-day2',
+                        'label' => __('День', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-hour2',
+                        'label' => __('Час', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-minute2',
+                        'label' => __('Минута', 'manicure'),
+                        'type' => 'text',
+
+                    ), array(
+                        'name' => 'action-second2',
                         'label' => __('Секунда', 'manicure'),
                         'type' => 'text',
                     ),

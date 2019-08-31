@@ -26,9 +26,9 @@ get_header(); ?>
                             allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
                 </div>
                 <div class="about-school_desc ">
-                    <div class="about-school_desc-title">Школа «Золотая Ника»</div>
+                    <div class="about-school_desc-title">«Золотая Ника» - это</div>
                     <div class="about-school_desc-text">
-                        <p> Это 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
+                        <p> 8 Учебных Аудиторий площадью 650 м², расположенных на Двух Этажах. В них проводятся
                             лекции и практические занятия для закрепления полученных знаний. Аудитории оснащены нужным
                             Оборудованием, Мультимедийными Системами, Наглядными Пособиями, поэтому вы сможете получить
                             профессию в Максимально Удобных Условиях.</p>
@@ -287,7 +287,7 @@ get_header(); ?>
                     <span>650</span>
                 </div>
                 <div class="course-advantages_desc">
-                    <p>кв. м площадь,<br> которую занимает<br> школа</p>
+                    <p>кв. м площадь,<br> для обучения</p>
                 </div>
             </li>
             <li>
@@ -377,7 +377,66 @@ get_header(); ?>
     </div>
 </div>
 
+<?php get_template_part('./template-parts/sections/payment'); ?>
 
+<section class="section video-section">
+    <div class="container-fluid">
+        <h3 class="vip-title">Видео - Отзывы</h3>
+        <div class=" video_content">
+            <div class=" video_slider js-video-slider">
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom" data-plyr-provider="youtube" data-plyr-embed-id="jEuZmPReIqY"></div>
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom1" data-plyr-provider="youtube" data-plyr-embed-id="FmZrfZiIvVw"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom2"  data-plyr-provider="youtube" data-plyr-embed-id="gOnSS34QFBE"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom3"  data-plyr-provider="youtube" data-plyr-embed-id="Funq3T1FI_Y"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom4" data-plyr-provider="youtube" data-plyr-embed-id="q1GwKxiv8-Q"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom5"  data-plyr-provider="youtube" data-plyr-embed-id="-Vsx-4FXXBU"></div>
+
+                    </div>
+                </div>
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom6"  data-plyr-provider="youtube" data-plyr-embed-id="DA6k70sKa-s"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_template_part('./template-parts/sections/text'); ?>
 <section class="section contacts contacts--vip" id="contacts">

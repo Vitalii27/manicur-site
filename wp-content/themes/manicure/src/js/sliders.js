@@ -119,6 +119,31 @@ jQuery(function ($) {
 
         //accessibility: false // prevent page scroll up on autoplay
     };
+    var videoSlider = $('.js-video-slider');
+    var videoOption = {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+
+        infinite: false,
+        arrows: true,
+        dots: false,
+
+        nextArrow: '<button type="button" class="slider_btn--next slider_btn"> ' + arrowRight + ' </button>',
+        prevArrow: '<button type="button" class="slider_btn--prev slider_btn">' + arrowLeft + '</button>',
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+        }, {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+        }],
+
+        //accessibility: false // prevent page scroll up on autoplay
+    };
 
     jQuery('.js-photo-slider').on('init', function (event, slick, currentSlide, nextSlide) {
         PopUpModule.initImg(".js-pop-up-img");
@@ -131,6 +156,7 @@ jQuery(function ($) {
     reviewSlider.slick(reviewOption);
     reviewSliderVip.slick(reviewOptionVip);
     photoSlider.slick(photoOption);
+    videoSlider.slick(videoOption);
     photoSliderVip.slick(photoOptionVip);
 
 

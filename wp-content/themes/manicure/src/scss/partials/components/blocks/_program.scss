@@ -141,16 +141,17 @@
 .program--vip {
   position: relative;
 
-.bg-img-section1{
-  position: absolute;
-  top: 20%;
-  right: 0;
-}.bg-img-section2{
-  position: absolute;
-  bottom: 5%;
-  left: 0;
-}
-  .program_text{
+  .bg-img-section1 {
+    position: absolute;
+    top: 20%;
+    right: 0;
+  }
+  .bg-img-section2 {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+  }
+  .program_text {
     padding-left: 0 !important;
     padding-right: 0 !important;
     font-family: $oswald-font;
@@ -203,17 +204,17 @@
     }
     a {
       position: relative;
-      padding-right: 1.5rem ;
+      padding-right: 1.5rem;
       &:before {
         content: '';
         display: block;
-   border-right: 2px solid $red-third;
-   border-top: 2px solid $red-third;
+        border-right: 2px solid $red-third;
+        border-top: 2px solid $red-third;
         position: absolute;
         right: 0;
         top: 50%;
         transform: translateY(-50%) rotate(45deg);
-        width:1rem;
+        width: 1rem;
         height: 1rem;
       }
     }
@@ -232,8 +233,9 @@
       color: $white;
       font-weight: 600;
       left: 1.5rem;
-      display: flex;align-items: center;
-      span{
+      display: flex;
+      align-items: center;
+      span {
         padding-left: 1rem;
       }
     }
@@ -266,12 +268,14 @@
     background-color: $white;
 
     z-index: 2;
-&:last-child{
-padding: 0;
-  img{  height: 100%;
-    width: 100%;}
+    &:last-child {
+      padding: 0;
+      img {
+        height: 100%;
+        width: 100%;
+      }
 
-}
+    }
     .program_text {
       padding: 3rem 1.5rem 3rem;
     }
@@ -279,10 +283,10 @@ padding: 0;
       text-align: center;
     }
   }
-  .program_item--fix{
-    .program_text{
-      div{
-        &:before{
+  .program_item--fix {
+    .program_text {
+      div {
+        &:before {
           top: 7rem;
         }
       }
@@ -291,7 +295,7 @@ padding: 0;
   .program_img {
     margin: 0 auto;
     height: 23rem;
-border-radius: 0;
+    border-radius: 0;
     &:before {
       display: none;
     }
@@ -325,7 +329,27 @@ border-radius: 0;
     padding-bottom: 3rem;
   }
 }
+.program--premium{
+  .program_list{
+    max-width: 83rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .program_item{
+    flex-basis: 43%;
+    border-color: $red-third;
 
+    &:last-child{
+      padding: 2rem !important;
+      img{
+        width: auto !important;
+      }
+    }
+    &:hover{
+      border-color: #FF327A !important;
+    }
+  }
+}
 @media only screen and (max-width: $screen-md-max) {
   .program {
     &_item {
@@ -333,12 +357,12 @@ border-radius: 0;
       width: 31%;
     }
   }
-  .program--vip{
-    .bg-img-section1, .bg-img-section2{
+  .program--vip {
+    .bg-img-section1, .bg-img-section2 {
       display: none;
     }
-    .program_item{
-      flex-basis: 40% ;
+    .program_item {
+      flex-basis: 40%;
 
     }
   }

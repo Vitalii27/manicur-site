@@ -16,6 +16,64 @@ get_header(); ?>
 
 </section>
 <?php get_template_part('./template-parts/sections/review-section'); ?>
+<section class="section video-section">
+    <div class="container-fluid">
+        <h3 class="vip-title">Видео - Отзывы</h3>
+        <div class=" video_content">
+            <div class=" video_slider js-video-slider">
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom" data-plyr-provider="youtube" data-plyr-embed-id="jEuZmPReIqY"></div>
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom1" data-plyr-provider="youtube" data-plyr-embed-id="FmZrfZiIvVw"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom2"  data-plyr-provider="youtube" data-plyr-embed-id="gOnSS34QFBE"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom3"  data-plyr-provider="youtube" data-plyr-embed-id="Funq3T1FI_Y"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom4" data-plyr-provider="youtube" data-plyr-embed-id="q1GwKxiv8-Q"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom5"  data-plyr-provider="youtube" data-plyr-embed-id="-Vsx-4FXXBU"></div>
+
+                    </div>
+                </div>
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom6"  data-plyr-provider="youtube" data-plyr-embed-id="DA6k70sKa-s"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_template_part('./template-parts/sections/form-review'); ?>
 <section class="section vip-photo-classes photo">
     <div class="container-fluid">
@@ -203,6 +261,7 @@ get_header(); ?>
     </div>
 
 </section>
+
 <section class="section contacts contacts--vip" id="contacts">
     <div class="container-fluid">
 

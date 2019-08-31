@@ -20,6 +20,8 @@
 require __DIR__ . '/vendor/autoload.php';
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\OpenServer\domains\manicure-site\wp-content\plugins\wp-super-cache/' );
 define('DB_NAME', 'manicure-site');
 
 /** Имя пользователя MySQL */

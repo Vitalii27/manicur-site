@@ -24,7 +24,7 @@
     <meta property="og:image:height" content="200" />
     <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="canonical" href="https://www.shkola-nika.ru/canonical-link.html"/>
+    <link rel="canonical" href="https://www.shkola-nika.ru/"/>
         <script src="https://securepayments.sberbank.ru/payment/docsite/assets/js/ipay.js"></script>
 
     <?php wp_head(); ?>

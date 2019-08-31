@@ -158,8 +158,8 @@ function wpcf7_modify_this( $WPCF7_ContactForm ) {
 
         'phone'   => isset($_POST['form-tel'])   ? $_POST['form-tel'] : null, // Для поля с именем 'your-email', // Если значения нет
         'fields'  => array(
-            "190389"=>isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : null,
-            "190391"=>$title,
+            "190391"=>isset($_COOKIE['roistat_visit']) ? $_COOKIE['roistat_visit'] : null,
+         //   "190391"=>$title,
 			"572715"=>$kurs,
 			
         ),
@@ -207,3 +207,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
     require get_template_directory() . '/inc/jetpack.php';
 }
 
+function the_truncated_post($symbol_amount) {
+    $filtered = strip_tags( preg_replace('@<style[^>]*?>.*?</style>@si', '', preg_replace('@<script[^>]*?>.*?</script>@si', '', apply_filters('the_content', get_the_content()))) );
+    echo substr($filtered, 0, strrpos(substr($filtered, 0, $symbol_amount), ' ')) . '...';
+}

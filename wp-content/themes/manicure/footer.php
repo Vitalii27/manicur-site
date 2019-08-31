@@ -26,7 +26,7 @@
                         ?>
                         <a href="#hero" class="footer_link"> <img src="<?php echo $header['header-logo']; ?>" alt="logo"
                                                                   class="footer_img">
-                            <p><?php echo $header['header-logo-text']; ?></p>
+
                         </a>
                     <?php } ?>
                     </div>

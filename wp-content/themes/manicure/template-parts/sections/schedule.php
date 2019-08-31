@@ -1,19 +1,29 @@
 <section class="section schedule-section">
     <div class="container-fluid">
-        <div class="schedule-section_top-block">
-            <h3 class="top-title vip-title">Учебно-тематический план программы</h3>
-            <?php if (get_field('shcedule_title')): ?>
-                <h3 class="title "><?php the_field('shcedule_title') ?></h3>
-            <?php endif; ?>
-            <?php if (get_field('shcedule_subtitle')): ?>
-                <h4 class="subtitle "><?php the_field('shcedule_subtitle') ?></h4>
-            <?php endif; ?>
-            <?php if (get_field('shcedule_desc-title')): ?>
-                <div class="schedule-section_desc ">
-                    <?php the_field('shcedule_desc-title') ?>
-                </div>
-            <?php endif; ?>
-        </div>
+        <?php if (get_field('new-section-resny') == 'true'): ?>
+            <div class="schedule-section_top-block">
+                
+                <h3 class="top-title vip-title"><p><strong>Учебный план</strong></p><p><strong>курса «Мастер-лешмейкер»</strong></p></h3>
+
+            </div>
+
+        <?php else : ?>
+            <div class="schedule-section_top-block">
+                <h3 class="top-title vip-title">Учебно-тематический план программы</h3>
+                <?php if (get_field('shcedule_title')): ?>
+                    <h3 class="title "><?php the_field('shcedule_title') ?></h3>
+                <?php endif; ?>
+                <?php if (get_field('shcedule_subtitle')): ?>
+                    <h4 class="subtitle "><?php the_field('shcedule_subtitle') ?></h4>
+                <?php endif; ?>
+                <?php if (get_field('shcedule_desc-title')): ?>
+                    <div class="schedule-section_desc ">
+                        <?php the_field('shcedule_desc-title') ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        <?php endif; ?>
+
         <?php if (have_rows('shcedule_list-home')): $count = 1; ?>
             <ul class="schedule-section_list ">
                 <?php while (have_rows('shcedule_list-home')): the_row(); ?>
@@ -74,8 +84,12 @@
             </ul>
         <?php endif; ?>
     </div>
-    <img class="img-bg img-bg--1" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img1.png" alt="img">
-    <img class="img-bg img-bg--2" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img2.png" alt="img">
-    <img class="img-bg img-bg--3" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img3.png" alt="img">
-    <img class="img-bg img-bg--4" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img4.png" alt="img">
+    <img class="img-bg img-bg--1" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img1.png"
+         alt="img">
+    <img class="img-bg img-bg--2" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img2.png"
+         alt="img">
+    <img class="img-bg img-bg--3" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img3.png"
+         alt="img">
+    <img class="img-bg img-bg--4" src="<?php echo get_template_directory_uri() ?>/assets/images/course-img4.png"
+         alt="img">
 </section>

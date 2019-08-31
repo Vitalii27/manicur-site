@@ -24,7 +24,7 @@ function get_js() {
     wp_enqueue_script('magnific', 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js', null, false, true);
     wp_enqueue_script('device-js', get_template_directory_uri() . '/assets/vendors/device.js', null, false, true);
     wp_enqueue_script('plyr-polyfill', 'https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL', null, false, true);
-    wp_enqueue_script('plyr-js', 'https://cdn.plyr.io/3.3.12/plyr.js', null, false, true);
+    wp_enqueue_script('plyr-js', 'https://cdnjs.cloudflare.com/ajax/libs/plyr/3.5.6/plyr.polyfilled.min.js', null, false, true);
     wp_enqueue_script('waypoints', get_template_directory_uri() . '/assets/vendors/waypoints/waypoints.min.js', array('jquery'), false, true);
     wp_enqueue_script('slick-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js', array('jquery'), false, true);
     wp_enqueue_script('select', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js', array('jquery'), false, true);

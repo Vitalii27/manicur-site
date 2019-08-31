@@ -92,7 +92,14 @@
     }
   }
 }
-
+.new-diplom{
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  img{
+    border-radius: 10px;
+  }
+}
 @media only screen and (max-width: $screen-sm-max) {
   .diplom {
     padding-top: 4rem;
@@ -196,6 +203,11 @@
     &_right {
       margin-top: 3rem;
     }
+  }
+  .new-diplom{
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 }
 

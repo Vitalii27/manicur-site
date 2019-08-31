@@ -1,41 +1,56 @@
-.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+.video_slider {
+  .arrow-slide {
+    background-image: url('../../assets/images/icon/vip-slider.png');
+  }
+  .arrow-right-slide {
+    transform: rotate(0);
+  }
+  .arrow-left-slide {
+    transform: rotate(180deg);
+  }
+  .slick-slide {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .video_slider-elem {
+    border-radius: 7px;
 
-}
+  }
 
-.plyr__controls {
-  .plyr__control {
-    &:hover, &:active, &:focus {
-      background: $orange !important;
-      box-shadow: 0 0 0 5px rgba($orange, .5) !important;
+  .slick-current {
+    transition: transform .25s;
+    opacity: 1;
+  }
+  .plyr__control--overlaid {
+    background: $red-third;
+  }
+  .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true] {
+    background: $red-third;
+    color: #fff;
+  }
+  .plyr--full-ui input[type=range] {
+    color: $red-third;
+  }
+
+  .plyr:fullscreen {
+    .plyr__controls__item.plyr__progress__container {
+      display: block;
+      width: 86%;
     }
   }
-}
-
-.plyr__control--overlaid {
-  background: transparent !important;
-  box-shadow: none !important;
-  &:hover {
-    background: transparent !important;
-    box-shadow: none !important;
+  .slider_btn--next {
+    right: -3.5rem;
   }
-  svg {
-    fill: $orange !important;
-    width: 64px !important;
-    height: 64px !important;
+  .slider_btn--prev {
+    left: -3.5rem;
   }
 }
 
-.plyr--full-ui input[type=range] {
-  color: $orange !important;
+.video_content {
+  margin-top: 60px;
 }
 
-.plyr--video, .plyr__controls {
-  background: transparent !important;
-}
-
-.plyr__video-wrapper {
-
-  border-radius: 2rem !important;
-
-
+.video-section {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

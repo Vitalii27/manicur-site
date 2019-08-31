@@ -1,8 +1,8 @@
 <?php
 /**
- * The template for displaying all single posts
+ * The template for displaying search results pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
  * @package manicure
  */
@@ -10,28 +10,42 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+    <section id="primary" class="content-area">
+        <main id="main" class="site-main">
+            <div class="container-fluid blog-full">
+                <?php if ( have_posts() ) : ?>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+                    <?php
+                    /* Start the Loop */
+                    while ( have_posts() ) :
+                        the_post();
 
-			the_post_navigation();
+                        /**
+                         * Run the loop for the search to output the results.
+                         * If you want to overload this in a child theme then include a file
+                         * called content-search.php and that will be used instead.
+                         */
+                        get_template_part( 'template-parts/content' );
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+                    endwhile;
 
-		endwhile; // End of the loop.
-		?>
+                    the_posts_navigation();
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+                else :
+
+                    get_template_part( 'template-parts/content', 'none' );
+
+                endif;
+                ?>
+                <div>
+                    <a href="<?php echo get_site_url().'/blog-po-manikyuru-i-pedikyuru'?>" class="more-link">Назад в блог</a>
+
+                </div>
+            </div>
+        </main><!-- #main -->
+    </section><!-- #primary -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();

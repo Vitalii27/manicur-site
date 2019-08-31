@@ -1,8 +1,11 @@
 <section class="setion plus-section">
     <div class="container-fluid">
         <h3 class="title vip-title">Плюсы обучения</h3>
+        <?php if (get_field('new-section-resny') == 'true'): ?>
+            <h4 class="subtitle">Наращиванию ресниц в нашей школе</h4>
+        <?php else : ?>
         <h4 class="subtitle">маникюру и педикюру в нашей школе</h4>
-
+        <?php endif; ?>
         <?php if (have_rows('plus-section-list')): ?>
             <ul class="plus-section_list ">
                 <?php while (have_rows('plus-section-list')): the_row(); ?>

@@ -10,7 +10,8 @@
  */
 
 get_header(); ?>
-
+<?php $vip = get_option('table-vip'); ?>
+<?php $premium = get_option('form-premium'); ?>
 <section class="section container-fluid title-page">
     <h1 class="vip-title">Курсы маникюра и педикюра в Москве</h1>
 </section>
@@ -29,132 +30,1528 @@ get_header(); ?>
 
         </div>
     </div>
+<!--    --><?php //get_template_part('./template-parts/blocks/table-block'); ?>
+    <section class="advantages-table">
+        <div class="container-fluid hero-courses">
+            <div class="text-block-new">
+                <div class="hero-courses-text">
+                    <h4>Курсы для новичков</h4>
+                    <h3><strong>Обучение с нуля до уровня мастер-универсал!</strong></h3>
+                    <p>90% практики. Трудоустройство!</p>
+                </div>
+                <img class="arrow-bold"
+                     src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">
+            </div>
+        </div>
+        <div class="container-fluid">
+
+            <div class="table-column">
+                <div class="title-wrap">
+                    <div class="h2">Курсы обучения с нуля до профи</div>
+                </div>
+                <div class="title-list">
+                <span>
+                    Маникюр и педикюр
+                </span>
+                </div>
+                <span class="subtitle-list">Разновидности маникюра:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- классический маникюр и педикюр <br>(уникальная авторская программа);</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- комбинированный маникюр и педикюр;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- европейский маникюр;</p>
+                </div>
+
+                <div class="title-row-wrap" style="background-color: #F7F7F7">
+                    <p class="title-row">- детский маникюр;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- горячий (лечебный);</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- сухой (обрезной и необрезной);</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- аппаратный (комбинированный);</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- SPA-маникюр; </p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- мужской;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- ремонт сломанных ногтей;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение массажу рук.</p>
+                </div>
+
+                <div class="title-list">
+                <span>
+Покрытие Ногтей:
+                </span>
+                </div>
+                <span class="subtitle-list">Виды покрытий:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- покрытие лаком;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- покрытие гель лаком;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- покрытие гель лаком;</p>
+                </div>
+
+                <div class="title-list">
+                    <span>Дизайн Ногтей:</span>
+                </div>
+                <span class="subtitle-list">Обучение дизайну:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- френч классический;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- экспресс-дизайн по мокрому лаку иглой;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- бульонки, стемпинг, блестки, матовый топ;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа дотсом, акриловые краски, жидкие стразы;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- чешуя дракона, камифубики, рыбья чешуя; </p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- дизайн с эффектом растекания; </p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- гель - краски, шагрень.</p>
+                </div>
+                <div class="title-list">
+                    <span>Заболевание Ногтей и Кожи:</span>
+                </div>
+                <span class="subtitle-list">Изучаемые дисциплины:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- грибковые и не грибковые;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- методы профилактики и рекомендации.</p>
+                </div>
+                <div class="title-list">
+                    <span>Наращивание Ногтей –Гелевые технологии:</span>
+                </div>
+                <span class="subtitle-list">ВИДЫ НАРАЩИВАНИЯ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение техникам выкладки геля;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа с прозрачным гелем;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа с камуфлирующим гелем;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- наращивание на типсы;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- наращивание на формы;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- коррекция наращенных ногтей;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- снятие наращенных ногтей.</p>
+                </div>
+                <div class="title-list">
+                    <span>Аппаратные Технологии:</span>
+                </div>
+                <span class="subtitle-list">ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- виды аппаратов для маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- техника безопасности при работе с аппаратом;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- виды и классификация фрез;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">-классификация и маркировка фрез;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение технике аппаратному маникюру;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение технике аппаратному педикюру;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- отработка техник.</p>
+                </div>
+                <div class="title-list">
+                    <span>Аппаратные Технологии - Углубленный курс: </span>
+                </div>
+                <span class="subtitle-list">ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- снятие иску стенного покрытия (гель лак и геля)<br>
+                        керамической и твердосплавными фрезами;
+                    </p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обработка птеригия корундовой фрезой;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение правильной работе в боковых;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- пазухах (снятие ороговевшей кожи, не касаясь ногтя); </p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- чистый срез кутикулы шаровидной фрезой;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение деликатной обработке боковых валиков;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение финальной шлифовке кожи и кутикулы;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обработка стопы одноразовыми песочными колпачками. </p>
+                </div>
+                <div class="title-list">
+                    <span>Организация Рабочего Места:</span>
+                </div>
+                <span class="subtitle-list">Рекомендации по:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- выбору инструментов, материалов;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- выбору оборудования и освещения;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- расходным материалам (салфетки, пилки, бафы, кисти т.д.).</p>
+                </div>
+                <div class="title-list">
+                    <span>Обучение работе с Инструментами и Оборудованием:</span>
+                </div>
+                <span class="subtitle-list">Рекомендации по:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа с 3-мя видами ламп: УФ-лампа, LED-лампа, гибридная лампа;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа с фрезером и насадками, работа с шабером, ремувером;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- работа с кюреткой, инструментом и щипцами для вросшего ногтя;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- обучение правилам дезинфекции и стерилизации инструментов.</p>
+                </div>
+                <div class="title-list">
+                    <span>Этика Взаимоотношений с Клиентом:</span>
+                </div>
+                <span class="subtitle-list">Рекомендации:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- запретные темы при работе с клиентом;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- правила поведения с клиентом;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- искусство общения с клиентом.</p>
+                </div>
+                <div class="title-list">
+                    <span>Курс – «Японский Маникюр и Педикюр</span>
+                </div>
+                <span class="subtitle-list">ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">Особенности японского маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">Преимущества японского маникюра.</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">Демонстрация и отработка техники:</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – восстановление ногтевой пластины;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – оздоровление ногтевой пластины;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – уход за ногтями и кожей рук.</p>
+                </div>
+                <div class="title-list">
+                    <span>Курс - «Бразильский Маникюр и Педикюр</span>
+                </div>
+                <span class="subtitle-list">ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- особенности Бразильского маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- преимущества Бразильского маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">Демонстрация и отработка техники:</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – обучение технике ухода за кожей рук;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – обучение технике ухода за ногтями.</p>
+                </div>
+                <div class="title-list">
+                    <span>Курс – «Горячий Маникюр»: </span>
+                </div>
+                <span class="subtitle-list">ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                <div class="title-row-wrap">
+                    <p class="title-row">- особенности Горячего маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">- особенности Горячего маникюра;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row">Демонстрация и отработка техники:</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – обучение уходу за кожей рук;</p>
+                </div>
+                <div class="title-row-wrap">
+                    <p class="title-row"> – восстановление сухих и ломких ногтей.</p>
+                </div>
+
+
+            </div>
+
+            <div class="table-column">
+                <div class="vip">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/course2.png" alt="img">
+                    <p>VIP–Мастер Универсал</p>
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img" style="background-color: #F7F7F7">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+
+                <div class="img">
+                </div>
+
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                </div>
+
+
+                <!---->
+                <!--            <div class="img" style="min-height: 79px">-->
+                <!--            </div>-->
+                <!--            <div class="border"></div>-->
+                <!---->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--                <img src="-->
+                <?php //echo get_template_directory_uri() ?><!--/assets/images/cancel.png" alt="icon">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!---->
+                <!--            <div class="img">-->
+                <!--                <img src="-->
+                <?php //echo get_template_directory_uri() ?><!--/assets/images/cancel.png" alt="icon">-->
+                <!--            </div>-->
+                <div class="img">
+                </div>
+                <div class="img">
+                </div>
+
+                <div class="table-price">
+                    <div class="table-price-wrap">
+                        <div class="old-price">
+                            <?php echo $vip['block-table-price-vip-old']; ?> руб
+                        </div>
+                        <div class="price"><?php echo $vip['block-table-price-vip']; ?> руб</div>
+                        <a href="<?php echo $vip['block-table-price-vip-link']; ?>" class="more">Подробнее о курсе</a>
+                        <div class="btn">
+                            <a href="#vip-form" class="js-pop-up">Выбрать курс</a>
+                        </div>
+                    </div>
+
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/pattern-vip.png" alt="img">
+
+                </div>
+            </div>
+            <div class="table-column">
+                <div class="premium">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/course3.png" alt="img">
+                    <p>Premium Мастер Универсал</p>
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img" style="background-color: #F7F7F7">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img" style="min-height: 79px">
+                </div>
+                <div class="border"></div>
+                <div class="img">
+                </div>
+
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+                <div class="img">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                </div>
+
+
+                <!---->
+
+
+                <!--            <div class="img" style="min-height: 79px">-->
+                <!--            </div>-->
+                <!--            <div class="border"></div>-->
+                <!---->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--                <img src="-->
+                <?php //echo get_template_directory_uri() ?><!--/assets/images/checked.png" alt="icon">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!--            <div class="img">-->
+                <!--            </div>-->
+                <!---->
+                <!--            <div class="img">-->
+                <!--                <img src="-->
+                <?php //echo get_template_directory_uri() ?><!--/assets/images/checked.png" alt="icon">-->
+                <!--            </div>-->
+                <div class="img">
+                </div>
+                <div class="img">
+                </div>
+
+                <div class="table-price table-price--premium">
+                    <div class="table-price-wrap">
+                        <div class="old-price">
+                            <?php echo $premium['block-table-price-premium-old']; ?> руб
+                        </div>
+                        <div class="price"><?php echo $premium['block-table-price-premium']; ?> руб</div>
+                        <a href="<?php echo $premium['block-table-price-premium-link']; ?>" class="more">Подробнее о
+                            курсе</a>
+                        <div class="btn">
+                            <a href="#premium-form" class="js-pop-up">Выбрать курс</a>
+                        </div>
+                    </div>
+
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/pattern-premium.png" alt="img">
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="advantages-table-mobile">
+        <div class="container-fluid">
+            <div class="title-wrap">
+                <div class="h2">Курсы <br>обучения <br>с нуля <br>до профи</div>
+            </div>
+            <div class="mobile-courses-wrapp">
+                <div class="mobile-courses" id="float-block">
+                    <div class="vip">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course2.png" alt="img">
+                        <p>VIP–Мастер Универсал</p>
+                    </div>
+                    <div class="premium">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/images/course3.png" alt="img">
+                        <p>Premium Мастер Универсал</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comparison">
+                Сравнение программ обучения
+            </div>
+
+
+            <ul class="js-accordions">
+                <li class="accordion" id="item1">
+                    <a href="#item1">
+                        <div class="h5 js-open-down" style="background-color: #E01171">Маникюр и педикюр</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Разновидности маникюра:</span>
+                        <p>Классический маникюр и педикюр<br>
+                            (уникальная авторская программа)</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Комбинированный маникюр и педикюр</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Европейский маникюр</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Детский маникюр</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Горячий (лечебный)</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Сухой (обрезной и необрезной</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Аппаратный (комбинированный)</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>SPA-маникюр </p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Мужской </p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Ремонт сломанных ногтей </p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обучение массажу рук </p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item2">
+                    <a href="#item2">
+                        <div class="h5 js-open-down" style="background-color: #E01171;">Покрытие Ногтей:</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Виды покрытий:</span>
+                        <p>Покрытие лаком</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Покрытие гель лаком</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Снятие покрытий</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item3">
+                    <a href="#item3">
+                        <div class="h5 js-open-down" style="background-color: #E01171;">Дизайн Ногтей:</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Обучение дизайну:</span>
+                        <p>Френч классический</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Экспресс-дизайн по мокрому лаку иглой</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Бульонки, стемпинг, блестки, матовый топ</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа дотсом, акриловые краски, жидкие стразы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Чешуя дракона, камифубики, рыбья чешуя</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Дизайн с эффектом растекания</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Гель - краски, шагрень</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item4">
+                    <a href="#item4">
+                        <div class="h5 js-open-down" style="background-color: #E01171;">Заболевание Ногтей и Кожи:</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Рекомендации:</span>
+                        <p>Грибковые и не грибковые</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Методы профилактики и рекомендации</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item5">
+                    <a href="#item5">
+                        <div class="h5 js-open-down" style="background-color: #E01171;">Наращивание Ногтей –Гелевые
+                            технологии:
+                        </div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>ВИДЫ НАРАЩИВАНИЯ:</span>
+                        <p>Обучение техникам выкладки геля</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с прозрачным гелем</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с камуфлирующим гелем</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Наращивание на типсы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Наращивание на формы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Коррекция наращенных ногтей</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Снятие наращенных ногтей</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item6">
+                    <a href="#item6">
+                        <div class="h5 js-open-down" style="background-color: #B80C54;">Аппаратные Технологии:</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>ВИДЫ НАРАЩИВАНИЯ:</span>
+                        <p>Обучение техникам выкладки геля</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с прозрачным гелем</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с камуфлирующим гелем</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Наращивание на типсы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Наращивание на формы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Коррекция наращенных ногтей</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Снятие наращенных ногтей</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item7">
+                    <a href="#item7">
+                        <div class="h5 js-open-down" style="background-color: #B80C54;">Аппаратные Технологии - Углубленный
+                            курс:
+                        </div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ: </span>
+                        <p>Снятие иску стенного покрытия (гель лак и геля)
+                            керамической и твердосплавными фрезами</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обработка птеригия корундовой фрезой</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обучение правильной работе в боковых</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Пазухах (снятие ороговевшей кожи, не касаясь ногтя); </p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Чистый срез кутикулы шаровидной фрезой</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обучение деликатной обработке боковых валиков</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>обучение финальной шлифовке кожи и кутикулы</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обработка стопы одноразовыми песочными колпачками</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обучение финальной шлифовке кожи и кутикулы</p>
+                    </div>
+
+                </li>
+                <li class="accordion" id="item8">
+                    <a href="#item8">
+                        <div class="h5 js-open-down" style="background-color: #A90B84;">Организация Рабочего Места:</div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Рекомендации по:</span>
+                        <p>Выбору инструментов, материалов</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Выбору оборудования и освещения</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Расходным материалам (салфетки, пилки, бафы, кисти т.д.)</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+
+                </li>
+                <li class="accordion" id="item9">
+                    <a href="#item9">
+                        <div class="h5 js-open-down" style="background-color: #A90B84;">Обучение работе с Инструментами и
+                            Оборудованием:
+                        </div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>Рекомендации по:</span>
+                        <p>Работа с 3-мя видами ламп: УФ-лампа, LED-лампа, гибридная лампа</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с фрезером и насадками, работа с шабером, ремувером</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Работа с кюреткой, инструментом и щипцами для вросшего ногтя</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Обучение правилам дезинфекции и стерилизации инструментов</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+
+                    </div>
+                </li>
+                <li class="accordion" id="item10">
+                    <a href="#item10">
+                        <div class="h5 js-open-down" style="background-color: #A90B84;">Этика Взаимоотношений с Клиентом
+                        </div>
+
+                    </a>
+                    <div class="accordion_content">
+                        <span>Рекомендации по:</span>
+                        <p>Запретные темы при работе с клиентом</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Правила поведения с клиентом</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Искусство общения с клиентом</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item11">
+                    <a href="#item11">
+                        <div class="h5 js-open-down" style="background-color:  #7C0BAA;">Курс – «Японский Маникюр и
+                            Педикюр»:
+                        </div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                        <p>Особенности японского маникюра</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>Преимущества японского маникюра</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <div class="big-title">Демонстрация и отработка техники:</div>
+                        <p>– восстановление ногтевой пластины;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>– оздоровление ногтевой пластины;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>– уход за ногтями и кожей рук.</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item12">
+                    <a href="#item12">
+                        <div class="h5 js-open-down" style="background-color:  #7C0BAA;">Курс - «Бразильский Маникюр и
+                            Педикюр»:
+                        </div>
+                    </a>
+                    <div class="accordion_content">
+                        <span>ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                        <p>- особенности Бразильского маникюра;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>- преимущества Бразильского маникюра;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <div class="big-title">Демонстрация и отработка техники:</div>
+                        <p>– обучение технике ухода за кожей рук;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>– обучение технике ухода за ногтями.</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+                <li class="accordion" id="item13">
+                    <a href="#item13">
+                        <div class="h5 js-open-down" style="background-color:  #7C0BAA;">Курс – «Горячий Маникюр»:</div>
+
+                    </a>
+                    <div class="accordion_content">
+                        <span>ИЗУЧАЕМЫЕ ДИСЦИПЛИНЫ:</span>
+                        <p>- особенности Горячего маникюра;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>- преимущества Горячего маникюра;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <div class="big-title">Демонстрация и отработка техники:</div>
+                        <p>– обучение уходу за кожей рук;</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                        <p>– восстановление сухих и ломких ногтей.</p>
+                        <div class="img-block">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/cancel.png" alt="icon">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/images/checked.png" alt="icon">
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <ul class="link-course-list">
+                <li class="table-price">
+                    <div class="table-price-wrap">
+                        <div class="old-price">
+                            <?php echo $vip['block-table-price-vip-old']; ?> руб
+                        </div>
+                        <div class="price"><?php echo $vip['block-table-price-vip']; ?> руб</div>
+                        <a href="<?php echo $vip['block-table-price-vip-link']; ?>" class="more">Подробнее о курсе</a>
+                        <div class="btn">
+                            <a href="#vip-form" class="js-pop-up">Выбрать курс</a>
+                        </div>
+                    </div>
+
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/pattern-vip.png" alt="img">
+
+                </li>
+                <li class="table-price table-price--premium">
+                    <div class="table-price-wrap">
+                        <div class="old-price">
+                            <?php echo $premium['block-table-price-premium-old']; ?> руб
+                        </div>
+                        <div class="price"><?php echo $premium['block-table-price-premium']; ?> руб</div>
+                        <a href="<?php echo $premium['block-table-price-premium-link']; ?>" class="more">Подробнее о
+                            курсе</a>
+                        <div class="btn">
+                            <a href="#premium-form" class="js-pop-up">Выбрать курс</a>
+                        </div>
+                    </div>
+
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/images/pattern-premium.png" alt="img">
+
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <div class="container-fluid">
-        <!--            --><!--                <div class="text-block-new">
-        <!--                    <div class="hero-courses-text">-->
-        <!--                        --><!--                    </div>-->
-        <!--                    <img class="arrow-bold"-->
-        <!--                         src="--><!--/assets/images/arrow-bold.png" alt="img">-->
-        <!--                </div>-->
-        <!--            -->
-        <div class="text-block-new">
-            <div class="hero-courses-text">
-                <h4>Курс для новичков</h4>
-                <h3><strong>Обучение с нуля до уровня мастер-универсал!</strong></h3>
-                <p>156 часов обучения — 90% практики. Трудоустройство!</p>
-            </div>
-            <img class="arrow-bold"
-                 src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">
-        </div>
-        <div class="course">
-            <div class="course-container">
-                <div class="course-left ">
-                    <div class="course-img_block">
-                        <div>
-                            <div class="schedule-section-border"></div>
-                            <div class="schedule-section_item-img"
-                                 style="background-image: url(https://www.shkola-nika.ru/wp-content/uploads/2018/12/universal-preview.jpg)"></div>
-                        </div>
-                    </div>
-                    <img class="img-bg img-pos1"
-                         src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/course-bubs.png"
-                         alt="img">
-                </div>
-                <div class="course-right">
-                    <h5 class="course_title">Курс по Маникюру — "VIP-Мастер Универсал"</h5>
-                    <div class="vip-teachers_border">
 
-                    </div>
-                    <p>В рамках этого курса вы научитесь всему в сфере nail-индустрии: делать маникюр, создавать дизайны
-                        с
-                        помощью страз, блесток, трафаретов, наращивать ногти по гелевым технологиям, удалять вросшие
-                        ногти,
-                        проводить спа-процедуры для рук. Отдельное внимание уделяется подготовке рабочего места,
-                        дезинфекции
-                        инструментов и заболеваниям ногтей.</p>
-
-                    <div class="course_icon border-trap">
-                        <div class="course-icons">
-                            <div class="course_block">
-
-                                <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/652.png"
-                                     alt="img">
-
-                                <p>156 часов</p>
-                            </div>
-                            <div class="course_block">
-
-                                <img src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/68998.png"
-                                     alt="img">
-
-                                <?php the_field('hero_course_price-text') ?>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="new-btn">
-                        <a href="https://www.shkola-nika.ru/kurs-po-manikyuru-vip-master-universal">
-                            Подробнее</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="course-vip-desc">
-                <h3>Количество часов обучения</h3>
-                <div class="course-vip-list">
-                    <div class="course-vip-list-wrap">
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Маникюр и педикюр</div>
-                            <span>50 часов</span>
-                        </div>
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Аппаратные технологии</div>
-                            <span>20 часов</span>
-                        </div>
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Заболевания ногтей</div>
-                            <span>7 часов </span>
-                        </div>
-                    </div>
-                    <div class="course-vip-list-wrap">
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Наращивание ногтей</div>
-                            <span>25 часов</span>
-                        </div>
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">SPA-процедуры</div>
-                            <span>8 часов</span>
-                        </div>
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Дезинфекция и подготовка
-                                рабочего места
-                            </div>
-                            <span>6 часов </span>
-                        </div>
-                    </div>
-                    <div class="course-vip-list-wrap">
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Покрытие ногтей</div>
-                            <span>20 часов</span>
-                        </div>
-                        <div class="course-vip-item">
-                            <div class="course-vip-item-title">Дизайн ногтей</div>
-                            <span>20 часов</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--        <div class="text-block-new">-->
-        <!--            <div class="hero-courses-text">-->
-        <!--                <h2>Дополнительные курсы</h2>-->
-        <!--                <h3><strong>по маникюру, педикюру, дизайну и уходу за ногтями и кожей рук и ног</strong></h3>-->
-        <!--                <!--                <p>156 часов обучения — 90% практики. Трудоустройство!</p>-->
-        <!--            </div>-->
-        <!--            <img class="arrow-bold"-->
-        <!--                 src="https://www.shkola-nika.ru/wp-content/themes/manicure/assets/images/arrow-bold.png" alt="img">-->
-        <!--        </div>-->
         <div class="virtical-course program--vip">
             <div class="course-filtering">
                 <button class="course-filtering_item active-filter" data-filter="*">Все курсы</button>
@@ -235,7 +1632,7 @@ get_header(); ?>
 
                             </div>
                             <div class="program_text-desc">
-                                <p>На курсах аппаратного маникюра и педикюра вы научитесь безопасно ухаживать за
+                                <p>В рамках этого курса вы научитесь безопасно ухаживать за
                                     ногтями рук
                                     и ног, удалять омертвевшие клетки кожи и отросшую кутикулу с помощью аппаратной
                                     фрезы.
@@ -282,9 +1679,9 @@ get_header(); ?>
                                     необычные
                                     рисунки, узоры и дизайны. Nail art – это искусство по украшению ногтей, и мы
                                     готовы
-                                    обучить ему вас! За программу вы узнаете, как правильно наносить покрытие, как
+                                    обучить ему вас! За программу вы узнаете, как правильно наносить покрытие и как
                                     украшать
-                                    ногти разными способами и как их готовить к маникюру.</p>
+                                    ногти разными способами.</p>
                             </div>
                         </div>
                         <div class="program_btn--vip ">
@@ -398,7 +1795,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="program_text">
-                            <div> Японский маникюр + <br>Бразильский маникюр + <br> Горячий маникюр</div>
+                            <div> Японский + <br>Бразильский + <br> Горячий маникюр</div>
                             <div class="course-title-bub">Курс по маникюру</div>
                             <div class="vip-teachers_border">
 
@@ -1139,7 +2536,7 @@ get_header(); ?>
 
                 </div>
                 <div class="vip-teachers_desc">
-                    <p>Аппаратные технологии; Японский маникюр; Бразильский маникюр; Горячий маникюр.</p>
+                    <p>Аппаратные технологии; Японский; Бразильский; Горячий маникюр.</p>
                 </div>
             </li>
             <li class="vip-teachers_item">
@@ -1423,6 +2820,65 @@ get_header(); ?>
 
     </div>
 
+</section>
+<?php get_template_part('./template-parts/sections/payment'); ?>
+<section class="section video-section">
+    <div class="container-fluid">
+        <h3 class="vip-title">Видео - Отзывы</h3>
+        <div class=" video_content">
+            <div class=" video_slider js-video-slider">
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom" data-plyr-provider="youtube" data-plyr-embed-id="jEuZmPReIqY"></div>
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom1" data-plyr-provider="youtube" data-plyr-embed-id="FmZrfZiIvVw"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom2"  data-plyr-provider="youtube" data-plyr-embed-id="gOnSS34QFBE"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div class="video-custom3"  data-plyr-provider="youtube" data-plyr-embed-id="Funq3T1FI_Y"></div>
+
+                    </div>
+                </div>
+
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom4" data-plyr-provider="youtube" data-plyr-embed-id="q1GwKxiv8-Q"></div>
+
+                    </div>
+                </div>
+
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom5"  data-plyr-provider="youtube" data-plyr-embed-id="-Vsx-4FXXBU"></div>
+
+                    </div>
+                </div>
+                <div class=" video_slider-elem">
+                    <div class=" video_slider-wrapp ">
+                        <div  class="video-custom6"  data-plyr-provider="youtube" data-plyr-embed-id="DA6k70sKa-s"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <?php get_template_part('./template-parts/sections/text'); ?>
 <section class="section contacts contacts--vip" id="contacts">
