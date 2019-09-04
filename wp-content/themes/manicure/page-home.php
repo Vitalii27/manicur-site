@@ -1181,7 +1181,7 @@ get_header(); ?>
 </section>
 <section class="section video-section">
     <div class="container-fluid">
-        <h3 class="vip-title">Видео - Отзывы</h3>
+        <h3 class="vip-title">Видео-Отзывы</h3>
         <div class=" video_content">
             <div class=" video_slider js-video-slider">
                 <div class=" video_slider-elem">

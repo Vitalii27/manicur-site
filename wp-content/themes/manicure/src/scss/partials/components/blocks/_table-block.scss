@@ -249,15 +249,15 @@
     .h5 {
       background-color: #c7223a !important;
     }
-    .accordion-wrap{
+    .accordion-wrap {
       background-color: $grey !important;
-      & > div{
+      & > div {
         border-color: transparent !important;
       }
       .h5 {
         color: $red-third;
         background-color: $grey !important;
-        &:before{
+        &:before {
           border-color: $red-third !important;
           transform: rotate(-45deg);
           top: 50%;
@@ -265,16 +265,16 @@
       }
     }
     &.is-close {
-      .accordion-wrap{
+      .accordion-wrap {
         background-color: transparent !important;
-        & > div{
+        & > div {
           border-color: #D7D7D7 !important;
         }
       }
       .h5 {
         color: $white;
         background-color: $red-third !important;
-        &:before{
+        &:before {
           top: 42%;
           border-color: $white !important;
           transform: rotate(135deg);
@@ -383,13 +383,13 @@
       &.js-open-down {
         &:hover {
           background-color: $grey !important;
-          & > div{
+          & > div {
             border-color: transparent !important;
           }
           .h5 {
             color: $red-third;
             background-color: $grey !important;
-            &:before{
+            &:before {
               border-color: $red-third !important;
             }
           }
@@ -418,7 +418,6 @@
         cursor: pointer;
         line-height: 20px;
         transition: background-color .25s, color .25s;
-
 
         &:before {
           content: '';
@@ -509,6 +508,74 @@
 
       }
     }
+  }
+}
+
+.advantages-table-mobile-new-page {
+  padding-top: 12rem !important;
+
+}
+
+.advantages-table-mobile-new {
+  padding-bottom: 40px;
+  .more {
+    margin-top: 30px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid $black;
+    border-radius: 5px;
+    background-color: $white;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+  .mobile-courses-wrapp {
+    padding-bottom: 0 !important;
+    .comparison {
+      padding-top: 0 !important;
+    }
+    .mobile-courses {
+      box-shadow: none;
+      background-color: transparent;
+      display: block;
+      position: static;
+
+      .vip, .premium {
+        box-shadow: 0 4px 40px rgba(0, 0, 0, .1);
+        text-align: center;
+
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #fff;
+        p{
+          padding-left: 0;
+          margin-top: 30px;
+        }
+        & > div {
+          font-size: 16px;
+          line-height: 22px;
+          margin-top: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-weight: 600;
+        }
+
+      }
+      .premium {
+        margin-top: 30px;
+      }
+      img {
+        width: 300px;
+        height: auto;
+      }
+    }
+  }
+  .sub-section_btn-block .button-vip {
+    padding: 1.5rem 3rem 1.5rem 1rem;
+
   }
 }
 

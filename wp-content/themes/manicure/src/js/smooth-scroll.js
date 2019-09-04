@@ -65,29 +65,29 @@ jQuery(function ($) {
     //     return app;
     // }();
     // scrollFloat.init(el);
-    $('#float-block').waypoint(function (direction) {
-        if (direction === 'down') {
-            $('#float-block').addClass('fixed-block')
-
-        }
-    }, {
-        offset: '25%'
-    }).waypoint(function (direction) {
-        if (direction === 'up') {
-            $('#float-block').removeClass('fixed-block')
-
-        }
-    }, {
-        offset: '5%'
-    });
-
-    $('.hero-courses').waypoint(function (direction) {
-        if (direction === 'down') {
-            $('#float-block').removeClass('fixed-block')
-
-        }
-    }, {
-        offset: '25%'
-    })
+    // $('#float-block').waypoint(function (direction) {
+    //     if (direction === 'down') {
+    //         $('#float-block').addClass('fixed-block')
+    //
+    //     }
+    // }, {
+    //     offset: '25%'
+    // }).waypoint(function (direction) {
+    //     if (direction === 'up') {
+    //         $('#float-block').removeClass('fixed-block')
+    //
+    //     }
+    // }, {
+    //     offset: '5%'
+    // });
+    //
+    // $('.hero-courses').waypoint(function (direction) {
+    //     if (direction === 'down') {
+    //         $('#float-block').removeClass('fixed-block')
+    //
+    //     }
+    // }, {
+    //     offset: '25%'
+    // })
 });
 /* smooth scrolling end*/
