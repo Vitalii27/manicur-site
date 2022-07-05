@@ -3,7 +3,7 @@
   "require": {
     "jjgrainger/wp-custom-post-type-class": "dev-master",
     "tareq1988/wordpress-settings-api-class": "dev-master",
-    "dompdf/dompdf": "^0.8.1"
+    "dompdf/dompdf": "^2.0.0"
   },
   "repositories": [
     {
